@@ -45,5 +45,10 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
 
             return content.Trim(new[] { '\r', '\n', ' ' });
         }
+
+        internal static int GetValue1OrZeroIfSame(int value1, int value2)
+        {
+            return value1 != value2 ? value1 : 0;
+        }
     }
 }

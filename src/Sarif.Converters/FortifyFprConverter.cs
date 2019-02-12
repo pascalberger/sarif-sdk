@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.IO.Compression;
@@ -31,7 +32,8 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
         private string _automationId;
         private string _originalUriBasePath;
         private List<Result> _results = new List<Result>();
-        private HashSet<FileData> _files;
+        private Dictionary<FileLocation, int> _fileLocationDictionary;
+        private List<FileData> _filesList;
         private List<MessageDescriptor> _rules;
         private Dictionary<string, int> _ruleIdToIndexMap;
         private Dictionary<ThreadFlowLocation, string> _tflToNodeIdDictionary;
@@ -50,7 +52,8 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
             _strings = new FortifyFprStrings(_nameTable);
 
             _results = new List<Result>();
-            _files = new HashSet<FileData>(FileData.ValueComparer);
+            _fileLocationDictionary = new Dictionary<FileLocation, int>(FileLocation.ValueComparer);
+            _filesList = new List<FileData>();
             _rules = new List<MessageDescriptor>();
             _ruleIdToIndexMap = new Dictionary<string, int>();
             _tflToNodeIdDictionary = new Dictionary<ThreadFlowLocation, string>();
@@ -86,7 +89,8 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
             _invocation = new Invocation();
             _invocation.ToolNotifications = new List<Notification>();
             _results.Clear();
-            _files.Clear();
+            _fileLocationDictionary.Clear();
+            _filesList.Clear();
             _rules.Clear();
             _ruleIdToIndexMap.Clear();
             _tflToNodeIdDictionary.Clear();
@@ -111,7 +115,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
                     InstanceGuid = _runId,
                     InstanceId = _automationId + "/"
                 },
-                Files = new List<FileData>(_files),
+                Files = _filesList,
                 Tool = new Tool
                 {
                     Name = FortifyToolName,
@@ -316,7 +320,11 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
                     }
                 };
 
-                _files.Add(fileData);
+                if (!_fileLocationDictionary.ContainsKey(fileData.FileLocation))
+                {
+                    _fileLocationDictionary.Add(fileData.FileLocation, _filesList.Count);
+                    _filesList.Add(fileData);
+                }
             }
         }
 
@@ -565,12 +573,21 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
             string path = _reader.GetAttribute(_strings.PathAttribute);
 
             var uri = new Uri(path, UriKind.RelativeOrAbsolute);
+            var fileLocation = new FileLocation
+            {
+                Uri = uri,
+                UriBaseId = uri.IsAbsoluteUri ? null : FileLocationUriBaseId
+            };
+
+            int index = -1;
+            _fileLocationDictionary.TryGetValue(fileLocation, out index);
+            Debug.Assert(index >= 0, "FileLocation should be present in " + nameof(_fileLocationDictionary));
+
             return new PhysicalLocation
             {
                 FileLocation = new FileLocation
                 {
-                    Uri = uri,
-                    UriBaseId = uri.IsAbsoluteUri ? null : FileLocationUriBaseId
+                    FileIndex = index
                 },
                 Region = ParseRegion()
             };
@@ -609,7 +626,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
             return new Region
             {
                 StartLine = startLine,
-                EndLine = endLine,
+                EndLine = FortifyUtilities.GetValue1OrZeroIfSame(endLine, startLine),
                 StartColumn = startColumn,
                 EndColumn = endColumn
             };
@@ -772,13 +789,13 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
                 region = new Region
                 {
                     StartLine = regionStartLine,
-                    EndLine = regionEndLine
+                    EndLine = FortifyUtilities.GetValue1OrZeroIfSame(regionEndLine, regionStartLine)
                 };
 
                 contextRegion = new Region
                 {
                     StartLine = snippetStartLine,
-                    EndLine = snippetEndLine,
+                    EndLine = FortifyUtilities.GetValue1OrZeroIfSame(snippetEndLine, snippetStartLine),
                     Snippet = new FileContent
                     {
                         Text = text

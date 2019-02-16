@@ -54,7 +54,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle.properties"
                 },
                 "region": {
@@ -77,7 +77,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle.properties"
                 },
                 "region": {
@@ -100,7 +100,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle.properties"
                 },
                 "region": {
@@ -123,7 +123,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle.properties"
                 },
                 "region": {
@@ -146,7 +146,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -169,7 +169,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -192,7 +192,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -215,7 +215,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -238,7 +238,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -261,7 +261,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -284,7 +284,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -307,7 +307,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -330,7 +330,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -353,7 +353,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -376,7 +376,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -399,7 +399,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -422,7 +422,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -445,7 +445,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -468,7 +468,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -491,7 +491,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -514,7 +514,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -537,7 +537,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -560,7 +560,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -583,7 +583,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -606,7 +606,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -629,7 +629,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -652,7 +652,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -675,7 +675,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -698,7 +698,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -721,7 +721,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -744,7 +744,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -767,7 +767,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -790,7 +790,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -813,7 +813,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -836,7 +836,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -859,7 +859,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -882,7 +882,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -905,7 +905,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -928,7 +928,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -951,7 +951,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -974,7 +974,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -997,7 +997,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1020,7 +1020,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1043,7 +1043,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1066,7 +1066,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1089,7 +1089,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1112,7 +1112,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1135,7 +1135,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1158,7 +1158,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1181,7 +1181,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1204,7 +1204,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1227,7 +1227,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1250,7 +1250,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1273,7 +1273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1296,7 +1296,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1319,7 +1319,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew"
                 },
                 "region": {
@@ -1342,7 +1342,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1365,7 +1365,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1388,7 +1388,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1411,7 +1411,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1434,7 +1434,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1457,7 +1457,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1480,7 +1480,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1503,7 +1503,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1526,7 +1526,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1549,7 +1549,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1572,7 +1572,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1595,7 +1595,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1618,7 +1618,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1641,7 +1641,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1664,7 +1664,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1687,7 +1687,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1710,7 +1710,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1733,7 +1733,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1756,7 +1756,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1779,7 +1779,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1802,7 +1802,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradlew.bat"
                 },
                 "region": {
@@ -1825,7 +1825,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "app/build.gradle"
                 },
                 "region": {
@@ -1848,7 +1848,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "app/src/main/AndroidManifest.xml"
                 },
                 "region": {
@@ -1871,7 +1871,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "app/src/main/res/values-w820dp/dimens.xml"
                 },
                 "region": {
@@ -1894,7 +1894,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "app/src/main/java/microsoft/androidstudioformatexample/NamespaceTypo.java"
                 },
                 "region": {

@@ -31,7 +31,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -52,7 +52,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -73,7 +73,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -94,7 +94,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -115,7 +115,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -136,7 +136,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -157,7 +157,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -176,7 +176,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -195,7 +195,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -215,7 +215,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -235,7 +235,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -254,7 +254,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -273,7 +273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -292,7 +292,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -311,7 +311,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -330,7 +330,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -349,7 +349,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -368,7 +368,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -387,7 +387,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -406,7 +406,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -425,7 +425,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -444,7 +444,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -465,7 +465,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -484,7 +484,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               }
@@ -1030,7 +1030,7 @@
             {
               "id": "MSG001.AnalyzingTarget",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2015_Default.exe"
                 }
               },

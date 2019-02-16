@@ -31,7 +31,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -52,7 +52,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -73,7 +73,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -94,7 +94,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -115,7 +115,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -136,7 +136,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -157,7 +157,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -178,7 +178,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -197,7 +197,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -216,7 +216,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -235,7 +235,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -254,7 +254,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -273,7 +273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -292,7 +292,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -311,7 +311,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -330,7 +330,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -351,7 +351,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               }
@@ -744,7 +744,7 @@
             {
               "id": "MSG001.AnalyzingTarget",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -759,7 +759,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2002",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -772,7 +772,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2006",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -785,7 +785,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2007",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -798,7 +798,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2011",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -811,7 +811,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2013",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -824,7 +824,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2014",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },
@@ -837,7 +837,7 @@
               "id": "ERR997.ExceptionLoadingPdb",
               "ruleId": "BA2024",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/MixedMode_x86_VS2013_MissingPdb.dll"
                 }
               },

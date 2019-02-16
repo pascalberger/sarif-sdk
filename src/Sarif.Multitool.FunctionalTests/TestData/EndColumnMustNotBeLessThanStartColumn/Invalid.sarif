@@ -16,7 +16,7 @@
                 "text": "endColumn less than startColumn in result location"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -33,7 +33,7 @@
                 "text": "endColumn less than startColumn in related location"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -55,7 +55,7 @@
                           "text": "endColumn less than startColumn in threadFlow location"
                         },
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/src/file.c"
                           },
                           "region": {
@@ -80,7 +80,7 @@
                       "text": "endColumn less than startColumn in stackFrame"
                     },
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file:///c:/src/file.c"
                       },
                       "region": {

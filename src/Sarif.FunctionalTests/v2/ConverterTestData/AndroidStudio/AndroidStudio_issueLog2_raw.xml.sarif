@@ -35,7 +35,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "app/src/main/java/microsoft/androidstudioformatexample/NamespaceTypo.java"
                 },
                 "region": {

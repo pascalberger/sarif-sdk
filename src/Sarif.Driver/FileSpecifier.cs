@@ -23,7 +23,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
         private List<string> _files;
         private List<string> _directories;
 
-        public IList<string> Files
+        public IList<string> Artifacts
         {
             get { return _files ?? BuildFiles(); }
         }

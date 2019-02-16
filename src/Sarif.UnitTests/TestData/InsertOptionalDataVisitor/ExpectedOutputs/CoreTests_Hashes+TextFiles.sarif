@@ -45,7 +45,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Sarif.UnitTests/TestData/InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "SRCROOT"
                 },
@@ -66,7 +66,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Sarif.UnitTests/TestData/InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "SRCROOT"
                 },
@@ -87,7 +87,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Sarif.UnitTests/TestData/InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "SRCROOT"
                 },
@@ -108,7 +108,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Sarif.UnitTests/TestData/InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "SRCROOT"
                 },

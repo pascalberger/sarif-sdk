@@ -28,7 +28,7 @@
 * Add annotatedCodeLocation.kind enum (with values such as 'branch', 'declaration', et al.)
 * Update all converters to Sarif beta.5
 * Add optional 'id' to each result, to allow correlation with external data, annotations, work items, etc.
-* Add flag to configure file hash computation to FileData.Create helper
+* Add flag to configure file hash computation to Artifact.Create helper
 * Add 'uriBaseId' conceptual base URI to all format URI properties (to allow all URIs to be relative)
 * Add 'analysisTargetUri' to run object, for cases where a single target is associated with a run
 * Add 'threadId' to notification, annotatedCodeLocation and stackFrame.
@@ -217,7 +217,7 @@
 * API BREAKING: 'run.instanceGuid', 'run.correlationGuid', 'run.logicalId', 'run.description' combined into new 'runAutomationDetails' object instance defined at 'run.id'.
 * API BREAKING: 'run.automationLogicalId' subsumed by 'run.aggregateIds', an array of 'runAutomationDetails' objects.
 * API BREAKING: Remove 'threadFlowLocation.step'
-* API BREAKING: 'invocation.workingDirectory' is now a FileLocation object (and not a URI expressed as a string)
+* API BREAKING: 'invocation.workingDirectory' is now a ArtifactLocation object (and not a URI expressed as a string)
 
 ## **v2.0.0-csd.2.beta.2018-10-10.1** [Sdk](https://www.nuget.org/packages/Sarif.Sdk/2.0.0-csd.2.beta.2018-10-10.1) | [Driver](https://www.nuget.org/packages/Sarif.Driver/2.0.0-csd.2.beta.2018-10-10.1) | [Converters](https://www.nuget.org/packages/Sarif.Converters/2.0.0-csd.2.beta.2018-10-10.1) | [Multitool](https://www.nuget.org/packages/Sarif.Multitool/2.0.0-csd.2.beta.2018-10-10.1)
 * BUGFIX: Persist region information associated with analysis target
@@ -244,7 +244,7 @@
 * API BREAKING: Make 'run.logicalLocations' an array, not a dictionary. Add result.logicalLocationIndex to point to associated logical location.
 * API BREAKING: 'run.externalFiles' renamed to 'run.externalPropertyFiles', which is not a bundle of external property file objects. NOTE: no transformation will be provided for legacy versions of the external property files API.
 * API BREAKING: rework 'result.provenance' object, including moving result.conversionProvenance to 'result.provenance.conversionSources'. NOTE: no transformation currently exists for this update.
-* API BREAKING: Make 'run.files' an array, not a dictionary. Add fileLocation.fileIndex to point to a file object associated with the location within 'run.files'.
+* API BREAKING: Make 'run.files' an array, not a dictionary. Add artifactionLocation.fileIndex to point to a file object associated with the location within 'run.files'.
 * API BREAKING: Make 'resources.rules' an array, not a dictionary. Add result.ruleIndex to point to a rule object associated with the result within 'resources.rules'.
 * API BREAKING: 'run.logicalLocations' now requires unique array elements. https://github.com/oasis-tcs/sarif-spec/issues/304
 

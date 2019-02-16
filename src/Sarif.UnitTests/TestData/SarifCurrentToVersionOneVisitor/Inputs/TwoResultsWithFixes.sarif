@@ -58,9 +58,9 @@
               "description": {
                 "text": "Wrap attribute values in single quotes."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlFixes.html"
                   },
                   "replacements": [
@@ -88,9 +88,9 @@
               "description": {
                 "text": "Wrap attribute value in double quotes."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlFixes.html"
                   },
                   "replacements": [
@@ -127,7 +127,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "http://localhost:34420/HtmlTextFix.html"
                 },
                 "region": {
@@ -148,9 +148,9 @@
               "description": {
                 "text": "Convert tag name to lowercase."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlTextFix.html"
                   },
                   "replacements": [
@@ -180,7 +180,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "http://localhost:34420/HtmlTextFixNoEncoding.html"
                 },
                 "region": {
@@ -201,9 +201,9 @@
               "description": {
                 "text": "Convert tag name to lowercase."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlTextFixNoEncoding.html"
                   },
                   "replacements": [
@@ -233,7 +233,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "/wwwroot/vdir/HtmlTextFixNoEntry.html"
                 },
                 "region": {
@@ -254,9 +254,9 @@
               "description": {
                 "text": "Convert tag name to lowercase."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "/wwwroot/vdir/HtmlTextFixNoEntry.html"
                   },
                   "replacements": [

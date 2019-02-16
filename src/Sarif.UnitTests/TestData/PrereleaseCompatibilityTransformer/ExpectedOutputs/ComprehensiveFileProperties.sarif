@@ -21,7 +21,7 @@
       },
       "files": [
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "uriBaseId": "SUB",
             "fileIndex": 0
@@ -31,7 +31,7 @@
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "fileIndex": 1
           },
@@ -49,7 +49,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "fileIndex": 1
                 }
@@ -69,7 +69,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "uriBaseId": "SUB",
                   "fileIndex": 0,

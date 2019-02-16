@@ -14,7 +14,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/test.c"
                 },
                 "contextRegion": {

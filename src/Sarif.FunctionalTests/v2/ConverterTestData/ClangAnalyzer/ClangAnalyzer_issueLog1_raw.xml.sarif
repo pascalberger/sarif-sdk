@@ -20,7 +20,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jmemmgr.c"
                 },
                 "region": {
@@ -45,7 +45,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jmemmgr.c"
                 },
                 "region": {
@@ -70,7 +70,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jmemmgr.c"
                 },
                 "region": {
@@ -95,7 +95,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jmemmgr.c"
                 },
                 "region": {

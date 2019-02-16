@@ -9,7 +9,7 @@
       },
       "files": [
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/file.txt",
             "fileIndex": 0
           },
@@ -17,21 +17,21 @@
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file:///c:/archive_one.zip",
             "fileIndex": 1
           },
           "mimeType": "application/zip"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "fileIndex": 2
           },
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/file.txt",
             "fileIndex": 3
           },
@@ -39,7 +39,7 @@
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/archive_two.zip",
             "fileIndex": 4
           },
@@ -56,7 +56,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "fileIndex": 2
                 }
@@ -75,7 +75,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "/file.txt",
                   "fileIndex": 0
                 }
@@ -94,7 +94,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "/file.txt",
                   "fileIndex": 3
                 }

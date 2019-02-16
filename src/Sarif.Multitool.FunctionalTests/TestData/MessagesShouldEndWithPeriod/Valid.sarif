@@ -21,7 +21,7 @@
                 "richText": "_Rich_ location message with period."
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -36,7 +36,7 @@
           ],
           "attachments": [
             {
-              "fileLocation": {
+              "artifactionLocation": {
                 "uri": "file:///c:/output/screenshot.png"
               },
               "description": {
@@ -77,7 +77,7 @@
                           "richText": "_Rich_ ThreadFlow location message with period."
                         },
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/src/file.c"
                           },
                           "region": {
@@ -158,9 +158,9 @@
                 "text": "fix description with period.",
                 "richText": "_Rich_ fix description with period."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "file:///c:/src/file.c"
                   },
                   "replacements": [

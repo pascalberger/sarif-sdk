@@ -72,23 +72,23 @@ namespace Sarif.Multitool.UnitTests
         public void TransformCommand_TransformsMinimalCurrentV2FileToCurrentV2()
         {
             // A minimal valid pre-release v2 log file.
-            string logFileContents = MinimalCurrentV2Text;
+            string logartifactContents = MinimalCurrentV2Text;
 
-            RunTransformationToV2Test(logFileContents);
+            RunTransformationToV2Test(logartifactContents);
         }
 
         [Fact]
         public void TransformCommand_TransformsMinimalPrereleaseV2FileToCurrentV2()
         {
             // A minimal valid pre-release v2 log file.
-            string logFileContents = MinimalPrereleaseV2Text;
+            string logartifactContents = MinimalPrereleaseV2Text;
 
             // First, ensure that our test sample\ schema uri and SARIF version differs 
             // from current. Otherwise we won't realize any value from this test
 
             PrereleaseSarifLogVersionDiffersFromCurrent(MinimalPrereleaseV2Text);
 
-            RunTransformationToV2Test(logFileContents);
+            RunTransformationToV2Test(logartifactContents);
         }
 
         [Fact]
@@ -101,20 +101,20 @@ namespace Sarif.Multitool.UnitTests
         public void TransformCommand_TransformsMinimalCurrentV2FileToV1()
         {
             // A minimal valid pre-release v2 log file.
-            string logFileContents = MinimalCurrentV2Text;
+            string logartifactContents = MinimalCurrentV2Text;
 
-            RunTransformationToV1Test(logFileContents);
+            RunTransformationToV1Test(logartifactContents);
         }
 
         [Fact]
         public void TransformCommand_TransformsMinimalPrereleaseV2FileToV1()
         {
             // A minimal valid pre-release v2 log file.
-            string logFileContents = MinimalPrereleaseV2Text;
+            string logartifactContents = MinimalPrereleaseV2Text;
 
             PrereleaseSarifLogVersionDiffersFromCurrent(MinimalPrereleaseV2Text);
 
-            RunTransformationToV1Test(logFileContents);
+            RunTransformationToV1Test(logartifactContents);
         }
 
         [Fact]
@@ -123,9 +123,9 @@ namespace Sarif.Multitool.UnitTests
             RunTransformationToV1Test(MinimalV1Text);
         }
 
-        private static void RunTransformationToV2Test(string logFileContents)
+        private static void RunTransformationToV2Test(string logartifactContents)
         {
-            string transformedContents = RunTransformationCore(logFileContents, SarifVersion.Current);
+            string transformedContents = RunTransformationCore(logartifactContents, SarifVersion.Current);
 
             // Finally, ensure that transformation corrected schema uri and SARIF version.
             SarifLog sarifLog = JsonConvert.DeserializeObject<SarifLog>(transformedContents);
@@ -141,9 +141,9 @@ namespace Sarif.Multitool.UnitTests
             ((string)sarifLog["version"]).Should().NotBe(SarifUtilities.SemanticVersion);
         }
 
-        private void RunTransformationToV1Test(string logFileContents)
+        private void RunTransformationToV1Test(string logartifactContents)
         {
-            string transformedContents = RunTransformationCore(logFileContents, SarifVersion.OneZeroZero);
+            string transformedContents = RunTransformationCore(logartifactContents, SarifVersion.OneZeroZero);
 
             // Finally, ensure that transformation corrected schema uri and SARIF version.
             var settings = new JsonSerializerSettings { ContractResolver = SarifContractResolverVersionOne.Instance };
@@ -152,13 +152,13 @@ namespace Sarif.Multitool.UnitTests
             v1SarifLog.Version.Should().Be(SarifVersionVersionOne.OneZeroZero);
         }
 
-        private static string RunTransformationCore(string logFileContents, SarifVersion targetVersion)
+        private static string RunTransformationCore(string logartifactContents, SarifVersion targetVersion)
         {
             string logFilePath = @"c:\logs\mylog.sarif";
             string transformedContents = null;
 
             var mockFileSystem = new Mock<IFileSystem>();
-            mockFileSystem.Setup(x => x.ReadAllText(logFilePath)).Returns(logFileContents);
+            mockFileSystem.Setup(x => x.ReadAllText(logFilePath)).Returns(logartifactContents);
             mockFileSystem.Setup(x => x.WriteAllText(logFilePath, It.IsAny<string>())).Callback<string, string>((path, contents) => { transformedContents = contents; });
 
             var transformCommand = new TransformCommand(mockFileSystem.Object, testing: true);

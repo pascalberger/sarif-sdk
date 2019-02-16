@@ -225,7 +225,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts"
                 },
                 "region": {
@@ -249,7 +249,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -273,7 +273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -297,7 +297,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -321,7 +321,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -345,7 +345,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -369,7 +369,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -393,7 +393,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -417,7 +417,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -441,7 +441,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -465,7 +465,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -489,7 +489,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -513,7 +513,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts"
                 },
                 "region": {
@@ -537,7 +537,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -561,7 +561,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -585,7 +585,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -609,7 +609,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -633,7 +633,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -657,7 +657,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -681,7 +681,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -705,7 +705,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -729,7 +729,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -753,7 +753,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -777,7 +777,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -801,7 +801,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts"
                 },
                 "region": {
@@ -825,7 +825,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -849,7 +849,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -873,7 +873,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -897,7 +897,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -921,7 +921,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -945,7 +945,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -969,7 +969,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -993,7 +993,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -1017,7 +1017,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -1041,7 +1041,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -1065,7 +1065,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -1089,7 +1089,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts"
                 },
                 "region": {
@@ -1113,7 +1113,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts"
                 },
                 "region": {
@@ -1137,7 +1137,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts"
                 },
                 "region": {
@@ -1161,7 +1161,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts"
                 },
                 "region": {
@@ -1185,7 +1185,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts"
                 },
                 "region": {
@@ -1209,7 +1209,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts"
                 },
                 "region": {
@@ -1233,7 +1233,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts"
                 },
                 "region": {
@@ -1257,7 +1257,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts"
                 },
                 "region": {
@@ -1281,7 +1281,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts"
                 },
                 "region": {
@@ -1305,7 +1305,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts"
                 },
                 "region": {
@@ -1329,7 +1329,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts"
                 },
                 "region": {
@@ -1353,7 +1353,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts"
                 },
                 "region": {
@@ -1377,7 +1377,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts"
                 },
                 "region": {
@@ -1401,7 +1401,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts"
                 },
                 "region": {
@@ -1425,7 +1425,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts"
                 },
                 "region": {
@@ -1449,7 +1449,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts"
                 },
                 "region": {
@@ -1473,7 +1473,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts"
                 },
                 "region": {
@@ -1497,7 +1497,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts"
                 },
                 "region": {
@@ -1521,7 +1521,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts"
                 },
                 "region": {
@@ -1545,7 +1545,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-class.ts"
                 },
                 "region": {
@@ -1569,7 +1569,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-class.ts"
                 },
                 "region": {
@@ -1593,7 +1593,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-class.ts"
                 },
                 "region": {
@@ -1617,7 +1617,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts"
                 },
                 "region": {
@@ -1641,7 +1641,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts"
                 },
                 "region": {
@@ -1665,7 +1665,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts"
                 },
                 "region": {
@@ -1689,7 +1689,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts"
                 },
                 "region": {
@@ -1713,7 +1713,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts"
                 },
                 "region": {
@@ -1737,7 +1737,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts"
                 },
                 "region": {
@@ -1761,7 +1761,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1785,7 +1785,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1809,7 +1809,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1833,7 +1833,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1857,7 +1857,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1881,7 +1881,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1905,7 +1905,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1929,7 +1929,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1953,7 +1953,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -1977,7 +1977,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -2001,7 +2001,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -2025,7 +2025,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -2049,7 +2049,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts"
                 },
                 "region": {
@@ -2073,7 +2073,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts"
                 },
                 "region": {
@@ -2097,7 +2097,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts"
                 },
                 "region": {
@@ -2121,7 +2121,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts"
                 },
                 "region": {
@@ -2145,7 +2145,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts"
                 },
                 "region": {
@@ -2169,7 +2169,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts"
                 },
                 "region": {
@@ -2193,7 +2193,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts"
                 },
                 "region": {
@@ -2217,7 +2217,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts"
                 },
                 "region": {
@@ -2241,7 +2241,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts"
                 },
                 "region": {
@@ -2265,7 +2265,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts"
                 },
                 "region": {
@@ -2289,7 +2289,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts"
                 },
                 "region": {
@@ -2313,7 +2313,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts"
                 },
                 "region": {
@@ -2337,7 +2337,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts"
                 },
                 "region": {
@@ -2361,7 +2361,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2385,7 +2385,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2409,7 +2409,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2433,7 +2433,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2457,7 +2457,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2481,7 +2481,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2505,7 +2505,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2529,7 +2529,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2553,7 +2553,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2577,7 +2577,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2601,7 +2601,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2625,7 +2625,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts"
                 },
                 "region": {
@@ -2649,7 +2649,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts"
                 },
                 "region": {
@@ -2673,7 +2673,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts"
                 },
                 "region": {
@@ -2697,7 +2697,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts"
                 },
                 "region": {
@@ -2721,7 +2721,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts"
                 },
                 "region": {
@@ -2745,7 +2745,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts"
                 },
                 "region": {
@@ -2769,7 +2769,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts"
                 },
                 "region": {
@@ -2793,7 +2793,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts"
                 },
                 "region": {
@@ -2817,7 +2817,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts"
                 },
                 "region": {
@@ -2841,7 +2841,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts"
                 },
                 "region": {
@@ -2865,7 +2865,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts"
                 },
                 "region": {
@@ -2889,7 +2889,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts"
                 },
                 "region": {
@@ -2913,7 +2913,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts"
                 },
                 "region": {
@@ -2937,7 +2937,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts"
                 },
                 "region": {
@@ -2961,7 +2961,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts"
                 },
                 "region": {
@@ -2985,7 +2985,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts"
                 },
                 "region": {
@@ -3009,7 +3009,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts"
                 },
                 "region": {
@@ -3033,7 +3033,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts"
                 },
                 "region": {
@@ -3057,7 +3057,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts"
                 },
                 "region": {
@@ -3081,7 +3081,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts"
                 },
                 "region": {
@@ -3105,7 +3105,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts"
                 },
                 "region": {
@@ -3129,7 +3129,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts"
                 },
                 "region": {
@@ -3153,7 +3153,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts"
                 },
                 "region": {
@@ -3177,7 +3177,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts"
                 },
                 "region": {
@@ -3201,7 +3201,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts"
                 },
                 "region": {
@@ -3225,7 +3225,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts"
                 },
                 "region": {
@@ -3249,7 +3249,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts"
                 },
                 "region": {
@@ -3273,7 +3273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts"
                 },
                 "region": {
@@ -3297,7 +3297,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts"
                 },
                 "region": {
@@ -3321,7 +3321,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts"
                 },
                 "region": {
@@ -3345,7 +3345,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts"
                 },
                 "region": {
@@ -3369,7 +3369,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts"
                 },
                 "region": {
@@ -3393,7 +3393,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts"
                 },
                 "region": {
@@ -3417,7 +3417,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts"
                 },
                 "region": {
@@ -3441,7 +3441,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts"
                 },
                 "region": {
@@ -3465,7 +3465,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts"
                 },
                 "region": {
@@ -3489,7 +3489,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts"
                 },
                 "region": {
@@ -3513,7 +3513,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts"
                 },
                 "region": {
@@ -3537,7 +3537,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts"
                 },
                 "region": {
@@ -3561,7 +3561,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts"
                 },
                 "region": {
@@ -3585,7 +3585,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts"
                 },
                 "region": {
@@ -3609,7 +3609,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts"
                 },
                 "region": {
@@ -3633,7 +3633,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts"
                 },
                 "region": {
@@ -3657,7 +3657,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts"
                 },
                 "region": {
@@ -3681,7 +3681,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts"
                 },
                 "region": {
@@ -3705,7 +3705,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts"
                 },
                 "region": {
@@ -3729,7 +3729,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts"
                 },
                 "region": {
@@ -3753,7 +3753,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts"
                 },
                 "region": {
@@ -3777,7 +3777,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts"
                 },
                 "region": {
@@ -3801,7 +3801,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts"
                 },
                 "region": {
@@ -3825,7 +3825,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts"
                 },
                 "region": {
@@ -3849,7 +3849,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts"
                 },
                 "region": {
@@ -3873,7 +3873,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts"
                 },
                 "region": {
@@ -3897,7 +3897,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts"
                 },
                 "region": {
@@ -3921,7 +3921,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts"
                 },
                 "region": {
@@ -3945,7 +3945,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts"
                 },
                 "region": {
@@ -3969,7 +3969,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts"
                 },
                 "region": {
@@ -3993,7 +3993,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts"
                 },
                 "region": {
@@ -4017,7 +4017,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts"
                 },
                 "region": {
@@ -4041,7 +4041,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts"
                 },
                 "region": {
@@ -4065,7 +4065,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts"
                 },
                 "region": {
@@ -4089,7 +4089,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4113,7 +4113,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4137,7 +4137,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4161,7 +4161,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4185,7 +4185,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4209,7 +4209,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4233,7 +4233,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4257,7 +4257,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4281,7 +4281,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4305,7 +4305,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4329,7 +4329,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4353,7 +4353,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts"
                 },
                 "region": {
@@ -4377,7 +4377,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts"
                 },
                 "region": {
@@ -4401,7 +4401,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts"
                 },
                 "region": {
@@ -4425,7 +4425,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts"
                 },
                 "region": {
@@ -4449,7 +4449,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts"
                 },
                 "region": {
@@ -4473,7 +4473,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts"
                 },
                 "region": {
@@ -4497,7 +4497,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts"
                 },
                 "region": {
@@ -4521,7 +4521,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4545,7 +4545,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4569,7 +4569,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4593,7 +4593,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4617,7 +4617,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4641,7 +4641,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4665,7 +4665,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4689,7 +4689,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4713,7 +4713,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4737,7 +4737,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4761,7 +4761,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4785,7 +4785,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts"
                 },
                 "region": {
@@ -4809,7 +4809,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts"
                 },
                 "region": {
@@ -4833,7 +4833,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts"
                 },
                 "region": {
@@ -4857,7 +4857,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts"
                 },
                 "region": {
@@ -4881,7 +4881,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts"
                 },
                 "region": {
@@ -4905,7 +4905,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts"
                 },
                 "region": {
@@ -4929,7 +4929,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts"
                 },
                 "region": {
@@ -4953,7 +4953,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -4977,7 +4977,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5001,7 +5001,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5025,7 +5025,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5049,7 +5049,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5073,7 +5073,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5097,7 +5097,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5121,7 +5121,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5145,7 +5145,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5169,7 +5169,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts"
                 },
                 "region": {
@@ -5193,7 +5193,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts"
                 },
                 "region": {
@@ -5217,7 +5217,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts"
                 },
                 "region": {
@@ -5241,7 +5241,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts"
                 },
                 "region": {
@@ -5265,7 +5265,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts"
                 },
                 "region": {
@@ -5289,7 +5289,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts"
                 },
                 "region": {
@@ -5313,7 +5313,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts"
                 },
                 "region": {
@@ -5337,7 +5337,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts"
                 },
                 "region": {
@@ -5361,7 +5361,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts"
                 },
                 "region": {
@@ -5385,7 +5385,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts"
                 },
                 "region": {
@@ -5409,7 +5409,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts"
                 },
                 "region": {
@@ -5433,7 +5433,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts"
                 },
                 "region": {
@@ -5457,7 +5457,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts"
                 },
                 "region": {
@@ -5481,7 +5481,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts"
                 },
                 "region": {
@@ -5505,7 +5505,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts"
                 },
                 "region": {
@@ -5529,7 +5529,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts"
                 },
                 "region": {
@@ -5553,7 +5553,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts"
                 },
                 "region": {
@@ -5577,7 +5577,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts"
                 },
                 "region": {
@@ -5601,7 +5601,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts"
                 },
                 "region": {
@@ -5625,7 +5625,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5649,7 +5649,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5673,7 +5673,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5697,7 +5697,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5721,7 +5721,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5745,7 +5745,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5769,7 +5769,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5793,7 +5793,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5817,7 +5817,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5841,7 +5841,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts"
                 },
                 "region": {
@@ -5865,7 +5865,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -5889,7 +5889,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -5913,7 +5913,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -5937,7 +5937,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -5961,7 +5961,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -5985,7 +5985,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -6009,7 +6009,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -6033,7 +6033,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -6057,7 +6057,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -6081,7 +6081,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts"
                 },
                 "region": {
@@ -6105,7 +6105,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6129,7 +6129,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6153,7 +6153,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6177,7 +6177,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6201,7 +6201,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6225,7 +6225,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6249,7 +6249,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6273,7 +6273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6297,7 +6297,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6321,7 +6321,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6345,7 +6345,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts"
                 },
                 "region": {
@@ -6369,7 +6369,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts"
                 },
                 "region": {
@@ -6393,7 +6393,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts"
                 },
                 "region": {
@@ -6417,7 +6417,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts"
                 },
                 "region": {
@@ -6441,7 +6441,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts"
                 },
                 "region": {
@@ -6465,7 +6465,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts"
                 },
                 "region": {
@@ -6489,7 +6489,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts"
                 },
                 "region": {
@@ -6513,7 +6513,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts"
                 },
                 "region": {
@@ -6537,7 +6537,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts"
                 },
                 "region": {
@@ -6561,7 +6561,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts"
                 },
                 "region": {
@@ -6585,7 +6585,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts"
                 },
                 "region": {
@@ -6609,7 +6609,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts"
                 },
                 "region": {
@@ -6633,7 +6633,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts"
                 },
                 "region": {
@@ -6657,7 +6657,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6681,7 +6681,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6705,7 +6705,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6729,7 +6729,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6753,7 +6753,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6777,7 +6777,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6801,7 +6801,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6825,7 +6825,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6849,7 +6849,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6873,7 +6873,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6897,7 +6897,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6921,7 +6921,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts"
                 },
                 "region": {
@@ -6945,7 +6945,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -6969,7 +6969,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -6993,7 +6993,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7017,7 +7017,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7041,7 +7041,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7065,7 +7065,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7089,7 +7089,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7113,7 +7113,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7137,7 +7137,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7161,7 +7161,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7185,7 +7185,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7209,7 +7209,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts"
                 },
                 "region": {
@@ -7233,7 +7233,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7257,7 +7257,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7281,7 +7281,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7305,7 +7305,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7329,7 +7329,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7353,7 +7353,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7377,7 +7377,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7401,7 +7401,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7425,7 +7425,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7449,7 +7449,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts"
                 },
                 "region": {
@@ -7473,7 +7473,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7497,7 +7497,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7521,7 +7521,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7545,7 +7545,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7569,7 +7569,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7593,7 +7593,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7617,7 +7617,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7641,7 +7641,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7665,7 +7665,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7689,7 +7689,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts"
                 },
                 "region": {
@@ -7713,7 +7713,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7737,7 +7737,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7761,7 +7761,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7785,7 +7785,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7809,7 +7809,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7833,7 +7833,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7857,7 +7857,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7881,7 +7881,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7905,7 +7905,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7929,7 +7929,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts"
                 },
                 "region": {
@@ -7953,7 +7953,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -7977,7 +7977,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8001,7 +8001,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8025,7 +8025,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8049,7 +8049,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8073,7 +8073,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8097,7 +8097,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8121,7 +8121,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8145,7 +8145,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8169,7 +8169,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts"
                 },
                 "region": {
@@ -8193,7 +8193,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8217,7 +8217,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8241,7 +8241,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8265,7 +8265,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8289,7 +8289,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8313,7 +8313,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8337,7 +8337,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8361,7 +8361,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8385,7 +8385,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8409,7 +8409,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8433,7 +8433,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts"
                 },
                 "region": {
@@ -8457,7 +8457,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts"
                 },
                 "region": {
@@ -8481,7 +8481,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts"
                 },
                 "region": {
@@ -8505,7 +8505,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts"
                 },
                 "region": {
@@ -8529,7 +8529,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts"
                 },
                 "region": {
@@ -8553,7 +8553,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts"
                 },
                 "region": {
@@ -8577,7 +8577,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts"
                 },
                 "region": {
@@ -8601,7 +8601,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8625,7 +8625,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8649,7 +8649,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8673,7 +8673,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8697,7 +8697,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8721,7 +8721,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8745,7 +8745,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8769,7 +8769,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8793,7 +8793,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8817,7 +8817,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8841,7 +8841,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8865,7 +8865,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts"
                 },
                 "region": {
@@ -8889,7 +8889,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -8913,7 +8913,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -8937,7 +8937,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -8961,7 +8961,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -8985,7 +8985,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -9009,7 +9009,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -9033,7 +9033,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -9057,7 +9057,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -9081,7 +9081,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -9105,7 +9105,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts"
                 },
                 "region": {
@@ -9129,7 +9129,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9153,7 +9153,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9177,7 +9177,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9201,7 +9201,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9225,7 +9225,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9249,7 +9249,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9273,7 +9273,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9297,7 +9297,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9321,7 +9321,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9345,7 +9345,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9369,7 +9369,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9393,7 +9393,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts"
                 },
                 "region": {
@@ -9417,7 +9417,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts"
                 },
                 "region": {
@@ -9441,7 +9441,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts"
                 },
                 "region": {
@@ -9465,7 +9465,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts"
                 },
                 "region": {
@@ -9489,7 +9489,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts"
                 },
                 "region": {
@@ -9513,7 +9513,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts"
                 },
                 "region": {
@@ -9537,7 +9537,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts"
                 },
                 "region": {
@@ -9561,7 +9561,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts"
                 },
                 "region": {
@@ -9585,7 +9585,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts"
                 },
                 "region": {
@@ -9609,7 +9609,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts"
                 },
                 "region": {
@@ -9633,7 +9633,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts"
                 },
                 "region": {
@@ -9657,7 +9657,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts"
                 },
                 "region": {
@@ -9681,7 +9681,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts"
                 },
                 "region": {
@@ -9705,7 +9705,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9729,7 +9729,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9753,7 +9753,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9777,7 +9777,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9801,7 +9801,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9825,7 +9825,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9849,7 +9849,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9873,7 +9873,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9897,7 +9897,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9921,7 +9921,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9945,7 +9945,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9969,7 +9969,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts"
                 },
                 "region": {
@@ -9993,7 +9993,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts"
                 },
                 "region": {
@@ -10017,7 +10017,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts"
                 },
                 "region": {
@@ -10041,7 +10041,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts"
                 },
                 "region": {
@@ -10065,7 +10065,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts"
                 },
                 "region": {
@@ -10089,7 +10089,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts"
                 },
                 "region": {
@@ -10113,7 +10113,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts"
                 },
                 "region": {
@@ -10137,7 +10137,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts"
                 },
                 "region": {
@@ -10161,7 +10161,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts"
                 },
                 "region": {
@@ -10185,7 +10185,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts"
                 },
                 "region": {
@@ -10209,7 +10209,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts"
                 },
                 "region": {
@@ -10233,7 +10233,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts"
                 },
                 "region": {
@@ -10257,7 +10257,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts"
                 },
                 "region": {
@@ -10281,7 +10281,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts"
                 },
                 "region": {
@@ -10305,7 +10305,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts"
                 },
                 "region": {
@@ -10329,7 +10329,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts"
                 },
                 "region": {
@@ -10353,7 +10353,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts"
                 },
                 "region": {
@@ -10377,7 +10377,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts"
                 },
                 "region": {
@@ -10401,7 +10401,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts"
                 },
                 "region": {
@@ -10425,7 +10425,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts"
                 },
                 "region": {
@@ -10449,7 +10449,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts"
                 },
                 "region": {
@@ -10473,7 +10473,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts"
                 },
                 "region": {
@@ -10497,7 +10497,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts"
                 },
                 "region": {
@@ -10521,7 +10521,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts"
                 },
                 "region": {
@@ -10545,7 +10545,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts"
                 },
                 "region": {
@@ -10569,7 +10569,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10593,7 +10593,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10617,7 +10617,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10641,7 +10641,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10665,7 +10665,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10689,7 +10689,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10713,7 +10713,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10737,7 +10737,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10761,7 +10761,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10785,7 +10785,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10809,7 +10809,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10833,7 +10833,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts"
                 },
                 "region": {
@@ -10857,7 +10857,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts"
                 },
                 "region": {
@@ -10881,7 +10881,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts"
                 },
                 "region": {
@@ -10905,7 +10905,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts"
                 },
                 "region": {
@@ -10929,7 +10929,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts"
                 },
                 "region": {
@@ -10953,7 +10953,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts"
                 },
                 "region": {
@@ -10977,7 +10977,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts"
                 },
                 "region": {
@@ -11001,7 +11001,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts"
                 },
                 "region": {
@@ -11025,7 +11025,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts"
                 },
                 "region": {
@@ -11049,7 +11049,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts"
                 },
                 "region": {
@@ -11073,7 +11073,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts"
                 },
                 "region": {
@@ -11097,7 +11097,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts"
                 },
                 "region": {
@@ -11121,7 +11121,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts"
                 },
                 "region": {
@@ -11145,7 +11145,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts"
                 },
                 "region": {
@@ -11169,7 +11169,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts"
                 },
                 "region": {
@@ -11193,7 +11193,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts"
                 },
                 "region": {
@@ -11217,7 +11217,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts"
                 },
                 "region": {
@@ -11241,7 +11241,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts"
                 },
                 "region": {
@@ -11265,7 +11265,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts"
                 },
                 "region": {
@@ -11289,7 +11289,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts"
                 },
                 "region": {
@@ -11313,7 +11313,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts"
                 },
                 "region": {
@@ -11337,7 +11337,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts"
                 },
                 "region": {
@@ -11361,7 +11361,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts"
                 },
                 "region": {
@@ -11385,7 +11385,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts"
                 },
                 "region": {
@@ -11409,7 +11409,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts"
                 },
                 "region": {
@@ -11433,7 +11433,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts"
                 },
                 "region": {
@@ -11457,7 +11457,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts"
                 },
                 "region": {
@@ -11481,7 +11481,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts"
                 },
                 "region": {
@@ -11505,7 +11505,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts"
                 },
                 "region": {
@@ -11529,7 +11529,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts"
                 },
                 "region": {
@@ -11553,7 +11553,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts"
                 },
                 "region": {
@@ -11577,7 +11577,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11601,7 +11601,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11625,7 +11625,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11649,7 +11649,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11673,7 +11673,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11697,7 +11697,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11721,7 +11721,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11745,7 +11745,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11769,7 +11769,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11793,7 +11793,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts"
                 },
                 "region": {
@@ -11817,7 +11817,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts"
                 },
                 "region": {
@@ -11841,7 +11841,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts"
                 },
                 "region": {
@@ -11865,7 +11865,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts"
                 },
                 "region": {
@@ -11889,7 +11889,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts"
                 },
                 "region": {
@@ -11913,7 +11913,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts"
                 },
                 "region": {
@@ -11937,7 +11937,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts"
                 },
                 "region": {
@@ -11961,7 +11961,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts"
                 },
                 "region": {
@@ -11985,7 +11985,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts"
                 },
                 "region": {
@@ -12009,7 +12009,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts"
                 },
                 "region": {
@@ -12033,7 +12033,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-literals.ts"
                 },
                 "region": {
@@ -12057,7 +12057,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-literals.ts"
                 },
                 "region": {
@@ -12081,7 +12081,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-literals.ts"
                 },
                 "region": {
@@ -12105,7 +12105,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts"
                 },
                 "region": {
@@ -12129,7 +12129,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts"
                 },
                 "region": {
@@ -12153,7 +12153,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts"
                 },
                 "region": {
@@ -12177,7 +12177,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-walker-error.ts"
                 },
                 "region": {
@@ -12201,7 +12201,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts"
                 },
                 "region": {
@@ -12225,7 +12225,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error4.ts"
                 },
                 "region": {

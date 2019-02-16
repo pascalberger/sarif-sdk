@@ -44,7 +44,7 @@
             <Title>Code Base Summary</Title>
             <Description>Summary of the Codebase that was analyzed</Description>
             <Text>Code location: /Users/wenkec/tmp&#xD;
-Number of Files: 8&#xD;
+Number of Artifacts: 8&#xD;
 Lines of Code: 139&#xD;
 Build Label: &lt;No Build Label&gt;</Text>
         </SubSection>
@@ -3786,10 +3786,10 @@ Additionally, consider the following principles:
     <ReportSection optionalSubsections="true" enabled="true">
         <Title>Detailed Project Summary</Title>
         <SubSection enabled="true">
-            <Title>Files Scanned</Title>
-            <Description>A detailed listing of all scanned files.  Files are listed with paths relative to the Source Base Path</Description>
+            <Title>Artifacts Scanned</Title>
+            <Description>A detailed listing of all scanned files.  Artifacts are listed with paths relative to the Source Base Path</Description>
             <Text>Code base location: /Users/wenkec/tmp&#xD;
-Files Scanned:&#xD;
+Artifacts Scanned:&#xD;
 /usr/include/i386/_types.h		secondary		4.4 KB	May 8, 2014 3:23:23 PM
 /usr/include/stdio.h		secondary		17.6 KB	May 8, 2014 3:23:24 PM
 /usr/include/stdlib.h		secondary		11.8 KB	May 8, 2014 3:23:24 PM
@@ -4097,9 +4097,9 @@ com.fortify.sca.cpfe.command=E:\tools\fortify\Core/private-bin/sca/cpfe441.rfct.
 com.fortify.sca.cpfe.file.option=--gen_c_file_name
 com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
 com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
-com.fortify.sca.env.cl=&quot;C:\Program Files (x86)\VS2013\VC\bin\cl.exe&quot;
-com.fortify.sca.env.exesearchpath=e:\tmp\fortify;E:\tools\fortify\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\tools\DbgX86;c:\tools\bin;c:\tools\idw;c:\tools\bldtools;c:\tools\sd;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib
-com.fortify.sca.env.include=&quot;C:\Program Files (x86)\VS2013\VC\INCLUDE&quot;
+com.fortify.sca.env.cl=&quot;C:\Program Artifacts (x86)\VS2013\VC\bin\cl.exe&quot;
+com.fortify.sca.env.exesearchpath=e:\tmp\fortify;E:\tools\fortify\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\tools\DbgX86;c:\tools\bin;c:\tools\idw;c:\tools\bldtools;c:\tools\sd;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Artifacts (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Artifacts\Microsoft SQL Server\110\Tools\Binn\;C:\Program Artifacts\Common Artifacts\Microsoft Shared\Microsoft Online Services;C:\Program Artifacts (x86)\Common Artifacts\Microsoft Shared\Microsoft Online Services;C:\Program Artifacts (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Artifacts (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Artifacts (x86)\Microsoft SDKs\TypeScript\1.0\;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib
+com.fortify.sca.env.include=&quot;C:\Program Artifacts (x86)\VS2013\VC\INCLUDE&quot;
 com.fortify.sca.fileextensions.ABAP=ABAP
 com.fortify.sca.fileextensions.abap=ABAP
 com.fortify.sca.fileextensions.appxmanifest=XML
@@ -4169,8 +4169,8 @@ com.fortify.sca.taint.SkipVirtual=true
 com.fortify.search.defaultSyntaxVer=2
 com.sun.management.jmxremote=true
 dotnet.install.dir=C:\Windows\Microsoft.NET\Framework
-dotnet.v30.referenceAssemblies=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0
-dotnet.v35.referenceAssemblies=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5
+dotnet.v30.referenceAssemblies=C:\Program Artifacts (x86)\Reference Assemblies\Microsoft\Framework\v3.0
+dotnet.v35.referenceAssemblies=C:\Program Artifacts (x86)\Reference Assemblies\Microsoft\Framework\v3.5
 file.encoding=Cp1252
 file.encoding.pkg=sun.io
 file.separator=\
@@ -4183,7 +4183,7 @@ java.endorsed.dirs=E:\tools\fortify\jre64\lib\endorsed
 java.ext.dirs=E:\tools\fortify\jre64\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
 java.home=E:\tools\fortify\jre64
 java.io.tmpdir=C:\Users\wenkec\AppData\Local\Temp\
-java.library.path=E:\tools\fortify\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\tools\fortify\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\tools\DbgX86;c:\tools\bin;c:\tools\idw;c:\tools\bldtools;c:\tools\sd;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;.
+java.library.path=E:\tools\fortify\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\tools\fortify\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\tools\DbgX86;c:\tools\bin;c:\tools\idw;c:\tools\bldtools;c:\tools\sd;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Artifacts (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Artifacts\Microsoft SQL Server\110\Tools\Binn\;C:\Program Artifacts\Common Artifacts\Microsoft Shared\Microsoft Online Services;C:\Program Artifacts (x86)\Common Artifacts\Microsoft Shared\Microsoft Online Services;C:\Program Artifacts (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Artifacts (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Artifacts (x86)\Microsoft SDKs\TypeScript\1.0\;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;e:\tools\fortify\bin\..\Core\lib;E:\tools\fortify\bin\..\Core\lib;.
 java.rmi.server.randomIDs=true
 java.runtime.name=Java(TM) SE Runtime Environment
 java.runtime.version=1.7.0_21-b11
@@ -4232,7 +4232,7 @@ user.timezone=America/Los_Angeles
 user.variant=
 vs.110.dotnet.clr.version=v4.0.30319
 vs.120.dotnet.clr.version=v4.0.30319
-vs.120.dotnet.install.dir=C:\Program Files (x86)\VS2013\Common7\IDE
+vs.120.dotnet.install.dir=C:\Program Artifacts (x86)\VS2013\Common7\IDE
 win32.LocalAppdata=C:\Users\wenkec\AppData\Local
 </Text>
         </SubSection>

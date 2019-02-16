@@ -30,14 +30,14 @@
       },
       "files": [
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file:///c:/archive_one.zip",
             "fileIndex": 0
           },
           "mimeType": "application/zip"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/file.txt",
             "fileIndex": 1
           },
@@ -45,7 +45,7 @@
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "uriBaseId": "SUB",
             "fileIndex": 2
@@ -53,14 +53,14 @@
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "fileIndex": 3
           },
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/archive_two.zip",
             "fileIndex": 4
           },
@@ -68,7 +68,7 @@
           "mimeType": "application/zip"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/file.txt",
             "fileIndex": 5
           },
@@ -86,7 +86,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "fileIndex": 3
                 }
@@ -106,7 +106,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "uriBaseId": "SUB",
                   "fileIndex": 2,
@@ -127,7 +127,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "/file.txt",
                   "fileIndex": 1,
                   "properties": {
@@ -147,7 +147,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "/archive_two.zip/file.txt",
                   "fileIndex": 5,
                   "properties": {

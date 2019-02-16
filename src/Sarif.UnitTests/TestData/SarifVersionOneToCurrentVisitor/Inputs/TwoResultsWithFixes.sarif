@@ -36,7 +36,7 @@
           "fixes": [
             {
               "description": "Wrap attribute values in single quotes.",
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "http://localhost:34420/HtmlFixes.html",
                   "replacements": [
@@ -54,7 +54,7 @@
             },
             {
               "description": "Wrap attribute value in double quotes.",
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "http://localhost:34420/HtmlFixes.html",
                   "replacements": [
@@ -101,7 +101,7 @@
           "fixes": [
             {
               "description": "Convert tag name to lowercase.",
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "http://localhost:34420/HtmlFixes.html",
                   "replacements": [

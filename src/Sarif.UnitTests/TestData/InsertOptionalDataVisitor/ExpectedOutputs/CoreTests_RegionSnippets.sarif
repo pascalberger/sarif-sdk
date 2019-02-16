@@ -50,7 +50,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "TESTROOT"
                 },
@@ -77,7 +77,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "TESTROOT"
                 },
@@ -101,7 +101,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "TESTROOT"
                 },
@@ -125,7 +125,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "TESTROOT"
                 },
@@ -148,7 +148,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "InsertOptionalDataVisitor/InsertOptionalDataVisitor.txt",
                   "uriBaseId": "TESTROOT"
                 },

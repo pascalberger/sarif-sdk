@@ -76,7 +76,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -113,7 +113,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -145,7 +145,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -176,7 +176,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -223,7 +223,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -260,7 +260,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -292,7 +292,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -323,7 +323,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -370,7 +370,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -407,7 +407,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -439,7 +439,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -470,7 +470,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -517,7 +517,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -554,7 +554,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -586,7 +586,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -617,7 +617,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -664,7 +664,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -701,7 +701,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -733,7 +733,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -764,7 +764,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -811,7 +811,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -848,7 +848,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -880,7 +880,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -911,7 +911,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -958,7 +958,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -995,7 +995,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1027,7 +1027,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1058,7 +1058,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1105,7 +1105,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -1142,7 +1142,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1174,7 +1174,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1205,7 +1205,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1252,7 +1252,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -1289,7 +1289,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1321,7 +1321,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1352,7 +1352,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1399,7 +1399,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -1436,7 +1436,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1468,7 +1468,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1499,7 +1499,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1546,7 +1546,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -1583,7 +1583,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1615,7 +1615,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1646,7 +1646,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1693,7 +1693,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                 },
                 "region": {
@@ -1730,7 +1730,7 @@
                       "step": 1,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1762,7 +1762,7 @@
                       "step": 2,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {
@@ -1793,7 +1793,7 @@
                       "step": 3,
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///d:/src/sarif-sdk/src/sarif.functionaltests/convertertestdata/prefast/src/fixedbugs/tfs375867.cpp"
                           },
                           "region": {

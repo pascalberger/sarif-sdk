@@ -36,7 +36,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "Helpers/DBHelper.cs",
                   "uriBaseId": "SRCROOT",
                   "fileIndex": 0
@@ -66,7 +66,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -104,7 +104,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -133,7 +133,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -162,7 +162,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -199,7 +199,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -237,7 +237,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -266,7 +266,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -295,7 +295,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -324,7 +324,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "Helpers/DBHelper.cs",
                             "uriBaseId": "SRCROOT",
                             "fileIndex": 0
@@ -359,7 +359,7 @@
             {
               "physicalLocation": {
                 "id": 1,
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "Helpers/DBHelper.cs",
                   "uriBaseId": "SRCROOT",
                   "fileIndex": 0
@@ -375,7 +375,7 @@
       ],
       "files": [
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "Helpers/DBHelper.cs",
             "uriBaseId": "SRCROOT",
             "fileIndex": 0

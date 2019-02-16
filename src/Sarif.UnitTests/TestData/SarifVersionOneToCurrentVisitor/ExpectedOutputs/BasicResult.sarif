@@ -55,7 +55,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/myFile.cpp"
                 },
                 "region": {
@@ -82,7 +82,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/collections/list.h"
                 },
                 "region": {
@@ -98,7 +98,7 @@
             },
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/collections/list_collision.cpp"
                 },
                 "region": {
@@ -126,7 +126,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/collections/list.h"
                 },
                 "region": {
@@ -147,7 +147,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/list.txt"
                 },
                 "region": {
@@ -164,7 +164,7 @@
             },
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/list.txt"
                 },
                 "region": {
@@ -180,7 +180,7 @@
             },
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/collections/list_collision.cpp"
                 },
                 "region": {

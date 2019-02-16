@@ -2394,7 +2394,7 @@
             "arguments": [
               "testwarn_noWswitch_FAIL.exe",
               "0",
-              "-nologo -Z7 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_noWswitch_FAIL.exe\" -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -Z7 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_noWswitch_FAIL.exe\" -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [warning level: 0]\r\n"
             ]
           },
@@ -2414,7 +2414,7 @@
             "arguments": [
               "testwarn_noWswitch_LTCG_FAIL.exe",
               "0",
-              "-nologo -O2 -GL -Z7 -Fe\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_noWswitch_LTCG_FAIL.exe\" -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -O2 -GL -Z7 -Fe\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_noWswitch_LTCG_FAIL.exe\" -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [warning level: 0]\r\n"
             ]
           },
@@ -2451,7 +2451,7 @@
             "arguments": [
               "testwarn_W3_W2_FAIL.exe",
               "2",
-              "-nologo -Z7 -W2 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W3_W2_FAIL.exe\" -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -Z7 -W2 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W3_W2_FAIL.exe\" -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [warning level: 2]\r\n"
             ]
           },
@@ -2471,7 +2471,7 @@
             "arguments": [
               "testwarn_W3_W2_LTCG_FAIL.exe",
               "2",
-              "-nologo -Z7 -W2 -O2 -GL -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W3_W2_LTCG_FAIL.exe\" -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -Z7 -W2 -O2 -GL -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W3_W2_LTCG_FAIL.exe\" -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [warning level: 2]\r\n"
             ]
           },
@@ -2507,7 +2507,7 @@
             "formatId": "Error_WarningsDisabled",
             "arguments": [
               "testwarn_W4_wd4018_FAIL.exe",
-              "-nologo -Z7 -W4 -wd4018 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W4_wd4018_FAIL.exe -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -Z7 -W4 -wd4018 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W4_wd4018_FAIL.exe -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [Explicitly disabled warnings: 4018]\r\n"
             ]
           },
@@ -2526,7 +2526,7 @@
             "formatId": "Error_WarningsDisabled",
             "arguments": [
               "testwarn_W4_wd4018_LTCG_FAIL.exe",
-              "-nologo -O2 -GL -Z7 -W4 -wd4018 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W4_wd4018_LTCG_FAIL.exe -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -O2 -GL -Z7 -W4 -wd4018 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_W4_wd4018_LTCG_FAIL.exe -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [Explicitly disabled warnings: 4018]\r\n"
             ]
           },
@@ -2563,7 +2563,7 @@
             "arguments": [
               "testwarn_Wall_W2_FAIL.exe",
               "2",
-              "-nologo -Z7 -Wall -W2 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_Wall_W2_FAIL.exe\" -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -Z7 -Wall -W2 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_Wall_W2_FAIL.exe\" -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [warning level: 2]\r\n"
             ]
           },
@@ -2583,7 +2583,7 @@
             "arguments": [
               "testwarn_Wall_W2_LTCG_FAIL.exe",
               "2",
-              "-nologo -O2 -GL -Z7 -Wall -W2 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_Wall_W2_LTCG_FAIL.exe\" -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -O2 -GL -Z7 -Wall -W2 -Fe:\"C:\\Dev\\Archive\\Releases\\SDL 7.0\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_Wall_W2_LTCG_FAIL.exe\" -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [warning level: 2]\r\n"
             ]
           },
@@ -2619,7 +2619,7 @@
             "formatId": "Error_WarningsDisabled",
             "arguments": [
               "testwarn_wd4018_W4_FAIL.exe",
-              "-nologo -Z7 -wd4018 -W4 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_wd4018_W4_FAIL.exe -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -Z7 -wd4018 -W4 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_wd4018_W4_FAIL.exe -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [Explicitly disabled warnings: 4018]\r\n"
             ]
           },
@@ -2638,7 +2638,7 @@
             "formatId": "Error_WarningsDisabled",
             "arguments": [
               "testwarn_wd4018_W4_LTCG_FAIL.exe",
-              "-nologo -O2 -GL -Z7 -wd4018 -W4 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_wd4018_W4_LTCG_FAIL.exe -MT -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
+              "-nologo -O2 -GL -Z7 -wd4018 -W4 -Fe:C:\\Dev\\Archive\\Main\\src\\BinScope\\BinScope.Test.Functional\\FunctionalChecks\\CompilerWarningsCheck\\black\\testwarn_wd4018_W4_LTCG_FAIL.exe -MT -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Microsoft Visual Studio 12.0\\VC\\ATLMFC\\INCLUDE\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\shared\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\um\" -I\"C:\\Program Artifacts (x86)\\Windows Kits\\8.1\\include\\winrt\" -TC -X",
               "testwarn.obj [Explicitly disabled warnings: 4018]\r\n"
             ]
           },

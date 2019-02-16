@@ -27,14 +27,14 @@ namespace Microsoft.CodeAnalysis.Sarif.Multitool.Rules
             nameof(RuleResources.SARIF1014_Default)
         };
 
-        protected override void Analyze(FileLocation fileLocation, string fileLocationPointer)
+        protected override void Analyze(ArtifactLocation artifactionLocation, string fileLocationPointer)
         {
-            if (fileLocation.UriBaseId != null && fileLocation.Uri.IsAbsoluteUri)
+            if (artifactionLocation.UriBaseId != null && artifactionLocation.Uri.IsAbsoluteUri)
             {
                 LogResult(
                     fileLocationPointer.AtProperty(SarifPropertyName.Uri),
                     nameof(RuleResources.SARIF1014_Default),
-                    fileLocation.Uri.OriginalString);
+                    artifactionLocation.Uri.OriginalString);
             }
         }
     }

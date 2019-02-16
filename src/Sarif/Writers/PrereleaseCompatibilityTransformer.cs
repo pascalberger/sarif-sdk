@@ -39,7 +39,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             string version = (string)sarifLog["version"];
 
             Dictionary<string, int> fullyQualifiedLogicalNameToIndexMap = null;
-            Dictionary<string, int> fileLocationKeyToIndexMap = null;
+            Dictionary<string, int> ArtifactLocationKeyToIndexMap = null;
             Dictionary<string, int> ruleKeyToIndexMap = null;
 
             switch (version)
@@ -64,7 +64,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                     modifiedLog |= ApplyChangesFromTC25ThroughTC30(
                         sarifLog, 
                         out fullyQualifiedLogicalNameToIndexMap,
-                        out fileLocationKeyToIndexMap,
+                        out ArtifactLocationKeyToIndexMap,
                         out ruleKeyToIndexMap);
                     modifiedLog |= ApplyChangesFromTC31(sarifLog);
                     break;
@@ -77,7 +77,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                     modifiedLog |= ApplyChangesFromTC25ThroughTC30(
                         sarifLog, 
                         out fullyQualifiedLogicalNameToIndexMap,
-                        out fileLocationKeyToIndexMap,
+                        out ArtifactLocationKeyToIndexMap,
                         out ruleKeyToIndexMap);
                     modifiedLog |= ApplyChangesFromTC31(sarifLog);
                     break;
@@ -87,13 +87,13 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             SarifLog transformedSarifLog = null;
             var settings = new JsonSerializerSettings { Formatting = formatting, DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate };
 
-            if (fullyQualifiedLogicalNameToIndexMap != null  || fileLocationKeyToIndexMap != null || ruleKeyToIndexMap != null)
+            if (fullyQualifiedLogicalNameToIndexMap != null  || ArtifactLocationKeyToIndexMap != null || ruleKeyToIndexMap != null)
             {
                 transformedSarifLog = JsonConvert.DeserializeObject<SarifLog>(sarifLog.ToString());
 
                 var indexUpdatingVisitor = new UpdateIndicesFromLegacyDataVisitor(
                     fullyQualifiedLogicalNameToIndexMap, 
-                    fileLocationKeyToIndexMap,
+                    ArtifactLocationKeyToIndexMap,
                     ruleKeyToIndexMap);
 
                 indexUpdatingVisitor.Visit(transformedSarifLog);
@@ -143,38 +143,51 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                         }
                     }
 
-                    RecursivePropertyRename(run, "richText", "markdown");                    
+                    if (run["files"] is JArray files)
+                    {
+                        run["artifacts"] = files;
+                        run.Remove("files");
+                    }
+
+                    var universallyRenamedMembers = new Dictionary<string, string>
+                    {
+                        ["richText"] = "markdown",
+                        ["artifactionLocation"] = "artifactLocation",
+                        ["fileIndex"] = "artifactIndex",
+                    };
+
+                    RecursivePropertyRename(run, universallyRenamedMembers);                    
                 }
             }
             return true;
         }
 
-        private static void RecursivePropertyRename(JObject parentObject, JProperty property, string originalName, string newName)
+        private static void RecursivePropertyRename(JObject parentObject, JProperty property, Dictionary<string, string> renamedMembers)
         {
-            if (property.Name.Equals(originalName))
+            if (renamedMembers.TryGetValue(property.Name, out string newName))
             {
                 parentObject[newName] = property.Value;
-                parentObject.Remove(originalName);
+                parentObject.Remove(property.Name);
                 return;
             }
 
             if (property.Value is JArray jArray)
             {
-                RecursivePropertyRename(jArray, originalName, newName);
+                RecursivePropertyRename(jArray, renamedMembers);
             }
             else if (property.Value is JObject jObject)
             {
-                RecursivePropertyRename(jObject, originalName, newName);
+                RecursivePropertyRename(jObject, renamedMembers);
             }
         }
 
-        private static void RecursivePropertyRename(JArray jArray, string originalName, string newName)
+        private static void RecursivePropertyRename(JArray jArray, Dictionary<string, string> renamedMembers)
         {
             foreach (JToken jToken in jArray)
             {
                 if (jToken is JObject jObject)
                 {
-                    RecursivePropertyRename(jObject, originalName, newName);
+                    RecursivePropertyRename(jObject, renamedMembers);
                 }
                 // Note that we don't have to handle arrays of values or other arrays.
                 // These aren't expressed in standard SARIF, if we hit this code path
@@ -182,12 +195,15 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             }
         }
 
-        private static void RecursivePropertyRename(JObject jObject, string originalName, string newName)
+        private static void RecursivePropertyRename(JObject jObject, Dictionary<string, string> renamedMembers)
         {
             var properties = new List<JProperty>(jObject.Properties());
             foreach (JProperty property in properties)
             {
-                RecursivePropertyRename(jObject, property, originalName, newName);
+                // We won't process property bags, so that we don't inadvertently
+                // rename custom data that isn't a part of formal SARIF
+                if (property.Name.Equals("properties")) { continue; }
+                RecursivePropertyRename(jObject, property, renamedMembers);
             }
         }
 
@@ -434,7 +450,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                         modifiedLog |= fullyQualifiedLogicalNameToIndexMap.Count > 0;
                     }
 
-                    // Files are now persisted to an array. We will persist a mapping from
+                    // Artifacts are now persisted to an array. We will persist a mapping from
                     // previous file key to file index. We will associate the index with
                     // each result when we iterate over run.results later.
 
@@ -594,7 +610,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
 
             foreach (JProperty fileEntry in files.Properties())
             {
-                AddEntryToFileLocationToIndexMap(
+                AddEntryToArtifactLocationToIndexMap(
                     files,
                     fileEntry.Name,
                     (JObject)fileEntry.Value,
@@ -614,7 +630,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             return new JArray(filesArray);
         }
 
-        private static void AddEntryToFileLocationToIndexMap(JObject filesDictionary, string key, JObject file, Dictionary<JObject, int> jObjectToIndexMap, Dictionary<string, int> keyToIndexMap)
+        private static void AddEntryToArtifactLocationToIndexMap(JObject filesDictionary, string key, JObject file, Dictionary<JObject, int> jObjectToIndexMap, Dictionary<string, int> keyToIndexMap)
         {
             keyToIndexMap = keyToIndexMap ?? throw new ArgumentNullException(nameof(keyToIndexMap));
             jObjectToIndexMap = jObjectToIndexMap ?? throw new ArgumentNullException(nameof(jObjectToIndexMap));
@@ -640,7 +656,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                     // determine its index in our array. This code path results in 
                     // an array order that does not precisely match the enumeration
                     // order of the original files dictionary.
-                    AddEntryToFileLocationToIndexMap(
+                    AddEntryToArtifactLocationToIndexMap(
                         filesDictionary,
                         parentKey,
                         (JObject)filesDictionary[parentKey],
@@ -653,19 +669,19 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                 file["parentIndex"] = parentIndex;
             }
 
-            var fileLocationKey = FileLocation.CreateFromFilesDictionaryKey(key, parentKey);
+            var ArtifactLocationKey = ArtifactLocation.CreateFromFilesDictionaryKey(key, parentKey);
 
-            JObject fileLocationObject = new JObject();
-            file["fileLocation"] = fileLocationObject;
-            fileLocationObject["uri"] = fileLocationKey.Uri;
-            fileLocationObject["uriBaseId"] = fileLocationKey.UriBaseId;
+            JObject ArtifactLocationObject = new JObject();
+            file["artifactionLocation"] = ArtifactLocationObject;
+            ArtifactLocationObject["uri"] = ArtifactLocationKey.Uri;
+            ArtifactLocationObject["uriBaseId"] = ArtifactLocationKey.UriBaseId;
 
             if (!keyToIndexMap.TryGetValue(key, out int fileIndex))
             {
                 fileIndex = keyToIndexMap.Count;
                 jObjectToIndexMap[file] = fileIndex;
                 keyToIndexMap[key] = fileIndex;
-                fileLocationObject["fileIndex"] = fileIndex;
+                ArtifactLocationObject["fileIndex"] = fileIndex;
             }
             else
             {
@@ -1047,7 +1063,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             // Now:
             //     "workingDirectory": { "uri" : "/home/buildAgent/src" },
 
-            modifiedInvocation |= ReplaceUriStringWithFileLocation(invocation, "workingDirectory");
+            modifiedInvocation |= ReplaceUriStringWithArtifactLocation(invocation, "workingDirectory");
 
             // https://github.com/oasis-tcs/sarif-spec/issues/242
 
@@ -1057,7 +1073,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             return modifiedInvocation;
         }
 
-        private static bool ReplaceUriStringWithFileLocation(JObject jObject, string propertyName)
+        private static bool ReplaceUriStringWithArtifactLocation(JObject jObject, string propertyName)
         {
             bool modifiedObject = false;
 
@@ -1067,9 +1083,9 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
 
                 jObject.Property(propertyName).Remove();
 
-                var fileLocation = new JProperty("uri", uriValue);
-                var fileLocationObject = new JObject(fileLocation);
-                jObject[propertyName] = fileLocationObject;
+                var artifactionLocation = new JProperty("uri", uriValue);
+                var ArtifactLocationObject = new JObject(artifactionLocation);
+                jObject[propertyName] = ArtifactLocationObject;
 
                 modifiedObject = true;
             }
@@ -1107,9 +1123,9 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
 
                 rewrittenValues = rewrittenValues ?? new List<JProperty>();
 
-                var fileLocation = new JProperty("uri", value);
-                var fileLocationObject = new JObject(fileLocation);
-                var newValue = new JProperty(key, fileLocationObject);
+                var artifactionLocation = new JProperty("uri", value);
+                var ArtifactLocationObject = new JObject(artifactionLocation);
+                var newValue = new JProperty(key, ArtifactLocationObject);
 
                 rewrittenValues.Add(newValue);
             }

@@ -13,18 +13,18 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
     public class UpdateIndicesFromLegacyDataVisitor : SarifRewritingVisitor
     {
         private readonly IDictionary<string, int> _fullyQualifiedLogicalNameToIndexMap;
-        private readonly IDictionary<string, int> _fileLocationKeyToIndexMap;
+        private readonly IDictionary<string, int> _ArtifactLocationKeyToIndexMap;
         private readonly IDictionary<string, int> _ruleKeyToIndexMap;
 
         private Tool _tool;
 
         public UpdateIndicesFromLegacyDataVisitor(
             IDictionary<string, int> fullyQualifiedLogicalNameToIndexMap, 
-            IDictionary<string, int> fileLocationKeyToIndexMap,
+            IDictionary<string, int> artifactLocationKeyToIndexMap,
             IDictionary<string, int> ruleKeyToIndexMap)
         {
             _fullyQualifiedLogicalNameToIndexMap = fullyQualifiedLogicalNameToIndexMap;
-            _fileLocationKeyToIndexMap = fileLocationKeyToIndexMap;
+            _ArtifactLocationKeyToIndexMap = artifactLocationKeyToIndexMap;
             _ruleKeyToIndexMap = ruleKeyToIndexMap;
         }
 
@@ -64,10 +64,10 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
             return base.VisitLocation(node);
         }
 
-        public override FileLocation VisitFileLocation(FileLocation node)
+        public override ArtifactLocation VisitArtifactLocation(ArtifactLocation node)
         {
 
-            if (_fileLocationKeyToIndexMap != null)
+            if (_ArtifactLocationKeyToIndexMap != null)
             {
                 string key = node.Uri.OriginalString;
 
@@ -77,16 +77,16 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                     key = "#" + uriBaseId + "#" + key;
                 }
 
-                if (_fileLocationKeyToIndexMap.TryGetValue(key, out int index))
+                if (_ArtifactLocationKeyToIndexMap.TryGetValue(key, out int index))
                 {
-                    var fileLocation = FileLocation.CreateFromFilesDictionaryKey(key);
-                    node.Uri = new Uri(UriHelper.MakeValidUri(fileLocation.Uri.OriginalString), UriKind.RelativeOrAbsolute);
-                    node.UriBaseId = fileLocation.UriBaseId;
-                    node.FileIndex = index;
+                    var artifactionLocation = ArtifactLocation.CreateFromFilesDictionaryKey(key);
+                    node.Uri = new Uri(UriHelper.MakeValidUri(artifactionLocation.Uri.OriginalString), UriKind.RelativeOrAbsolute);
+                    node.UriBaseId = artifactionLocation.UriBaseId;
+                    node.Index = index;
                 }
             }
 
-            return base.VisitFileLocation(node);
+            return base.VisitArtifactLocation(node);
         }
     }
 }

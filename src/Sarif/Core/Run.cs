@@ -11,32 +11,32 @@ namespace Microsoft.CodeAnalysis.Sarif
     public partial class Run
     {
         private static Graph EmptyGraph = new Graph();
-        private static FileData EmptyFile = new FileData();
+        private static Artifact EmptyFile = new Artifact();
         private static Invocation EmptyInvocation = new Invocation();
         private static LogicalLocation EmptyLogicalLocation = new LogicalLocation();
 
-        private IDictionary<FileLocation, int> _fileToIndexMap;
+        private IDictionary<ArtifactLocation, int> _fileToIndexMap;
 
         public Uri ExpandUrisWithUriBaseId(string key, string currentValue = null)
         {
-            FileLocation fileLocation = this.OriginalUriBaseIds[key];
+            ArtifactLocation artifactionLocation = this.OriginalUriBaseIds[key];
 
-            if (fileLocation.UriBaseId == null)
+            if (artifactionLocation.UriBaseId == null)
             {
-                return fileLocation.Uri;
+                return artifactionLocation.Uri;
             }
             throw new InvalidOperationException("Author this code along with tests for originalUriBaseIds that are nested");
         }
 
         public int GetFileIndex(
-            FileLocation fileLocation,
+            ArtifactLocation artifactionLocation,
             bool addToFilesTableIfNotPresent = true,
             OptionallyEmittedData dataToInsert = OptionallyEmittedData.None,
             Encoding encoding = null)
         {
-            if (fileLocation == null) { throw new ArgumentNullException(nameof(fileLocation)); }
+            if (artifactionLocation == null) { throw new ArgumentNullException(nameof(artifactionLocation)); }
 
-            if (this.Files?.Count == 0)
+            if (this.Artifacts?.Count == 0)
             {
                 if (!addToFilesTableIfNotPresent)
                 {
@@ -63,34 +63,34 @@ namespace Microsoft.CodeAnalysis.Sarif
             // of the file object. The file index, of course, does not relate to the
             // file identity. We consciously exclude the properties bag as well.
 
-            // We will normalize the input fileLocation.Uri to make URIs more consistent
+            // We will normalize the input artifactionLocation.Uri to make URIs more consistent
             // throughout the emitted log.
-            fileLocation.Uri = new Uri(UriHelper.MakeValidUri(fileLocation.Uri.OriginalString), UriKind.RelativeOrAbsolute);
+            artifactionLocation.Uri = new Uri(UriHelper.MakeValidUri(artifactionLocation.Uri.OriginalString), UriKind.RelativeOrAbsolute);
 
-            var filesTableKey = new FileLocation
+            var filesTableKey = new ArtifactLocation
             {
-                Uri = fileLocation.Uri,
-                UriBaseId = fileLocation.UriBaseId
+                Uri = artifactionLocation.Uri,
+                UriBaseId = artifactionLocation.UriBaseId
             };
 
             if (!_fileToIndexMap.TryGetValue(filesTableKey, out int fileIndex))
             {
                 if (addToFilesTableIfNotPresent)
                 {
-                    this.Files = this.Files ?? new List<FileData>();
-                    fileIndex = this.Files.Count;
+                    this.Artifacts = this.Artifacts ?? new List<Artifact>();
+                    fileIndex = this.Artifacts.Count;
 
                     string mimeType = Writers.MimeType.DetermineFromFileExtension(filesTableKey.Uri.ToString());
 
-                    var fileData = FileData.Create(
+                    var artifact = Artifact.Create(
                         filesTableKey.Uri,
                         dataToInsert,
                         mimeType: mimeType,
                         encoding);
 
-                    fileData.FileLocation = fileLocation;
+                    artifact.Location = artifactionLocation;
 
-                    this.Files.Add(fileData);
+                    this.Artifacts.Add(artifact);
 
                     _fileToIndexMap[filesTableKey] = fileIndex;
                 }
@@ -102,27 +102,27 @@ namespace Microsoft.CodeAnalysis.Sarif
                 }
             }
 
-            fileLocation.FileIndex = fileIndex;
+            artifactionLocation.Index = fileIndex;
             return fileIndex;
         }
 
         private void InitializeFileToIndexMap()
         {
-            _fileToIndexMap = new Dictionary<FileLocation, int>(FileLocation.ValueComparer);
+            _fileToIndexMap = new Dictionary<ArtifactLocation, int>(ArtifactLocation.ValueComparer);
 
             // First, we'll initialize our file object to index map
             // with any files that already exist in the table
-            for (int i = 0; i < this.Files?.Count; i++)
+            for (int i = 0; i < this.Artifacts?.Count; i++)
             {
-                FileData fileData = this.Files[i];
+                Artifact artifact = this.Artifacts[i];
 
-                var fileLocation = new FileLocation
+                var artifactionLocation = new ArtifactLocation
                 {
-                    Uri = fileData.FileLocation?.Uri,
-                    UriBaseId = fileData.FileLocation?.UriBaseId,
+                    Uri = artifact.Location?.Uri,
+                    UriBaseId = artifact.Location?.UriBaseId,
                 };
 
-                _fileToIndexMap[fileLocation] = i;
+                _fileToIndexMap[artifactionLocation] = i;
             }
         }
 
@@ -145,7 +145,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             return true;
         }
 
-        public bool ShouldSerializeFiles() { return this.Files.HasAtLeastOneNonNullValue(); }
+        public bool ShouldSerializeFiles() { return this.Artifacts.HasAtLeastOneNonNullValue(); }
 
         public bool ShouldSerializeGraphs() { return this.Graphs.HasAtLeastOneNonNullValue(); }
 

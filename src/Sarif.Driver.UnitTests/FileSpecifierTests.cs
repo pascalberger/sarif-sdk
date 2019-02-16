@@ -62,10 +62,10 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
             // This test provides basic verification that simple patterns
             // matching one or more files in the current directory succeed
             var specifier = new FileSpecifier(input);
-            specifier.Files.Count.Should().Be(expectedCount);
+            specifier.Artifacts.Count.Should().Be(expectedCount);
 
             specifier = new FileSpecifier(Path.Combine(Environment.CurrentDirectory, input));
-            specifier.Files.Count.Should().Be(expectedCount);
+            specifier.Artifacts.Count.Should().Be(expectedCount);
         }
 
         [Theory]
@@ -85,14 +85,14 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
                 // This test provides basic verification that simple patterns
                 // matching one or more files in the current directory succeed
                 var specifier = new FileSpecifier(input, recurse: recurse);
-                specifier.Files.Count.Should().Be(expectedCount);
+                specifier.Artifacts.Count.Should().Be(expectedCount);
 
                 specifier = new FileSpecifier(Path.Combine(_fixture.RootDirectory, input), recurse: recurse);
-                specifier.Files.Count.Should().Be(expectedCount);
+                specifier.Artifacts.Count.Should().Be(expectedCount);
 
                 Environment.CurrentDirectory = currentWorkingDirectory;
                 specifier = new FileSpecifier(Path.Combine(_fixture.RootDirectory, input), recurse: recurse);
-                specifier.Files.Count.Should().Be(expectedCount);
+                specifier.Artifacts.Count.Should().Be(expectedCount);
             }
             finally
             {

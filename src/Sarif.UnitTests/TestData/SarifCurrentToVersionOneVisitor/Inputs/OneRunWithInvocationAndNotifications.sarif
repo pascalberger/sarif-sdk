@@ -22,7 +22,7 @@
               "id": "CTN9999",
               "ruleId": "C2152",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/crypto/hash.cpp"
                 }
               },

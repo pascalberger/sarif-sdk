@@ -29,7 +29,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///C:/src/main.cs"
                           },
                           "region": {
@@ -51,7 +51,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///C:/src/main.cs"
                           }
                         },
@@ -65,7 +65,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///C:/src/utils.cs"
                           }
                         },
@@ -79,7 +79,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///C:/src/testtarget.cs"
                           }
                         },

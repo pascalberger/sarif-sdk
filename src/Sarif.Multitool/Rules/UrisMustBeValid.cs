@@ -34,9 +34,9 @@ namespace Microsoft.CodeAnalysis.Sarif.Multitool.Rules
             AnalyzeUri(log.SchemaUri, logPointer.AtProperty(SarifPropertyName.Schema));
         }
 
-        protected override void Analyze(FileLocation fileLocation, string fileLocationPointer)
+        protected override void Analyze(ArtifactLocation artifactionLocation, string fileLocationPointer)
         {
-            AnalyzeUri(fileLocation.Uri, fileLocationPointer.AtProperty(SarifPropertyName.Uri));
+            AnalyzeUri(artifactionLocation.Uri, fileLocationPointer.AtProperty(SarifPropertyName.Uri));
         }
 
         protected override void Analyze(Result result, string resultPointer)

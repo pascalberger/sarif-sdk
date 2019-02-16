@@ -17,7 +17,7 @@ namespace Microsoft.CodeAnalysis.Sarif
         [Fact]
         public void FileData_Create_NullUri()
         {
-            Action action = () => { FileData.Create(null, OptionallyEmittedData.None); };
+            Action action = () => { Artifact.Create(null, OptionallyEmittedData.None); };
 
             action.Should().Throw<ArgumentNullException>();
         }
@@ -26,26 +26,26 @@ namespace Microsoft.CodeAnalysis.Sarif
         public void FileData_ComputeHashes()
         {
             string filePath = Path.GetTempFileName();
-            string fileContents = Guid.NewGuid().ToString();
+            string artifactContents = Guid.NewGuid().ToString();
             Uri uri = new Uri(filePath);
 
             try
             {
-                File.WriteAllText(filePath, fileContents);
-                FileData fileData = FileData.Create(uri, OptionallyEmittedData.Hashes);
-                fileData.FileLocation.Should().Be(null);
+                File.WriteAllText(filePath, artifactContents);
+                Artifact artifact = Artifact.Create(uri, OptionallyEmittedData.Hashes);
+                artifact.Location.Should().Be(null);
                 HashData hashes = HashUtilities.ComputeHashes(filePath);
-                fileData.MimeType.Should().Be(MimeType.Binary);
-                fileData.Contents.Should().BeNull();
-                fileData.Hashes.Count.Should().Be(3);
+                artifact.MimeType.Should().Be(MimeType.Binary);
+                artifact.Contents.Should().BeNull();
+                artifact.Hashes.Count.Should().Be(3);
 
-                foreach (string algorithm in fileData.Hashes.Keys)
+                foreach (string algorithm in artifact.Hashes.Keys)
                 {
                     switch (algorithm)
                     {
-                        case "md5": { fileData.Hashes[algorithm].Should().Be(hashes.MD5); break; }
-                        case "sha-1": { fileData.Hashes[algorithm].Should().Be(hashes.Sha1); break; }
-                        case "sha-256": { fileData.Hashes[algorithm].Should().Be(hashes.Sha256); break; }
+                        case "md5": { artifact.Hashes[algorithm].Should().Be(hashes.MD5); break; }
+                        case "sha-1": { artifact.Hashes[algorithm].Should().Be(hashes.Sha1); break; }
+                        case "sha-256": { artifact.Hashes[algorithm].Should().Be(hashes.Sha256); break; }
                         default: { true.Should().BeFalse(); break; /* unexpected algorithm kind */ }
                     }
                 }
@@ -70,40 +70,40 @@ namespace Microsoft.CodeAnalysis.Sarif
         [InlineData(".docx", ~OptionallyEmittedData.BinaryFiles, false)]
         [InlineData(".dll", ~OptionallyEmittedData.TextFiles, true)]
         [InlineData(".cpp", ~OptionallyEmittedData.TextFiles, false)]
-        public void FileData_PersistBinaryAndTextFileContents(
+        public void FileData_PersistBinaryAndTextartifactContents(
             string fileExtension,
             OptionallyEmittedData dataToInsert,
             bool shouldBePersisted)
         {
             string filePath = Path.GetTempFileName() + fileExtension;
-            string fileContents = Guid.NewGuid().ToString();
+            string artifactContents = Guid.NewGuid().ToString();
             Uri uri = new Uri(filePath);
 
             try
             {
-                File.WriteAllText(filePath, fileContents);
-                FileData fileData = FileData.Create(uri, dataToInsert);
-                fileData.FileLocation.Should().BeNull();
+                File.WriteAllText(filePath, artifactContents);
+                Artifact artifact = Artifact.Create(uri, dataToInsert);
+                artifact.Location.Should().BeNull();
 
                 if (dataToInsert.HasFlag(OptionallyEmittedData.Hashes))
                 {
-                    fileData.Hashes.Should().NotBeNull();
+                    artifact.Hashes.Should().NotBeNull();
                 }
                 else
                 {
-                    fileData.Hashes.Should().BeNull();
+                    artifact.Hashes.Should().BeNull();
                 }
 
-                string encodedFileContents = Convert.ToBase64String(File.ReadAllBytes(filePath));
+                string encodedartifactContents = Convert.ToBase64String(File.ReadAllBytes(filePath));
 
                 if (shouldBePersisted)
                 {
-                    fileData.Contents.Binary.Should().Be(encodedFileContents);
-                    fileData.Contents.Text.Should().BeNull();
+                    artifact.Contents.Binary.Should().Be(encodedartifactContents);
+                    artifact.Contents.Text.Should().BeNull();
                 }
                 else
                 {
-                    fileData.Contents.Should().BeNull();
+                    artifact.Contents.Should().BeNull();
                 }
             }
             finally
@@ -113,25 +113,25 @@ namespace Microsoft.CodeAnalysis.Sarif
         }
 
         [Fact]
-        public void FileData_PersistTextFileContentsBigEndianUnicode()
+        public void FileData_PersistTextartifactContentsBigEndianUnicode()
         {
             Encoding encoding = Encoding.BigEndianUnicode;
             string filePath = Path.GetTempFileName() + ".cs";
             string textValue = "अचम्भा";
-            byte[] fileContents = encoding.GetBytes(textValue);
+            byte[] artifactContents = encoding.GetBytes(textValue);
 
             Uri uri = new Uri(filePath);
 
             try
             {
-                File.WriteAllBytes(filePath, fileContents);
-                FileData fileData = FileData.Create(uri, OptionallyEmittedData.TextFiles, mimeType: null, encoding: encoding);
-                fileData.FileLocation.Should().Be(null);
-                fileData.MimeType.Should().Be(MimeType.CSharp);
-                fileData.Hashes.Should().BeNull();
+                File.WriteAllBytes(filePath, artifactContents);
+                Artifact artifact = Artifact.Create(uri, OptionallyEmittedData.TextFiles, mimeType: null, encoding: encoding);
+                artifact.Location.Should().Be(null);
+                artifact.MimeType.Should().Be(MimeType.CSharp);
+                artifact.Hashes.Should().BeNull();
 
-                string encodedFileContents = encoding.GetString(fileContents);
-                fileData.Contents.Text.Should().Be(encodedFileContents);
+                string encodedartifactContents = encoding.GetString(artifactContents);
+                artifact.Contents.Text.Should().Be(encodedartifactContents);
             }
             finally
             {
@@ -146,11 +146,11 @@ namespace Microsoft.CodeAnalysis.Sarif
             // persistence, the logger will not raise an exception
             string filePath = Path.GetTempFileName();
             Uri uri = new Uri(filePath);
-            FileData fileData = FileData.Create(uri, OptionallyEmittedData.TextFiles);
-            fileData.FileLocation.Should().Be(null);
-            fileData.MimeType.Should().Be(MimeType.Binary);
-            fileData.Hashes.Should().BeNull();
-            fileData.Contents.Should().BeNull();
+            Artifact artifact = Artifact.Create(uri, OptionallyEmittedData.TextFiles);
+            artifact.Location.Should().Be(null);
+            artifact.MimeType.Should().Be(MimeType.Binary);
+            artifact.Hashes.Should().BeNull();
+            artifact.Contents.Should().BeNull();
         }
 
         [Fact]
@@ -161,15 +161,15 @@ namespace Microsoft.CodeAnalysis.Sarif
 
             try
             {
-                // Place an exclusive read lock on file, so that FileData cannot access its contents.
-                // This raises an IOException, which is swallowed by FileData.Create
+                // Place an exclusive read lock on file, so that Artifact cannot access its contents.
+                // This raises an IOException, which is swallowed by Artifact.Create
                 using (var exclusiveAccessReader = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.None))
                 {
-                    FileData fileData = FileData.Create(uri, OptionallyEmittedData.TextFiles);
-                    fileData.FileLocation.Should().Be(null);
-                    fileData.MimeType.Should().Be(MimeType.Binary);
-                    fileData.Hashes.Should().BeNull();
-                    fileData.Contents.Should().BeNull();
+                    Artifact artifact = Artifact.Create(uri, OptionallyEmittedData.TextFiles);
+                    artifact.Location.Should().Be(null);
+                    artifact.MimeType.Should().Be(MimeType.Binary);
+                    artifact.Hashes.Should().BeNull();
+                    artifact.Contents.Should().BeNull();
                 }
             }
             finally
@@ -193,10 +193,10 @@ namespace Microsoft.CodeAnalysis.Sarif
         [Fact]
         public void FileData_SerializeSingleFileRole()
         {
-            FileData fileData = FileData.Create(new Uri("file:///example.cs"), OptionallyEmittedData.None);
-            fileData.Roles = FileRoles.AnalysisTarget;
+            Artifact artifact = Artifact.Create(new Uri("file:///example.cs"), OptionallyEmittedData.None);
+            artifact.Roles = ArtifactRoles.AnalysisTarget;
 
-            string result = JsonConvert.SerializeObject(fileData);
+            string result = JsonConvert.SerializeObject(artifact);
 
             result.Should().Be("{\"roles\":[\"analysisTarget\"],\"mimeType\":\"text/x-csharp\"}");
         }
@@ -204,10 +204,10 @@ namespace Microsoft.CodeAnalysis.Sarif
         [Fact]
         public void FileData_SerializeMultipleFileRoles()
         {
-            FileData fileData = FileData.Create(new Uri("file:///example.cs"), OptionallyEmittedData.None);
-            fileData.Roles = FileRoles.ResponseFile | FileRoles.ResultFile;
+            Artifact artifact = Artifact.Create(new Uri("file:///example.cs"), OptionallyEmittedData.None);
+            artifact.Roles = ArtifactRoles.ResponseFile | ArtifactRoles.ResultFile;
 
-            string actual = JsonConvert.SerializeObject(fileData);
+            string actual = JsonConvert.SerializeObject(artifact);
 
             actual.Should().Be("{\"roles\":[\"responseFile\",\"resultFile\"],\"mimeType\":\"text/x-csharp\"}");
         }
@@ -215,15 +215,15 @@ namespace Microsoft.CodeAnalysis.Sarif
         [Fact]
         public void FileData_DeserializeSingleFileRole()
         {
-            FileData actual = JsonConvert.DeserializeObject("{\"roles\":[\"analysisTarget\"],\"mimeType\":\"text/x-csharp\"}", typeof(FileData)) as FileData;
-            actual.Roles.Should().Be(FileRoles.AnalysisTarget);
+            Artifact actual = JsonConvert.DeserializeObject("{\"roles\":[\"analysisTarget\"],\"mimeType\":\"text/x-csharp\"}", typeof(Artifact)) as Artifact;
+            actual.Roles.Should().Be(ArtifactRoles.AnalysisTarget);
         }
 
         [Fact]
         public void FileData_DeserializeMultipleFileRoles()
         {
-            FileData actual = JsonConvert.DeserializeObject("{\"roles\":[\"responseFile\",\"resultFile\"],\"mimeType\":\"text/x-csharp\"}", typeof(FileData)) as FileData;
-            actual.Roles.Should().Be(FileRoles.ResponseFile | FileRoles.ResultFile);
+            Artifact actual = JsonConvert.DeserializeObject("{\"roles\":[\"responseFile\",\"resultFile\"],\"mimeType\":\"text/x-csharp\"}", typeof(Artifact)) as Artifact;
+            actual.Roles.Should().Be(ArtifactRoles.ResponseFile | ArtifactRoles.ResultFile);
         }
 
         private static void RunUnauthorizedAccessTextForFile(bool isTextFile)
@@ -234,7 +234,7 @@ namespace Microsoft.CodeAnalysis.Sarif
 
             IFileSystem fileSystem = SetUnauthorizedAccessExceptionMock();
 
-            FileData fileData = FileData.Create(
+            Artifact artifact = Artifact.Create(
                 uri,
                 OptionallyEmittedData.TextFiles,
                 mimeType: null,
@@ -243,7 +243,7 @@ namespace Microsoft.CodeAnalysis.Sarif
 
             // We pass none here as the occurrence of UnauthorizedAccessException 
             // should result in non-population of any file contents.
-            Validate(fileData, OptionallyEmittedData.None);
+            Validate(artifact, OptionallyEmittedData.None);
         }
 
         private static IFileSystem SetUnauthorizedAccessExceptionMock()
@@ -261,15 +261,15 @@ namespace Microsoft.CodeAnalysis.Sarif
             return mock;
         }
 
-        private static void Validate(FileData fileData, OptionallyEmittedData dataToInsert)
+        private static void Validate(Artifact artifact, OptionallyEmittedData dataToInsert)
         {
             if (dataToInsert.HasFlag(OptionallyEmittedData.TextFiles))
             {
-                fileData.Contents.Should().NotBeNull();
+                artifact.Contents.Should().NotBeNull();
             }
             else
             {
-                fileData.Contents.Should().BeNull();
+                artifact.Contents.Should().BeNull();
             }
 
 

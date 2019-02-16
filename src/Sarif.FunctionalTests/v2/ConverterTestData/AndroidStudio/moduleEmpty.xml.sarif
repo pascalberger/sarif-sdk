@@ -25,7 +25,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "northwindtraders-droid-2/src/main/java/com/northwindtraders/droid/model/Model.java"
                 },
                 "region": {

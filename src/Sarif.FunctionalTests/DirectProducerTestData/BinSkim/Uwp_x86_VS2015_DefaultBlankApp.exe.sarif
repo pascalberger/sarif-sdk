@@ -31,7 +31,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -52,7 +52,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -73,7 +73,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -94,7 +94,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -115,7 +115,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -136,7 +136,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -157,7 +157,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -178,7 +178,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -197,7 +197,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -216,7 +216,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -236,7 +236,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -256,7 +256,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -275,7 +275,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -294,7 +294,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -313,7 +313,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -332,7 +332,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -351,7 +351,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -370,7 +370,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -389,7 +389,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -408,7 +408,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -427,7 +427,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -446,7 +446,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -467,7 +467,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -486,7 +486,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               }
@@ -1032,7 +1032,7 @@
             {
               "id": "MSG001.AnalyzingTarget",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///Z:/src/Test.FunctionalTests.BinSkim.Driver/BaselineTestsData/Uwp_x86_VS2015_DefaultBlankApp.exe"
                 }
               },

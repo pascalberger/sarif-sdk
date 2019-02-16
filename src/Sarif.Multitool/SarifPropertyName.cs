@@ -23,9 +23,9 @@ namespace Microsoft.CodeAnalysis.Sarif.Multitool
         public const string Essential = "essential";
         public const string ExecutableLocation = "executableLocation";
         public const string Extensions = "extensions";
-        public const string FileChanges = "fileChanges";
-        public const string FileLocation = "fileLocation";
-        public const string Files = "files";
+        public const string Changes = "changes";
+        public const string ArtifactLocation = "artifactionLocation";
+        public const string Artifacts = "files";
         public const string Fixes = "fixes";
         public const string Frames = "frames";
         public const string FullDescription = "fullDescription";

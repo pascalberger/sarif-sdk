@@ -141,27 +141,27 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
             return exceptionData;
         }
 
-        internal FileChange CreateFileChange(FileChangeVersionOne v1FileChange)
+        internal ArtifactChange CreateArtifactChange(FileChangeVersionOne v1FileChange)
         {
-            FileChange fileChange = null;
+            ArtifactChange ArtifactChange = null;
 
             if (v1FileChange != null)
             {
-                fileChange = new FileChange
+                ArtifactChange = new ArtifactChange
                 {
-                    FileLocation = CreateFileLocation(v1FileChange),
+                    ArtifactLocation = CreateArtifactLocation(v1FileChange),
                     Replacements = v1FileChange.Replacements?.Select(CreateReplacement).ToList()
                 };
             }
 
-            return fileChange;
+            return ArtifactChange;
         }
 
-        internal FileData CreateFileData(FileDataVersionOne v1FileData, string key)
+        internal Artifact CreateFileData(FileDataVersionOne v1FileData, string key)
         {
             if (key == null) { throw new ArgumentNullException(nameof(key)); }
 
-            FileData fileData = null;
+            Artifact artifact = null;
 
             if (v1FileData != null)
             {
@@ -170,7 +170,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                     ? -1
                     : _v1FileKeytoV2IndexMap[parentKey];
 
-                fileData = new FileData
+                artifact = new Artifact
                 {
                     Hashes = v1FileData.Hashes?.Select(CreateHash).ToDictionary(p => p.Key, p => p.Value),
                     Length = v1FileData.Length,
@@ -180,41 +180,41 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                     Properties = v1FileData.Properties
                 };
 
-                fileData.FileLocation = FileLocation.CreateFromFilesDictionaryKey(key, parentKey);
-                fileData.FileLocation.UriBaseId = v1FileData.UriBaseId;
-                fileData.FileLocation.FileIndex = _v1FileKeytoV2IndexMap[key];
+                artifact.Location = ArtifactLocation.CreateFromFilesDictionaryKey(key, parentKey);
+                artifact.Location.UriBaseId = v1FileData.UriBaseId;
+                artifact.Location.Index = _v1FileKeytoV2IndexMap[key];
 
                 if (v1FileData.Contents != null)
                 {
-                    fileData.Contents = new FileContent();
+                    artifact.Contents = new ArtifactContent();
 
                     if (MimeType.IsTextualMimeType(v1FileData.MimeType))
                     {
-                        fileData.Contents.Text = SarifUtilities.DecodeBase64String(v1FileData.Contents);
+                        artifact.Contents.Text = SarifUtilities.DecodeBase64String(v1FileData.Contents);
                     }
                     else
                     {
-                        fileData.Contents.Binary = v1FileData.Contents;
+                        artifact.Contents.Binary = v1FileData.Contents;
                     }
                 }
             }
 
-            return fileData;
+            return artifact;
         }
 
-        internal FileLocation CreateFileLocation(Uri uri, string uriBaseId)
+        internal ArtifactLocation CreateArtifactLocation(Uri uri, string uriBaseId)
         {
-            FileLocation fileLocation = null;
+            ArtifactLocation ArtifactLocation = null;
 
             if (uri != null)
             {
                 if (_v1FileKeytoV2IndexMap.TryGetValue(uri.OriginalString, out int fileIndex))
                 {
-                    fileLocation = _currentRun.Files[fileIndex].FileLocation;
+                    ArtifactLocation = _currentRun.Artifacts[fileIndex].Location;
                 }
                 else
                 {
-                    fileLocation = new FileLocation
+                    ArtifactLocation = new ArtifactLocation
                     {
                         Uri = uri,
                         UriBaseId = uriBaseId
@@ -222,17 +222,17 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                 }
             }
 
-            return fileLocation;
+            return ArtifactLocation;
         }
 
-        internal FileLocation CreateFileLocation(PhysicalLocationVersionOne v1PhysicalLocation)
+        internal ArtifactLocation CreateArtifactLocation(PhysicalLocationVersionOne v1PhysicalLocation)
         {
-            return CreateFileLocation(v1PhysicalLocation?.Uri, v1PhysicalLocation?.UriBaseId);
+            return CreateArtifactLocation(v1PhysicalLocation?.Uri, v1PhysicalLocation?.UriBaseId);
         }
 
-        internal FileLocation CreateFileLocation(FileChangeVersionOne v1FileChange)
+        internal ArtifactLocation CreateArtifactLocation(FileChangeVersionOne v1FileChange)
         {
-            return CreateFileLocation(v1FileChange?.Uri, v1FileChange?.UriBaseId);
+            return CreateArtifactLocation(v1FileChange?.Uri, v1FileChange?.UriBaseId);
         }
 
         internal Fix CreateFix(FixVersionOne v1Fix)
@@ -244,7 +244,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                 fix = new Fix()
                 {
                     Description = CreateMessage(v1Fix.Description),
-                    FileChanges = v1Fix.FileChanges?.Select(CreateFileChange).ToList()
+                    Changes = v1Fix.FileChanges?.Select(CreateArtifactChange).ToList()
                 };
             }
 
@@ -306,7 +306,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
 
                 if (!string.IsNullOrWhiteSpace(v1Invocation.FileName))
                 {
-                    invocation.ExecutableLocation = new FileLocation
+                    invocation.ExecutableLocation = new ArtifactLocation
                     {
                         Uri = new Uri(v1Invocation.FileName, UriKind.RelativeOrAbsolute)
                     };
@@ -314,7 +314,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
 
                 if (!string.IsNullOrWhiteSpace(v1Invocation.WorkingDirectory))
                 {
-                    invocation.WorkingDirectory = new FileLocation
+                    invocation.WorkingDirectory = new ArtifactLocation
                     {
                         Uri = new Uri(v1Invocation.WorkingDirectory, UriKind.RelativeOrAbsolute)
                     };
@@ -402,7 +402,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                         location.PhysicalLocation.Region = new Region();
                     }
 
-                    location.PhysicalLocation.Region.Snippet = new FileContent
+                    location.PhysicalLocation.Region.Snippet = new ArtifactContent
                     {
                         Text = v1AnnotatedCodeLocation.Snippet
                     };
@@ -447,7 +447,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
             {
                 location.PhysicalLocation = new PhysicalLocation
                 {
-                    FileLocation = CreateFileLocation(uri, uriBaseId),
+                    ArtifactLocation = CreateArtifactLocation(uri, uriBaseId),
                     Region = CreateRegion(column, line)
                 };
             }
@@ -543,7 +543,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                 
                 if (v1Replacement.InsertedBytes != null)
                 {
-                    replacement.InsertedContent = new FileContent
+                    replacement.InsertedContent = new ArtifactContent
                     {
                         Binary = v1Replacement.InsertedBytes
                     };
@@ -559,68 +559,68 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
             return replacement;
         }
 
-        internal IList<FileLocation> CreateResponseFilesList(IDictionary<string, string> responseFileToContentsDictionary)
+        internal IList<ArtifactLocation> CreateResponseFilesList(IDictionary<string, string> responseFileToContentsDictionary)
         {
-            List<FileLocation> fileLocations = null;
+            List<ArtifactLocation> ArtifactLocations = null;
 
             if (responseFileToContentsDictionary != null)
             {
-                fileLocations = new List<FileLocation>();
+                ArtifactLocations = new List<ArtifactLocation>();
 
                 foreach (string key in responseFileToContentsDictionary.Keys)
                 {
-                    // If the response file is mentioned in Run.Files, use the FileLocation
-                    // object from there (which, conveniently, already has the FileIndex property
-                    // set); otherwise create a new FileLocation.
-                    FileLocation fileLocation = null;
-                    FileData responseFile = null;
+                    // If the response file is mentioned in Run.Artifacts, use the ArtifactLocation
+                    // object from there (which, conveniently, already has the ArtifactIndex property
+                    // set); otherwise create a new ArtifactLocation.
+                    ArtifactLocation ArtifactLocation = null;
+                    Artifact responseFile = null;
                     bool existsInRunFiles = _v1FileKeytoV2IndexMap.TryGetValue(key, out int responseFileIndex);
                     if (existsInRunFiles)
                     {
-                        responseFile = _currentRun.Files[responseFileIndex];
-                        fileLocation = responseFile.FileLocation;
+                        responseFile = _currentRun.Artifacts[responseFileIndex];
+                        ArtifactLocation = responseFile.Location;
                     }
                     else
                     {
-                        fileLocation = new FileLocation
+                        ArtifactLocation = new ArtifactLocation
                         {
                             Uri = new Uri(key, UriKind.RelativeOrAbsolute)
                         };
                     }
 
-                    // If this response file has contents, add it to Run.Files, if it
+                    // If this response file has contents, add it to Run.Artifacts, if it
                     // isn't already there.
                     string responseFileText = responseFileToContentsDictionary[key];
                     if (!string.IsNullOrWhiteSpace(responseFileText))
                     {
                         if (!existsInRunFiles)
                         {
-                            _currentRun.Files = _currentRun.Files ?? new List<FileData>();
-                            fileLocation.FileIndex = _currentRun.Files.Count;
+                            _currentRun.Artifacts = _currentRun.Artifacts ?? new List<Artifact>();
+                            ArtifactLocation.Index = _currentRun.Artifacts.Count;
 
-                            responseFile = new FileData
+                            responseFile = new Artifact
                             {
-                                FileLocation = fileLocation
+                                Location = ArtifactLocation
                             };
 
-                            _currentRun.Files.Add(responseFile);
+                            _currentRun.Artifacts.Add(responseFile);
                         }
 
                         // At this point, responseFile is guaranteed to be initialized and to exist
-                        // in Run.Files, either because it previously existed in Run.Files and we
+                        // in Run.Artifacts, either because it previously existed in Run.Artifacts and we
                         // obtained it above, or because it didn't exist and we just created it and
-                        // added it to Run.Files. Either way, we can now add the content.
-                        responseFile.Contents = new FileContent
+                        // added it to Run.Artifacts. Either way, we can now add the content.
+                        responseFile.Contents = new ArtifactContent
                         {
                             Text = responseFileText
                         };
                     }
 
-                    fileLocations.Add(fileLocation);
+                    ArtifactLocations.Add(ArtifactLocation);
                 }
             }
 
-            return fileLocations;
+            return ArtifactLocations;
         }
 
         internal PhysicalLocation CreatePhysicalLocation(PhysicalLocationVersionOne v1PhysicalLocation)
@@ -631,7 +631,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
             {
                 physicalLocation = new PhysicalLocation
                 {
-                    FileLocation = CreateFileLocation(v1PhysicalLocation),
+                    ArtifactLocation = CreateArtifactLocation(v1PhysicalLocation),
                     Region = CreateRegion(v1PhysicalLocation.Region)
                 };
             }
@@ -732,7 +732,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                 LocationVersionOne v1Location = v1Result.Locations?[0];
                 if (v1Location?.ResultFile != null && v1Location.AnalysisTarget?.Uri != v1Location.ResultFile.Uri)
                 {
-                    result.AnalysisTarget = CreateFileLocation(v1Result.Locations[0].AnalysisTarget);
+                    result.AnalysisTarget = CreateArtifactLocation(v1Result.Locations[0].AnalysisTarget);
                 }
 
                 result.RuleId = v1Result.RuleId;
@@ -780,7 +780,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                         result.Locations[0].PhysicalLocation.Region = new Region();
                     }
 
-                    result.Locations[0].PhysicalLocation.Region.Snippet = new FileContent
+                    result.Locations[0].PhysicalLocation.Region.Snippet = new ArtifactContent
                     {
                         Text = v1Result.Snippet
                     };
@@ -877,7 +877,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
 
                     if (v1Run.Files != null)
                     {
-                        run.Files = new List<FileData>();
+                        run.Artifacts = new List<Artifact>();
 
                         foreach (KeyValuePair<string, FileDataVersionOne> pair in v1Run.Files)
                         {
@@ -887,7 +887,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Visitors
                                 fileDataVersionOne.Uri = new Uri(pair.Key, UriKind.RelativeOrAbsolute);
                             }
 
-                            run.Files.Add(CreateFileData(fileDataVersionOne, pair.Key));
+                            run.Artifacts.Add(CreateFileData(fileDataVersionOne, pair.Key));
                         }
                     }
 

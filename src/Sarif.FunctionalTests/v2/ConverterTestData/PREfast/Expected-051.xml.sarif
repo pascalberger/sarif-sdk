@@ -27,7 +27,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/somepath/test051.cpp"
                 },
                 "region": {
@@ -50,7 +50,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/somepath/test051.cpp"
                           },
                           "region": {
@@ -63,7 +63,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/somepath/test051.cpp"
                           },
                           "region": {
@@ -76,7 +76,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/somepath/test051.cpp"
                           },
                           "region": {
@@ -89,7 +89,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/somepath/test051.cpp"
                           },
                           "region": {
@@ -102,7 +102,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/somepath/test051.cpp"
                           },
                           "region": {

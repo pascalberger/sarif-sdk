@@ -9,14 +9,14 @@
       },
       "files": [
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "fileIndex": 0
           },
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "uriBaseId": "SRCROOT",
             "fileIndex": 1
@@ -24,7 +24,7 @@
           "mimeType": "text/plain"
         },
         {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.txt",
             "uriBaseId": "TESTROOT",
             "fileIndex": 2
@@ -41,7 +41,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "fileIndex": 0
                 }
@@ -60,7 +60,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "uriBaseId": "SRCROOT",
                   "fileIndex": 1
@@ -80,7 +80,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.txt",
                   "uriBaseId": "TESTROOT",
                   "fileIndex": 2

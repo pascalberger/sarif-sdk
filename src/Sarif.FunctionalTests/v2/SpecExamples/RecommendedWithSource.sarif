@@ -21,7 +21,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///user/builder/work/src/collections/list.cpp"
                 },
                 "region": {

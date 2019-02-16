@@ -23,12 +23,12 @@
         {
           "ruleId": "SHARED-ID.1",
           "message": { "messageId": "a" },
-          "locations": [ { "physicalLocation": { "fileLocation": { "uri": "file.txt" } } } ]
+          "locations": [ { "physicalLocation": { "artifactionLocation": { "uri": "file.txt" } } } ]
         },
         {
           "ruleId": "SHARED-ID.2",
           "message": { "messageId": "a" },
-          "locations": [ { "physicalLocation": { "fileLocation": { "uri": "file.png" } } } ]
+          "locations": [ { "physicalLocation": { "artifactionLocation": { "uri": "file.png" } } } ]
         }
       ]
     }

@@ -12,7 +12,7 @@ namespace Microsoft.CodeAnalysis.Sarif
         /// Initialize the current output log. This method persists all run properties
         /// except for those that may be populated during the course of persisting 
         /// results. A result might produce a new file object to be stored in run.files,
-        /// for example, so run.Files will not be persisted on initialization.
+        /// for example, so run.Artifacts will not be persisted on initialization.
         /// </summary>
         /// <param name="id">A string that uniquely identifies a run.</param>
         /// <param name="automationId">A global identifier for a run that permits correlation with a larger automation process.</param> 
@@ -27,7 +27,7 @@ namespace Microsoft.CodeAnalysis.Sarif
         /// A dictionary whose keys are the strings representing the locations of scanned files
         /// and whose values provide information about those files.
         /// </param>
-        void WriteFiles(IList<FileData> fileDictionary);
+        void WriteFiles(IList<Artifact> fileDictionary);
 
         /// <summary>
         /// Write information about the logical locations where results were produced to

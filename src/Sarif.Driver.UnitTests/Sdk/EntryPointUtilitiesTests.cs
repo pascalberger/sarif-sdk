@@ -33,11 +33,11 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
         }
 
         [Fact]
-        public void EnryPointUtilities_GenerateArguments_ExpandsResponseFileContents()
+        public void EnryPointUtilities_GenerateArguments_ExpandsResponseartifactContents()
         {
             const string ResponseFileName = "test.rsp";
-            var responseFileContents = new[] { "/b", "/c:val /d", "   /e   " };
-            var mockFileSystem = MockFactory.MakeMockFileSystem(ResponseFileName, responseFileContents);
+            var responseartifactContents = new[] { "/b", "/c:val /d", "   /e   " };
+            var mockFileSystem = MockFactory.MakeMockFileSystem(ResponseFileName, responseartifactContents);
 
             var args = new[] { "/a", "@" + ResponseFileName, "/f" };
 
@@ -62,8 +62,8 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
         public void EnryPointUtilities_GenerateArguments_StripsQuotesFromAroundArgsWithSpacesInResponseFiles()
         {
             const string ResponseFileName = "test.rsp";
-            var responseFileContents = new[] { "a \"one two\" b" };
-            var mockFileSystem = MockFactory.MakeMockFileSystem(ResponseFileName, responseFileContents);
+            var responseartifactContents = new[] { "a \"one two\" b" };
+            var mockFileSystem = MockFactory.MakeMockFileSystem(ResponseFileName, responseartifactContents);
 
             var args = new[] { "@" + ResponseFileName };
 
@@ -92,8 +92,8 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
             string expandedResponseFileName = String.Format(CultureInfo.InvariantCulture,
                 @"{0}\{1}", DirectoryName, ResponseFileName);
 
-            var responseFileContents = new[] { "a", "b c" };
-            var mockFileSystem = MockFactory.MakeMockFileSystem(expandedResponseFileName, responseFileContents);
+            var responseartifactContents = new[] { "a", "b c" };
+            var mockFileSystem = MockFactory.MakeMockFileSystem(expandedResponseFileName, responseartifactContents);
 
             var args = new[] { "@" + responseFileNameArgument };
 

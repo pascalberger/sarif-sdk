@@ -220,7 +220,7 @@
           "fixes": [
             {
               "description": "Initialize the variable to null",
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "file:///home/buildAgent/src/collections/list.h",
                   "replacements": [

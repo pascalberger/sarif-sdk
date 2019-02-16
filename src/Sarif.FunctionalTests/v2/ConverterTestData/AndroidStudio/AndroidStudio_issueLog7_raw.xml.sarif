@@ -28,7 +28,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -51,7 +51,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -74,7 +74,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -97,7 +97,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -120,7 +120,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "gradle/wrapper/gradle-wrapper.properties"
                 },
                 "region": {
@@ -143,7 +143,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "local.properties"
                 },
                 "region": {

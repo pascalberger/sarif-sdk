@@ -19,7 +19,7 @@
                 "text": "endLine equals startLine"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -33,7 +33,7 @@
                 "text": "endLine greater than startLine"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -47,7 +47,7 @@
                 "text": "endLine not specified"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {

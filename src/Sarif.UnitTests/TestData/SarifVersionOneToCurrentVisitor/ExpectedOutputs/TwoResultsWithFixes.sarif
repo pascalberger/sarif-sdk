@@ -18,7 +18,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "http://localhost:34420/HtmlFixes.html"
                 },
                 "region": {
@@ -39,9 +39,9 @@
               "description": {
                 "text": "Wrap attribute values in single quotes."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlFixes.html"
                   },
                   "replacements": [
@@ -69,9 +69,9 @@
               "description": {
                 "text": "Wrap attribute value in double quotes."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlFixes.html"
                   },
                   "replacements": [
@@ -108,7 +108,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "http://localhost:34420/HtmlFixes.html"
                 },
                 "region": {
@@ -129,9 +129,9 @@
               "description": {
                 "text": "Convert tag name to lowercase."
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "http://localhost:34420/HtmlFixes.html"
                   },
                   "replacements": [

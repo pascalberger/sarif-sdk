@@ -19,7 +19,7 @@
                 "text": "endLine less than startLine in result location"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -35,7 +35,7 @@
                 "text": "endLine less than startLine in related location"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -56,7 +56,7 @@
                           "text": "endLine less than startLine in threadFlow location"
                         },
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///c:/src/file.c"
                           },
                           "region": {
@@ -80,7 +80,7 @@
                       "text": "endLine less than startLine in stackFrame"
                     },
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file:///c:/src/file.c"
                       },
                       "region": {

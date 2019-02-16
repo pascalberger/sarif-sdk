@@ -62,7 +62,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Controllers/ContentFileHandlingController.cs",
                   "uriBaseId": "SRCROOT"
                 },
@@ -91,7 +91,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/Controllers/ContentFileHandlingController.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -118,7 +118,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/ContentFileViewModel.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -151,7 +151,7 @@
             {
               "physicalLocation": {
                 "id": 1,
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Controllers/ContentFileHandlingController.cs",
                   "uriBaseId": "SRCROOT"
                 },
@@ -171,7 +171,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/DocumentValidator.cs",
                   "uriBaseId": "SRCROOT"
                 },
@@ -200,7 +200,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/DocumentValidator.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -233,7 +233,7 @@
             {
               "physicalLocation": {
                 "id": 1,
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/DocumentValidator.cs",
                   "uriBaseId": "SRCROOT"
                 },
@@ -253,7 +253,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Controllers/ContentFileHandlingController.cs",
                   "uriBaseId": "SRCROOT"
                 },
@@ -282,7 +282,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/Controllers/ContentFileHandlingController.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -310,7 +310,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/Controllers/ContentFileHandlingController.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -338,7 +338,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/Controllers/ContentFileHandlingController.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -366,7 +366,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/Controllers/ContentFileHandlingController.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -394,7 +394,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "src/Controllers/ContentFileHandlingController.cs",
                             "uriBaseId": "SRCROOT"
                           },
@@ -428,7 +428,7 @@
             {
               "physicalLocation": {
                 "id": 1,
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "src/Controllers/ContentFileHandlingController.cs",
                   "uriBaseId": "SRCROOT"
                 },

@@ -12,8 +12,8 @@
         "file.txt": { "mimeType": "text/plain", "encoding": "utf8" }
 		  },
       "results": [
-        { "ruleId": "C1", "message": {"messageId": "a"}, "locations": [{"physicalLocation": {"fileLocation": {"uri": "file.txt"}}, "properties": {"key": "file.txt"}}]},
-        { "ruleId": "C1", "message": {"messageId": "a"}, "locations": [{"physicalLocation": {"fileLocation": {"uri": "file.txt", "uriBaseId": "SUB", "properties": {"key": "#SUB#file.txt"}}}}]}
+        { "ruleId": "C1", "message": {"messageId": "a"}, "locations": [{"physicalLocation": {"artifactionLocation": {"uri": "file.txt"}}, "properties": {"key": "file.txt"}}]},
+        { "ruleId": "C1", "message": {"messageId": "a"}, "locations": [{"physicalLocation": {"artifactionLocation": {"uri": "file.txt", "uriBaseId": "SUB", "properties": {"key": "#SUB#file.txt"}}}}]}
 		],
       "resources": { "rules": { "C1": { "messageStrings": { "a": "Review all plaintext content for geopolitically sensitive terms." } } } }
     }

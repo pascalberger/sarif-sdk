@@ -23,7 +23,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -44,7 +44,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -65,7 +65,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -91,7 +91,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -131,7 +131,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {

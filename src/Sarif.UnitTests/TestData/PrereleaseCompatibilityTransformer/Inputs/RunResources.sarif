@@ -36,18 +36,18 @@
         {
           "ruleId": "SHARED-ID.1",
           "message": { "messageId": "a" },
-          "locations": [ { "physicalLocation": { "fileLocation": { "uri": "file.txt" } } } ]
+          "locations": [ { "physicalLocation": { "artifactionLocation": { "uri": "file.txt" } } } ]
         },
         {
           "ruleId": "SHARED-ID.1",
           "level": "notApplicable",
           "message": { "messageId": "noContent" },
-          "locations": [ { "physicalLocation": { "fileLocation": { "uri": "empty_file.txt" } } } ]
+          "locations": [ { "physicalLocation": { "artifactionLocation": { "uri": "empty_file.txt" } } } ]
         },
         {
           "ruleId": "SHARED-ID.2",
           "message": { "messageId": "a" },
-          "locations": [ { "physicalLocation": { "fileLocation": { "uri": "file.png" } } } ]
+          "locations": [ { "physicalLocation": { "artifactionLocation": { "uri": "file.png" } } } ]
         }
       ]
     }

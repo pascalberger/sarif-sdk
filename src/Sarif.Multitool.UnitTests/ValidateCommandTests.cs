@@ -17,11 +17,11 @@ namespace Sarif.Multitool.UnitTests
         public void ValidateCommand_AcceptsTargetFileWithSpaceInName()
         {
             // A minimal valid log file.
-            string logFileContents = TransformCommandTests.MinimalCurrentV2Text;
+            string logartifactContents = TransformCommandTests.MinimalCurrentV2Text;
 
             // A simple schema against which the log file successfully validates.
             // This way, we don't have to read the SARIF schema from disk to run this test.
-            const string SchemaFileContents =
+            const string SchemaartifactContents =
 @"{
   ""$schema"": ""http://json-schema.org/draft-04/schema#"",
   ""type"": ""object""
@@ -38,8 +38,8 @@ namespace Sarif.Multitool.UnitTests
             mockFileSystem.Setup(x => x.DirectoryExists(LogFileDirectory)).Returns(true);
             mockFileSystem.Setup(x => x.GetDirectoriesInDirectory(It.IsAny<string>())).Returns(new string[0]);
             mockFileSystem.Setup(x => x.GetFilesInDirectory(LogFileDirectory, LogFileName)).Returns(new string[] { logFilePath });
-            mockFileSystem.Setup(x => x.ReadAllText(logFilePath)).Returns(logFileContents);
-            mockFileSystem.Setup(x => x.ReadAllText(SchemaFilePath)).Returns(SchemaFileContents);
+            mockFileSystem.Setup(x => x.ReadAllText(logFilePath)).Returns(logartifactContents);
+            mockFileSystem.Setup(x => x.ReadAllText(SchemaFilePath)).Returns(SchemaartifactContents);
 
             var validateCommand = new ValidateCommand(mockFileSystem.Object);
 

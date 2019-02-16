@@ -169,10 +169,10 @@
     <value>The "endColumn" property of a region object must not be less than the "startColumn" property.</value>
   </data>
   <data name="SARIF1014_Default" xml:space="preserve">
-    <value>{0}: This fileLocation object contains a "uriBaseId" property, which means that the value of the "uri" property must be a relative URI reference, but "{1}" is an absolute URI reference.</value>
+    <value>{0}: This artifactionLocation object contains a "uriBaseId" property, which means that the value of the "uri" property must be a relative URI reference, but "{1}" is an absolute URI reference.</value>
   </data>
   <data name="SARIF1014_UriBaseIdRequiresRelativeUri" xml:space="preserve">
-    <value>If a fileLocation object contains a "uriBaseId" property, the value of the "uri" property must be a relative URI reference.</value>
+    <value>If a artifactionLocation object contains a "uriBaseId" property, the value of the "uri" property must be a relative URI reference.</value>
   </data>
   <data name="SARIF1015_Default" xml:space="preserve">
     <value>{0}: The value of this property is required to be an absolute URI, but "{1}" is a relative URI reference.</value>

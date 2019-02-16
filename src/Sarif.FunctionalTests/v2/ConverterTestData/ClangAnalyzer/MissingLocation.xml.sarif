@@ -20,7 +20,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jcparam.c"
                 },
                 "region": {}
@@ -42,7 +42,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jcparam.c"
                 },
                 "region": {}

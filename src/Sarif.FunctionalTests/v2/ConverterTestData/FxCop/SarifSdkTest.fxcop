@@ -2751,24 +2751,24 @@
            </Member>
           </Members>
          </Type>
-         <Type Name="FileData">
+         <Type Name="Artifact">
           <Members>
-           <Member Name="#.ctor(Microsoft.CodeAnalysis.Sarif.FileData)">
+           <Member Name="#.ctor(Microsoft.CodeAnalysis.Sarif.Artifact)">
             <Messages>
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileData.FileData(FileData)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;FileData..ctor(FileData)&#xD;&#xA;FileData.Init(FileLocation, String, Int32, Int32, FileRoles, String, FileContent, String, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>'Artifact.Artifact(Artifact)'</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Artifact..ctor(Artifact)&#xD;&#xA;Artifact.Init(ArtifactLocation, String, Int32, Int32, ArtifactRoles, String, artifactContent, String, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
            </Member>
-           <Member Name="#.ctor(Microsoft.CodeAnalysis.Sarif.FileLocation,System.String,System.Int32,System.Int32,Microsoft.CodeAnalysis.Sarif.FileRoles,System.String,Microsoft.CodeAnalysis.Sarif.FileContent,System.String,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Hash&gt;,System.DateTime,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#.ctor(Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.String,System.Int32,System.Int32,Microsoft.CodeAnalysis.Sarif.ArtifactRoles,System.String,Microsoft.CodeAnalysis.Sarif.artifactContent,System.String,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Hash&gt;,System.DateTime,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileData.FileData(FileLocation, string, int, int, FileRoles, string, FileContent, string, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;FileData..ctor(FileLocation, String, Int32, Int32, FileRoles, String, FileContent, String, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;FileData.Init(FileLocation, String, Int32, Int32, FileRoles, String, FileContent, String, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>'Artifact.Artifact(ArtifactLocation, string, int, int, ArtifactRoles, string, artifactContent, string, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Artifact..ctor(ArtifactLocation, String, Int32, Int32, ArtifactRoles, String, artifactContent, String, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Artifact.Init(ArtifactLocation, String, Int32, Int32, ArtifactRoles, String, artifactContent, String, IEnumerable&lt;Hash&gt;, DateTime, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
@@ -2777,7 +2777,7 @@
             <Messages>
              <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileData.Create(Uri, OptionallyEmittedData, string, Encoding, IFileSystem)'</Item>
+               <Item>'Artifact.Create(Uri, OptionallyEmittedData, string, Encoding, IFileSystem)'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -2786,7 +2786,7 @@
             <Messages>
              <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileData.Hashes'</Item>
+               <Item>'Artifact.Hashes'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -2795,11 +2795,11 @@
          </Type>
          <Type Name="FileDataEqualityComparer">
           <Members>
-           <Member Name="#Equals(Microsoft.CodeAnalysis.Sarif.FileData,Microsoft.CodeAnalysis.Sarif.FileData)">
+           <Member Name="#Equals(Microsoft.CodeAnalysis.Sarif.Artifact,Microsoft.CodeAnalysis.Sarif.Artifact)">
             <Messages>
              <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileDataEqualityComparer.Equals(FileData, FileData)'</Item>
+               <Item>'FileDataEqualityComparer.Equals(Artifact, Artifact)'</Item>
                <Item>27</Item>
                <Item>25</Item>
               </Issue>
@@ -2808,14 +2808,14 @@
            </Member>
           </Members>
          </Type>
-         <Type Name="FileLocation">
+         <Type Name="ArtifactLocation">
           <Members>
            <Member Name="#.ctor(System.Uri,System.String)">
             <Messages>
              <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Created="2018-08-23 13:05:11Z">
               <Issue>
                <Item>'uriBaseId'</Item>
-               <Item>'FileLocation.FileLocation(Uri, string)'</Item>
+               <Item>'ArtifactLocation.ArtifactLocation(Uri, string)'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -2825,13 +2825,13 @@
              <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Created="2018-08-23 13:05:11Z">
               <Issue>
                <Item>'string.StartsWith(string)'</Item>
-               <Item>'FileLocation.CreateFromFilesDictionaryKey(string)'</Item>
+               <Item>'ArtifactLocation.CreateFromFilesDictionaryKey(string)'</Item>
                <Item>'string.StartsWith(string, StringComparison)'</Item>
               </Issue>
              </Message>
              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Created="2018-08-23 13:07:11Z">
               <Issue>
-               <Item>'FileLocation.CreateFromFilesDictionaryKey(string)'</Item>
+               <Item>'ArtifactLocation.CreateFromFilesDictionaryKey(string)'</Item>
                <Item>key</Item>
               </Issue>
              </Message>
@@ -2841,7 +2841,7 @@
             <Messages>
              <Message TypeName="PassSystemUriObjectsInsteadOfStrings" Category="Microsoft.Usage" CheckId="CA2234" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileLocation.TryReconstructAbsoluteUri(IDictionary&lt;string, Uri&gt;, out Uri)'</Item>
+               <Item>'ArtifactLocation.TryReconstructAbsoluteUri(IDictionary&lt;string, Uri&gt;, out Uri)'</Item>
                <Item>'Uri.Uri(Uri, Uri)'</Item>
                <Item>'Uri.Uri(Uri, string)'</Item>
               </Issue>
@@ -2852,7 +2852,7 @@
             <Messages>
              <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FileLocation.UriBaseId'</Item>
+               <Item>'ArtifactLocation.UriBaseId'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -2910,11 +2910,11 @@
          </Type>
          <Type Name="Fix">
           <Members>
-           <Member Name="#FileChanges">
+           <Member Name="#Changes">
             <Messages>
              <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Fix.FileChanges'</Item>
+               <Item>'Fix.Changes'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -3172,48 +3172,48 @@
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
                <Item>'Invocation.Invocation(Invocation)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;Invocation..ctor(Invocation)&#xD;&#xA;Invocation.Init(IEnumerable&lt;Attachment&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, Int32, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, String, String, Int32, String, Boolean, String, String, Int32, FileLocation, String, IDictionary&lt;String,String&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Invocation..ctor(Invocation)&#xD;&#xA;Invocation.Init(IEnumerable&lt;Attachment&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, Int32, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, String, String, Int32, String, Boolean, String, String, Int32, ArtifactLocation, String, IDictionary&lt;String,String&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
            </Member>
-           <Member Name="#.ctor(System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.FileLocation&gt;,System.DateTime,System.DateTime,System.Int32,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.String,System.String,System.Int32,System.String,System.Boolean,System.String,System.String,System.Int32,Microsoft.CodeAnalysis.Sarif.FileLocation,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,Microsoft.CodeAnalysis.Sarif.FileLocation,Microsoft.CodeAnalysis.Sarif.FileLocation,Microsoft.CodeAnalysis.Sarif.FileLocation,Microsoft.CodeAnalysis.Sarif.FileLocation,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#.ctor(System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.ArtifactLocation&gt;,System.DateTime,System.DateTime,System.Int32,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.String,System.String,System.Int32,System.String,System.Boolean,System.String,System.String,System.Int32,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;Invocation..ctor(IEnumerable&lt;Attachment&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, Int32, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, String, String, Int32, String, Boolean, String, String, Int32, FileLocation, String, IDictionary&lt;String,String&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Invocation.Init(IEnumerable&lt;Attachment&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, Int32, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, String, String, Int32, String, Boolean, String, String, Int32, FileLocation, String, IDictionary&lt;String,String&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Invocation..ctor(IEnumerable&lt;Attachment&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, Int32, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, String, String, Int32, String, Boolean, String, String, Int32, ArtifactLocation, String, IDictionary&lt;String,String&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Invocation.Init(IEnumerable&lt;Attachment&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, Int32, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, String, String, Int32, String, Boolean, String, String, Int32, ArtifactLocation, String, IDictionary&lt;String,String&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
              <Message Id="Stderr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2018-08-23 13:05:11Z">
               <Issue Name="MemberParameter">
-               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>Stderr</Item>
                <Item>'stdoutStderr'</Item>
               </Issue>
              </Message>
              <Message Id="stderr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2018-08-23 13:05:11Z">
               <Issue Name="MemberParameter">
-               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>stderr</Item>
                <Item>'stderr'</Item>
               </Issue>
              </Message>
              <Message Id="stdin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2018-08-23 13:05:11Z">
               <Issue Name="MemberParameter">
-               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>stdin</Item>
                <Item>'stdin'</Item>
               </Issue>
              </Message>
              <Message Id="stdout" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2018-08-23 13:05:11Z">
               <Issue Name="MemberParameter">
-               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>stdout</Item>
                <Item>'stdout'</Item>
               </Issue>
               <Issue Name="MemberParameter">
-               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Invocation.Invocation(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>stdout</Item>
                <Item>'stdoutStderr'</Item>
               </Issue>
@@ -3265,11 +3265,11 @@
              </Message>
             </Messages>
            </Member>
-           <Member Name="#Init(System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.FileLocation&gt;,System.DateTime,System.DateTime,System.Int32,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.String,System.String,System.Int32,System.String,System.Boolean,System.String,System.String,System.Int32,Microsoft.CodeAnalysis.Sarif.FileLocation,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,Microsoft.CodeAnalysis.Sarif.FileLocation,Microsoft.CodeAnalysis.Sarif.FileLocation,Microsoft.CodeAnalysis.Sarif.FileLocation,Microsoft.CodeAnalysis.Sarif.FileLocation,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#Init(System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.ArtifactLocation&gt;,System.DateTime,System.DateTime,System.Int32,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Notification&gt;,System.String,System.String,System.Int32,System.String,System.Boolean,System.String,System.String,System.Int32,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Invocation.Init(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;FileLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, FileLocation, string, IDictionary&lt;string, string&gt;, FileLocation, FileLocation, FileLocation, FileLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Invocation.Init(IEnumerable&lt;Attachment&gt;, string, IEnumerable&lt;string&gt;, IEnumerable&lt;ArtifactLocation&gt;, DateTime, DateTime, int, IEnumerable&lt;Notification&gt;, IEnumerable&lt;Notification&gt;, string, string, int, string, bool, string, string, int, ArtifactLocation, string, IDictionary&lt;string, string&gt;, ArtifactLocation, ArtifactLocation, ArtifactLocation, ArtifactLocation, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>27</Item>
                <Item>25</Item>
               </Issue>
@@ -3621,16 +3621,16 @@
          </Type>
          <Type Name="Region">
           <Members>
-           <Member Name="#.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Microsoft.CodeAnalysis.Sarif.FileContent,Microsoft.CodeAnalysis.Sarif.Message)">
+           <Member Name="#.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Microsoft.CodeAnalysis.Sarif.artifactContent,Microsoft.CodeAnalysis.Sarif.Message)">
             <Messages>
              <Message Id="byte" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Created="2018-08-23 13:05:11Z">
               <Issue Name="LanguageIndependentMemberParameter">
-               <Item>'Region.Region(int, int, int, int, int, int, int, int, FileContent, Message)'</Item>
+               <Item>'Region.Region(int, int, int, int, int, int, int, int, artifactContent, Message)'</Item>
                <Item>byte</Item>
                <Item>'byteLength'</Item>
               </Issue>
               <Issue Name="LanguageIndependentMemberParameter">
-               <Item>'Region.Region(int, int, int, int, int, int, int, int, FileContent, Message)'</Item>
+               <Item>'Region.Region(int, int, int, int, int, int, int, int, artifactContent, Message)'</Item>
                <Item>byte</Item>
                <Item>'byteOffset'</Item>
               </Issue>
@@ -3676,17 +3676,17 @@
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
                <Item>'Result.Result(Result)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;Result..ctor(Result)&#xD;&#xA;Result.Init(String, ResultLevel, Message, String, FileLocation, IEnumerable&lt;Location&gt;, String, String, IDictionary&lt;String,String&gt;, IDictionary&lt;String,String&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Result..ctor(Result)&#xD;&#xA;Result.Init(String, ResultLevel, Message, String, ArtifactLocation, IEnumerable&lt;Location&gt;, String, String, IDictionary&lt;String,String&gt;, IDictionary&lt;String,String&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
            </Member>
-           <Member Name="#.ctor(System.String,Microsoft.CodeAnalysis.Sarif.ResultLevel,Microsoft.CodeAnalysis.Sarif.Message,System.String,Microsoft.CodeAnalysis.Sarif.FileLocation,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,System.String,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Stack&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.CodeFlow&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.GraphTraversal&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,Microsoft.CodeAnalysis.Sarif.SuppressionStates,Microsoft.CodeAnalysis.Sarif.BaselineState,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.Collections.Generic.IEnumerable`1&lt;System.Uri&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.PhysicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Fix&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#.ctor(System.String,Microsoft.CodeAnalysis.Sarif.ResultLevel,Microsoft.CodeAnalysis.Sarif.Message,System.String,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,System.String,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Stack&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.CodeFlow&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.GraphTraversal&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,Microsoft.CodeAnalysis.Sarif.SuppressionStates,Microsoft.CodeAnalysis.Sarif.BaselineState,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.Collections.Generic.IEnumerable`1&lt;System.Uri&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.PhysicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Fix&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Result.Result(string, ResultLevel, Message, string, FileLocation, IEnumerable&lt;Location&gt;, string, string, IDictionary&lt;string, string&gt;, IDictionary&lt;string, string&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;Result..ctor(String, ResultLevel, Message, String, FileLocation, IEnumerable&lt;Location&gt;, String, String, IDictionary&lt;String,String&gt;, IDictionary&lt;String,String&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Result.Init(String, ResultLevel, Message, String, FileLocation, IEnumerable&lt;Location&gt;, String, String, IDictionary&lt;String,String&gt;, IDictionary&lt;String,String&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>'Result.Result(string, ResultLevel, Message, string, ArtifactLocation, IEnumerable&lt;Location&gt;, string, string, IDictionary&lt;string, string&gt;, IDictionary&lt;string, string&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Result..ctor(String, ResultLevel, Message, String, ArtifactLocation, IEnumerable&lt;Location&gt;, String, String, IDictionary&lt;String,String&gt;, IDictionary&lt;String,String&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Result.Init(String, ResultLevel, Message, String, ArtifactLocation, IEnumerable&lt;Location&gt;, String, String, IDictionary&lt;String,String&gt;, IDictionary&lt;String,String&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
@@ -3754,11 +3754,11 @@
              </Message>
             </Messages>
            </Member>
-           <Member Name="#Init(System.String,Microsoft.CodeAnalysis.Sarif.ResultLevel,Microsoft.CodeAnalysis.Sarif.Message,System.String,Microsoft.CodeAnalysis.Sarif.FileLocation,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,System.String,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Stack&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.CodeFlow&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.GraphTraversal&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,Microsoft.CodeAnalysis.Sarif.SuppressionStates,Microsoft.CodeAnalysis.Sarif.BaselineState,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.Collections.Generic.IEnumerable`1&lt;System.Uri&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.PhysicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Fix&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#Init(System.String,Microsoft.CodeAnalysis.Sarif.ResultLevel,Microsoft.CodeAnalysis.Sarif.Message,System.String,Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,System.String,System.String,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Stack&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.CodeFlow&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.GraphTraversal&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Location&gt;,Microsoft.CodeAnalysis.Sarif.SuppressionStates,Microsoft.CodeAnalysis.Sarif.BaselineState,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Attachment&gt;,System.Collections.Generic.IEnumerable`1&lt;System.Uri&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.PhysicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Fix&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Result.Init(string, ResultLevel, Message, string, FileLocation, IEnumerable&lt;Location&gt;, string, string, IDictionary&lt;string, string&gt;, IDictionary&lt;string, string&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Result.Init(string, ResultLevel, Message, string, ArtifactLocation, IEnumerable&lt;Location&gt;, string, string, IDictionary&lt;string, string&gt;, IDictionary&lt;string, string&gt;, IEnumerable&lt;Stack&gt;, IEnumerable&lt;CodeFlow&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;GraphTraversal&gt;, IEnumerable&lt;Location&gt;, SuppressionStates, BaselineState, IEnumerable&lt;Attachment&gt;, IEnumerable&lt;Uri&gt;, IEnumerable&lt;PhysicalLocation&gt;, IEnumerable&lt;Fix&gt;, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>45</Item>
                <Item>25</Item>
               </Issue>
@@ -3959,26 +3959,26 @@
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
                <Item>'Run.Run(Run)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;Run..ctor(Run)&#xD;&#xA;Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;String,Uri&gt;, IDictionary&lt;String,FileData&gt;, IDictionary&lt;String,LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, String, String, Message, String, String, String, String, String, String, ColumnKind, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Run..ctor(Run)&#xD;&#xA;Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;String,Uri&gt;, IDictionary&lt;String,Artifact&gt;, IDictionary&lt;String,LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, String, String, Message, String, String, String, String, String, String, ColumnKind, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
            </Member>
-           <Member Name="#.ctor(Microsoft.CodeAnalysis.Sarif.Tool,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Invocation&gt;,Microsoft.CodeAnalysis.Sarif.Conversion,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.VersionControlDetails&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.Uri&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.FileData&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.LogicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Result&gt;,Microsoft.CodeAnalysis.Sarif.Resources,System.String,System.String,Microsoft.CodeAnalysis.Sarif.Message,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.CodeAnalysis.Sarif.ColumnKind,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#.ctor(Microsoft.CodeAnalysis.Sarif.Tool,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Invocation&gt;,Microsoft.CodeAnalysis.Sarif.Conversion,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.VersionControlDetails&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.Uri&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Artifact&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.LogicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Result&gt;,Microsoft.CodeAnalysis.Sarif.Resources,System.String,System.String,Microsoft.CodeAnalysis.Sarif.Message,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.CodeAnalysis.Sarif.ColumnKind,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Run.Run(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;string, Uri&gt;, IDictionary&lt;string, FileData&gt;, IDictionary&lt;string, LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, string, string, Message, string, string, string, string, string, string, ColumnKind, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
-               <Item>&#xD;&#xA;&#xD;&#xA;Run..ctor(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;String,Uri&gt;, IDictionary&lt;String,FileData&gt;, IDictionary&lt;String,LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, String, String, Message, String, String, String, String, String, String, ColumnKind, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;String,Uri&gt;, IDictionary&lt;String,FileData&gt;, IDictionary&lt;String,LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, String, String, Message, String, String, String, String, String, String, ColumnKind, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
+               <Item>'Run.Run(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;string, Uri&gt;, IDictionary&lt;string, Artifact&gt;, IDictionary&lt;string, LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, string, string, Message, string, string, string, string, string, string, ColumnKind, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>&#xD;&#xA;&#xD;&#xA;Run..ctor(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;String,Uri&gt;, IDictionary&lt;String,Artifact&gt;, IDictionary&lt;String,LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, String, String, Message, String, String, String, String, String, String, ColumnKind, IDictionary&lt;String,SerializedPropertyInfo&gt;)&#xD;&#xA;Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;String,Uri&gt;, IDictionary&lt;String,Artifact&gt;, IDictionary&lt;String,LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, String, String, Message, String, String, String, String, String, String, ColumnKind, IDictionary&lt;String,SerializedPropertyInfo&gt;):Void&#xD;&#xA;PropertyBagHolder.set_Properties(IDictionary&lt;String,SerializedPropertyInfo&gt;):Void</Item>
               </Issue>
              </Message>
             </Messages>
            </Member>
-           <Member Name="#Files">
+           <Member Name="#Artifacts">
             <Messages>
              <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Run.Files'</Item>
+               <Item>'Run.Artifacts'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -3992,11 +3992,11 @@
              </Message>
             </Messages>
            </Member>
-           <Member Name="#Init(Microsoft.CodeAnalysis.Sarif.Tool,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Invocation&gt;,Microsoft.CodeAnalysis.Sarif.Conversion,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.VersionControlDetails&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.Uri&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.FileData&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.LogicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Result&gt;,Microsoft.CodeAnalysis.Sarif.Resources,System.String,System.String,Microsoft.CodeAnalysis.Sarif.Message,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.CodeAnalysis.Sarif.ColumnKind,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
+           <Member Name="#Init(Microsoft.CodeAnalysis.Sarif.Tool,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Invocation&gt;,Microsoft.CodeAnalysis.Sarif.Conversion,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.VersionControlDetails&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,System.Uri&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Artifact&gt;,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.LogicalLocation&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Graph&gt;,System.Collections.Generic.IEnumerable`1&lt;Microsoft.CodeAnalysis.Sarif.Result&gt;,Microsoft.CodeAnalysis.Sarif.Resources,System.String,System.String,Microsoft.CodeAnalysis.Sarif.Message,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.CodeAnalysis.Sarif.ColumnKind,System.Collections.Generic.IDictionary`2&lt;System.String,Microsoft.CodeAnalysis.Sarif.Readers.SerializedPropertyInfo&gt;)">
             <Messages>
              <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;string, Uri&gt;, IDictionary&lt;string, FileData&gt;, IDictionary&lt;string, LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, string, string, Message, string, string, string, string, string, string, ColumnKind, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;string, Uri&gt;, IDictionary&lt;string, Artifact&gt;, IDictionary&lt;string, LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, string, string, Message, string, string, string, string, string, string, ColumnKind, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
                <Item>28</Item>
                <Item>25</Item>
               </Issue>
@@ -4004,7 +4004,7 @@
              <Message Id="originalUriBaseIds" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Created="2018-08-23 13:05:11Z" FixCategory="NonBreaking">
               <Issue>
                <Item>'originalUriBaseIds'</Item>
-               <Item>'Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;string, Uri&gt;, IDictionary&lt;string, FileData&gt;, IDictionary&lt;string, LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, string, string, Message, string, string, string, string, string, string, ColumnKind, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
+               <Item>'Run.Init(Tool, IEnumerable&lt;Invocation&gt;, Conversion, IEnumerable&lt;VersionControlDetails&gt;, IDictionary&lt;string, Uri&gt;, IDictionary&lt;string, Artifact&gt;, IDictionary&lt;string, LogicalLocation&gt;, IEnumerable&lt;Graph&gt;, IEnumerable&lt;Result&gt;, Resources, string, string, Message, string, string, string, string, string, string, ColumnKind, IDictionary&lt;string, SerializedPropertyInfo&gt;)'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -6012,11 +6012,11 @@
          </Type>
          <Type Name="FixVersionOne">
           <Members>
-           <Member Name="#FileChanges">
+           <Member Name="#Changes">
             <Messages>
              <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'FixVersionOne.FileChanges'</Item>
+               <Item>'FixVersionOne.Changes'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -6369,11 +6369,11 @@
              </Message>
             </Messages>
            </Member>
-           <Member Name="#Files">
+           <Member Name="#Artifacts">
             <Messages>
              <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'RunVersionOne.Files'</Item>
+               <Item>'RunVersionOne.Artifacts'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -6865,11 +6865,11 @@
              </Message>
             </Messages>
            </Member>
-           <Member Name="#CreatePhysicalLocation(Microsoft.CodeAnalysis.Sarif.FileLocation)">
+           <Member Name="#CreatePhysicalLocation(Microsoft.CodeAnalysis.Sarif.ArtifactLocation)">
             <Messages>
              <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2018-08-23 13:05:11Z" FixCategory="NonBreaking">
               <Issue>
-               <Item>'SarifCurrentToVersionOneVisitor.CreatePhysicalLocation(FileLocation)'</Item>
+               <Item>'SarifCurrentToVersionOneVisitor.CreatePhysicalLocation(ArtifactLocation)'</Item>
               </Issue>
              </Message>
             </Messages>
@@ -8787,12 +8787,12 @@
          </Type>
          <Type Name="HashAlgorithmsMustBeUnique">
           <Members>
-           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.FileData,System.String,System.String)">
+           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.Artifact,System.String,System.String)">
             <Messages>
              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Created="2018-08-23 13:07:11Z">
               <Issue>
-               <Item>'HashAlgorithmsMustBeUnique.Analyze(FileData, string, string)'</Item>
-               <Item>fileData</Item>
+               <Item>'HashAlgorithmsMustBeUnique.Analyze(Artifact, string, string)'</Item>
+               <Item>artifact</Item>
               </Issue>
              </Message>
             </Messages>
@@ -8877,12 +8877,12 @@
          </Type>
          <Type Name="UriBaseIdRequiresRelativeUri">
           <Members>
-           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.FileLocation,System.String)">
+           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.String)">
             <Messages>
              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Created="2018-08-23 13:07:11Z">
               <Issue>
-               <Item>'UriBaseIdRequiresRelativeUri.Analyze(FileLocation, string)'</Item>
-               <Item>fileLocation</Item>
+               <Item>'UriBaseIdRequiresRelativeUri.Analyze(ArtifactLocation, string)'</Item>
+               <Item>artifactionLocation</Item>
               </Issue>
              </Message>
             </Messages>
@@ -8891,23 +8891,23 @@
          </Type>
          <Type Name="UrisMustBeValid">
           <Members>
-           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.FileData,System.String,System.String)">
+           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.Artifact,System.String,System.String)">
             <Messages>
              <Message TypeName="PassSystemUriObjectsInsteadOfStrings" Category="Microsoft.Usage" CheckId="CA2234" Created="2018-08-23 13:05:11Z">
               <Issue>
-               <Item>'UrisMustBeValid.Analyze(FileData, string, string)'</Item>
+               <Item>'UrisMustBeValid.Analyze(Artifact, string, string)'</Item>
                <Item>'UrisMustBeValid.AnalyzeUri(Uri, string)'</Item>
                <Item>'UrisMustBeValid.AnalyzeUri(string, string)'</Item>
               </Issue>
              </Message>
             </Messages>
            </Member>
-           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.FileLocation,System.String)">
+           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.String)">
             <Messages>
              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Created="2018-08-23 13:07:11Z">
               <Issue>
-               <Item>'UrisMustBeValid.Analyze(FileLocation, string)'</Item>
-               <Item>fileLocation</Item>
+               <Item>'UrisMustBeValid.Analyze(ArtifactLocation, string)'</Item>
+               <Item>artifactionLocation</Item>
               </Issue>
              </Message>
             </Messages>
@@ -8976,12 +8976,12 @@
          </Type>
          <Type Name="UseAbsolutePathsForNestedFileUriFragments">
           <Members>
-           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.FileLocation,System.String)">
+           <Member Name="#Analyze(Microsoft.CodeAnalysis.Sarif.ArtifactLocation,System.String)">
             <Messages>
              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Created="2018-08-23 13:07:11Z">
               <Issue>
-               <Item>'UseAbsolutePathsForNestedFileUriFragments.Analyze(FileLocation, string)'</Item>
-               <Item>fileLocation</Item>
+               <Item>'UseAbsolutePathsForNestedFileUriFragments.Analyze(ArtifactLocation, string)'</Item>
+               <Item>artifactionLocation</Item>
               </Issue>
              </Message>
             </Messages>

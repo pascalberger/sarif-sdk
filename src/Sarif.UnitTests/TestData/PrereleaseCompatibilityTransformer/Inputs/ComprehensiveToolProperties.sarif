@@ -24,7 +24,7 @@
         {
           "ruleId": "TEST1001",
           "message": { "messageId": "a" },
-          "locations": [ { "physicalLocation": { "fileLocation": { "uri": "file.txt" } } } ]
+          "locations": [ { "physicalLocation": { "artifactionLocation": { "uri": "file.txt" } } } ]
         }
       ]
     }

@@ -29,7 +29,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/Code/sarif-sdk/bld/bin/Sarif.Multitool.FunctionalTests/AnyCPU_Debug/netcoreapp2.0/TestData/DeserializationError.sarif"
                 },
                 "region": {
@@ -76,7 +76,7 @@
             {
               "id":"MSG001.AnalyzingTarget",
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/Code/sarif-sdk/bld/bin/Sarif.Multitool.FunctionalTests/AnyCPU_Debug/netcoreapp2.0/TestData/DeserializationError.sarif"
                 }
               },

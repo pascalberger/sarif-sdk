@@ -13,7 +13,7 @@ $ErrorActionPreference = "Stop"
 
 $versionPrefix, $versionSuffix = & "$PSScriptRoot\Get-VersionConstants.ps1"
 
-$versionConstantsFileContents =
+$versionConstantsartifactContents =
 @"
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
@@ -33,5 +33,5 @@ $outputFile = Join-Path $outputDirectory VersionConstants.cs
 
 # We use .NET rather than the PowerShell Set-Content cmdlet because Set-Content
 # intermittently fails with "Stream was not readable".
-[System.IO.File]::WriteAllText($outputFile, $versionConstantsFileContents)
+[System.IO.File]::WriteAllText($outputFile, $versionConstantsartifactContents)
 

@@ -16,7 +16,7 @@
                 "text": "endColumn equals startColumn"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -32,7 +32,7 @@
                 "text": "endColumn equals startColumn; endLine not specified"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -47,7 +47,7 @@
                 "text": "endColumn greater than startColumn"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {
@@ -62,7 +62,7 @@
                 "text": "endColumn not specified"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///c:/src/file.c"
                 },
                 "region": {

@@ -29,7 +29,7 @@
           }
         },
         "file:///home/buildAgent/bin/app.zip#/docs/intro.docx": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file:///docs/intro.docx"
           },
           "parentKey": "file:///home/buildAgent/bin/app.zip",

@@ -51,7 +51,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts"
                 },
                 "region": {
@@ -75,7 +75,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts"
                 },
                 "region": {
@@ -99,7 +99,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts"
                 },
                 "region": {
@@ -123,7 +123,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts"
                 },
                 "region": {
@@ -147,7 +147,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts"
                 },
                 "region": {
@@ -171,7 +171,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoCookies/NoCookiesTestInput-error.ts"
                 },
                 "region": {
@@ -195,7 +195,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts"
                 },
                 "region": {
@@ -219,7 +219,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts"
                 },
                 "region": {
@@ -243,7 +243,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts"
                 },
                 "region": {
@@ -267,7 +267,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts"
                 },
                 "region": {
@@ -291,7 +291,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts"
                 },
                 "region": {
@@ -315,7 +315,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts"
                 },
                 "region": {
@@ -339,7 +339,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts"
                 },
                 "region": {
@@ -363,7 +363,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts"
                 },
                 "region": {
@@ -387,7 +387,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts"
                 },
                 "region": {
@@ -411,7 +411,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts"
                 },
                 "region": {
@@ -435,7 +435,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-literals.ts"
                 },
                 "region": {
@@ -459,7 +459,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-literals.ts"
                 },
                 "region": {
@@ -483,7 +483,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-literals.ts"
                 },
                 "region": {
@@ -507,7 +507,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts"
                 },
                 "region": {
@@ -531,7 +531,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts"
                 },
                 "region": {
@@ -555,7 +555,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts"
                 },
                 "region": {
@@ -579,7 +579,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-walker-error.ts"
                 },
                 "region": {
@@ -603,7 +603,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts"
                 },
                 "region": {
@@ -627,7 +627,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///C:/a2/_work/6/s/SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error4.ts"
                 },
                 "region": {

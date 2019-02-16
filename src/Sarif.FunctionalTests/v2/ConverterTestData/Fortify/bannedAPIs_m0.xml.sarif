@@ -20,7 +20,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -47,7 +47,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -74,7 +74,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -101,7 +101,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -128,7 +128,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -155,7 +155,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -182,7 +182,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -209,7 +209,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -236,7 +236,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -263,7 +263,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -290,7 +290,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -317,7 +317,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -337,7 +337,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -349,7 +349,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -378,7 +378,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -398,7 +398,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -410,7 +410,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -439,7 +439,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -459,7 +459,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -471,7 +471,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -500,7 +500,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -520,7 +520,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -532,7 +532,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -561,7 +561,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -581,7 +581,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -593,7 +593,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -622,7 +622,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -642,7 +642,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -654,7 +654,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -683,7 +683,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -703,7 +703,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -715,7 +715,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -744,7 +744,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -764,7 +764,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -776,7 +776,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -805,7 +805,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -825,7 +825,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -837,7 +837,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -866,7 +866,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -886,7 +886,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -898,7 +898,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -927,7 +927,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -947,7 +947,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -959,7 +959,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -988,7 +988,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1008,7 +1008,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1020,7 +1020,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1049,7 +1049,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1069,7 +1069,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1081,7 +1081,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1110,7 +1110,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1130,7 +1130,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1142,7 +1142,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1171,7 +1171,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1191,7 +1191,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1203,7 +1203,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1232,7 +1232,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1252,7 +1252,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1264,7 +1264,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1293,7 +1293,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1313,7 +1313,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1325,7 +1325,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1354,7 +1354,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1374,7 +1374,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1386,7 +1386,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1415,7 +1415,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1435,7 +1435,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1447,7 +1447,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1476,7 +1476,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1496,7 +1496,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1508,7 +1508,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1537,7 +1537,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1557,7 +1557,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1569,7 +1569,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1598,7 +1598,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1618,7 +1618,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1630,7 +1630,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1659,7 +1659,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1679,7 +1679,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1691,7 +1691,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1720,7 +1720,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1740,7 +1740,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1752,7 +1752,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1781,7 +1781,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1801,7 +1801,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1813,7 +1813,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1842,7 +1842,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1862,7 +1862,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1874,7 +1874,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1903,7 +1903,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1923,7 +1923,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1935,7 +1935,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1964,7 +1964,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -1984,7 +1984,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -1996,7 +1996,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2025,7 +2025,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2045,7 +2045,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2057,7 +2057,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2086,7 +2086,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2106,7 +2106,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2118,7 +2118,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2147,7 +2147,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2167,7 +2167,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2179,7 +2179,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2208,7 +2208,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2228,7 +2228,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2240,7 +2240,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2269,7 +2269,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2289,7 +2289,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2301,7 +2301,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2330,7 +2330,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2350,7 +2350,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2362,7 +2362,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2391,7 +2391,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2411,7 +2411,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2423,7 +2423,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2452,7 +2452,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2472,7 +2472,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2484,7 +2484,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2513,7 +2513,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2533,7 +2533,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2545,7 +2545,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2574,7 +2574,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2594,7 +2594,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2606,7 +2606,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2635,7 +2635,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2655,7 +2655,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2667,7 +2667,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2696,7 +2696,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2716,7 +2716,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2728,7 +2728,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2757,7 +2757,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2777,7 +2777,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2789,7 +2789,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2818,7 +2818,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2838,7 +2838,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2850,7 +2850,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2879,7 +2879,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2899,7 +2899,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2911,7 +2911,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2940,7 +2940,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -2960,7 +2960,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -2972,7 +2972,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3001,7 +3001,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3021,7 +3021,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3033,7 +3033,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3062,7 +3062,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3082,7 +3082,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3094,7 +3094,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3123,7 +3123,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3143,7 +3143,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3155,7 +3155,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3184,7 +3184,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3204,7 +3204,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3216,7 +3216,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3245,7 +3245,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3265,7 +3265,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3277,7 +3277,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3306,7 +3306,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3326,7 +3326,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3338,7 +3338,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3367,7 +3367,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3387,7 +3387,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3399,7 +3399,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3428,7 +3428,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3448,7 +3448,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3460,7 +3460,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3489,7 +3489,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3509,7 +3509,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3521,7 +3521,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3550,7 +3550,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3570,7 +3570,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3582,7 +3582,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3611,7 +3611,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3631,7 +3631,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3643,7 +3643,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3672,7 +3672,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3692,7 +3692,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3704,7 +3704,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3733,7 +3733,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3753,7 +3753,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3765,7 +3765,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3794,7 +3794,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3814,7 +3814,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3826,7 +3826,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3855,7 +3855,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3875,7 +3875,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3887,7 +3887,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3916,7 +3916,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3936,7 +3936,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3948,7 +3948,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -3977,7 +3977,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -3997,7 +3997,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4009,7 +4009,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4038,7 +4038,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4058,7 +4058,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4070,7 +4070,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4099,7 +4099,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4119,7 +4119,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4131,7 +4131,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4160,7 +4160,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4180,7 +4180,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4192,7 +4192,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4221,7 +4221,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4241,7 +4241,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4253,7 +4253,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4282,7 +4282,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4302,7 +4302,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4314,7 +4314,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4343,7 +4343,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4363,7 +4363,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4375,7 +4375,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4404,7 +4404,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4424,7 +4424,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4436,7 +4436,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4465,7 +4465,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4485,7 +4485,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4497,7 +4497,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4526,7 +4526,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4546,7 +4546,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4558,7 +4558,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4587,7 +4587,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4607,7 +4607,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4619,7 +4619,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4648,7 +4648,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4668,7 +4668,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4680,7 +4680,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4709,7 +4709,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4729,7 +4729,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4741,7 +4741,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4770,7 +4770,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4790,7 +4790,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4802,7 +4802,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4831,7 +4831,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4851,7 +4851,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4863,7 +4863,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4892,7 +4892,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4912,7 +4912,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4924,7 +4924,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4953,7 +4953,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -4973,7 +4973,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -4985,7 +4985,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5014,7 +5014,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5034,7 +5034,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5046,7 +5046,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5075,7 +5075,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5095,7 +5095,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5107,7 +5107,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5136,7 +5136,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5156,7 +5156,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5168,7 +5168,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5197,7 +5197,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5217,7 +5217,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5229,7 +5229,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5258,7 +5258,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5278,7 +5278,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5290,7 +5290,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5319,7 +5319,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5339,7 +5339,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5351,7 +5351,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5380,7 +5380,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5400,7 +5400,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5412,7 +5412,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5441,7 +5441,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5461,7 +5461,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5473,7 +5473,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5502,7 +5502,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5522,7 +5522,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5534,7 +5534,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5563,7 +5563,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5583,7 +5583,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5595,7 +5595,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5624,7 +5624,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5644,7 +5644,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5656,7 +5656,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5685,7 +5685,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5705,7 +5705,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5717,7 +5717,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5746,7 +5746,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5773,7 +5773,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5800,7 +5800,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5820,7 +5820,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5832,7 +5832,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5861,7 +5861,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5881,7 +5881,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5893,7 +5893,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5922,7 +5922,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -5942,7 +5942,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5954,7 +5954,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -5983,7 +5983,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6003,7 +6003,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6015,7 +6015,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6044,7 +6044,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6064,7 +6064,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6076,7 +6076,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6105,7 +6105,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6125,7 +6125,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6137,7 +6137,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6166,7 +6166,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6186,7 +6186,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6198,7 +6198,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6227,7 +6227,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6247,7 +6247,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6259,7 +6259,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6288,7 +6288,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6308,7 +6308,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6320,7 +6320,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6349,7 +6349,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6369,7 +6369,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6381,7 +6381,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6410,7 +6410,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6430,7 +6430,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6442,7 +6442,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6471,7 +6471,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.m"
                 },
                 "region": {
@@ -6491,7 +6491,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {
@@ -6503,7 +6503,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "bannedAPIs.m"
                           },
                           "region": {

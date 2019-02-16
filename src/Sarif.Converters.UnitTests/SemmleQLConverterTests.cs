@@ -37,7 +37,7 @@ namespace Microsoft.CodeAnalysis.Sarif
           ""locations"": [
             {
               ""physicalLocation"": {
-                ""fileLocation"": {
+                ""artifactionLocation"": {
                   ""uri"": ""RelativePath"",
                   ""uriBaseId"": ""$srcroot""
                 },
@@ -95,7 +95,7 @@ namespace Microsoft.CodeAnalysis.Sarif
           ""locations"": [
             {
               ""physicalLocation"": {
-                ""fileLocation"": {
+                ""artifactionLocation"": {
                   ""uri"": ""ProjectOne/Microsoft.ResourceManagement.ObjectModel/ClientResource.cs"",
                   ""uriBaseId"": ""$srcroot""
                 },
@@ -112,7 +112,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             {
               ""physicalLocation"": {
                 ""id"": 1,
-                ""fileLocation"": {
+                ""artifactionLocation"": {
                   ""uri"": ""file:///C:/Windows/Company.NET/Framework/v2.0.50727/mscorlib.dll""
                 },
                 ""region"": {}
@@ -121,7 +121,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             {
               ""physicalLocation"": {
                 ""id"": 2,
-                ""fileLocation"": {
+                ""artifactionLocation"": {
                   ""uri"": ""/ClientClient/Company.ResourceManagement.ObjectModel/ClientAttributeValue.cs"",
                   ""uriBaseId"": ""$srcroot""
                 },
@@ -135,7 +135,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             {
               ""physicalLocation"": {
                 ""id"": 3,
-                ""fileLocation"": {
+                ""artifactionLocation"": {
                   ""uri"": ""/ClientClient/Company.ResourceManagement.ObjectModel/ClientAttributeValue_ISerializable.cs"",
                   ""uriBaseId"": ""$srcroot""
                 },

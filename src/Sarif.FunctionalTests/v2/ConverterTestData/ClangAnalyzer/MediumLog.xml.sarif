@@ -20,7 +20,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "jcmarker.c"
                 },
                 "region": {

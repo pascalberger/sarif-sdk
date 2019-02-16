@@ -255,7 +255,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -291,7 +291,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -327,7 +327,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -363,7 +363,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -399,7 +399,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -435,7 +435,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -471,7 +471,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -507,7 +507,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesFailingTestInput.ts",
                   "replacements": [
@@ -543,7 +543,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoCookies/NoCookiesTestInput-error.ts",
                   "replacements": [
@@ -599,7 +599,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -653,7 +653,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -689,7 +689,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -745,7 +745,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -780,7 +780,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -815,7 +815,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -850,7 +850,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoFunctionConstructorWithStringArgsTestInput.ts",
                   "replacements": [
@@ -886,7 +886,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoOctalLiteral/NoOctalLiteralTestInput-passing.ts",
                   "replacements": [
@@ -922,7 +922,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoOctalLiteral/NoOctalLiteralTestInput-passing.ts",
                   "replacements": [
@@ -998,7 +998,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoOctalLiteral/NoOctalLiteralTestInput-passing.ts",
                   "replacements": [
@@ -1094,7 +1094,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1129,7 +1129,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1164,7 +1164,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1320,7 +1320,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1356,7 +1356,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1392,7 +1392,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1588,7 +1588,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1624,7 +1624,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1780,7 +1780,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-any.ts",
                   "replacements": [
@@ -1915,7 +1915,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -1950,7 +1950,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -1985,7 +1985,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2141,7 +2141,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2177,7 +2177,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2213,7 +2213,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2249,7 +2249,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2485,7 +2485,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2521,7 +2521,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2577,7 +2577,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-as.ts",
                   "replacements": [
@@ -2672,7 +2672,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -2707,7 +2707,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -2742,7 +2742,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -2898,7 +2898,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -2934,7 +2934,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -2970,7 +2970,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -3006,7 +3006,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -3222,7 +3222,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -3258,7 +3258,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -3414,7 +3414,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-boolean.ts",
                   "replacements": [
@@ -3509,7 +3509,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts",
                   "replacements": [
@@ -3544,7 +3544,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts",
                   "replacements": [
@@ -3580,7 +3580,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts",
                   "replacements": [
@@ -3656,7 +3656,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-break.ts",
                   "replacements": [
@@ -3751,7 +3751,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts",
                   "replacements": [
@@ -3786,7 +3786,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts",
                   "replacements": [
@@ -3862,7 +3862,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-case.ts",
                   "replacements": [
@@ -3957,7 +3957,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts",
                   "replacements": [
@@ -3992,7 +3992,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts",
                   "replacements": [
@@ -4068,7 +4068,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-catch.ts",
                   "replacements": [
@@ -4143,7 +4143,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-class.ts",
                   "replacements": [
@@ -4178,7 +4178,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-class.ts",
                   "replacements": [
@@ -4314,7 +4314,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts",
                   "replacements": [
@@ -4349,7 +4349,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts",
                   "replacements": [
@@ -4425,7 +4425,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-const.ts",
                   "replacements": [
@@ -4540,7 +4540,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -4575,7 +4575,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -4731,7 +4731,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -4767,7 +4767,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -4803,7 +4803,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -4839,7 +4839,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -5075,7 +5075,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -5111,7 +5111,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -5167,7 +5167,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-constructor.ts",
                   "replacements": [
@@ -5262,7 +5262,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts",
                   "replacements": [
@@ -5297,7 +5297,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts",
                   "replacements": [
@@ -5373,7 +5373,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-continue.ts",
                   "replacements": [
@@ -5468,7 +5468,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts",
                   "replacements": [
@@ -5503,7 +5503,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts",
                   "replacements": [
@@ -5579,7 +5579,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-debugger.ts",
                   "replacements": [
@@ -5714,7 +5714,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -5749,7 +5749,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -5784,7 +5784,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -5940,7 +5940,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -5976,7 +5976,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -6012,7 +6012,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -6048,7 +6048,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -6284,7 +6284,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -6320,7 +6320,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -6376,7 +6376,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-declare.ts",
                   "replacements": [
@@ -6471,7 +6471,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts",
                   "replacements": [
@@ -6506,7 +6506,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts",
                   "replacements": [
@@ -6582,7 +6582,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-default.ts",
                   "replacements": [
@@ -6677,7 +6677,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts",
                   "replacements": [
@@ -6712,7 +6712,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts",
                   "replacements": [
@@ -6788,7 +6788,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-delete.ts",
                   "replacements": [
@@ -6883,7 +6883,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts",
                   "replacements": [
@@ -6918,7 +6918,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts",
                   "replacements": [
@@ -6994,7 +6994,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-do.ts",
                   "replacements": [
@@ -7089,7 +7089,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts",
                   "replacements": [
@@ -7124,7 +7124,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts",
                   "replacements": [
@@ -7200,7 +7200,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-else.ts",
                   "replacements": [
@@ -7295,7 +7295,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts",
                   "replacements": [
@@ -7330,7 +7330,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts",
                   "replacements": [
@@ -7406,7 +7406,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-enum.ts",
                   "replacements": [
@@ -7501,7 +7501,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts",
                   "replacements": [
@@ -7536,7 +7536,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts",
                   "replacements": [
@@ -7612,7 +7612,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-export.ts",
                   "replacements": [
@@ -7707,7 +7707,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts",
                   "replacements": [
@@ -7742,7 +7742,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts",
                   "replacements": [
@@ -7818,7 +7818,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-extends.ts",
                   "replacements": [
@@ -7853,7 +7853,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts",
                   "replacements": [
@@ -7948,7 +7948,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts",
                   "replacements": [
@@ -7983,7 +7983,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts",
                   "replacements": [
@@ -8059,7 +8059,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-false.ts",
                   "replacements": [
@@ -8154,7 +8154,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts",
                   "replacements": [
@@ -8189,7 +8189,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts",
                   "replacements": [
@@ -8265,7 +8265,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-finally.ts",
                   "replacements": [
@@ -8360,7 +8360,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts",
                   "replacements": [
@@ -8395,7 +8395,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts",
                   "replacements": [
@@ -8471,7 +8471,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-for.ts",
                   "replacements": [
@@ -8606,7 +8606,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -8641,7 +8641,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -8676,7 +8676,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -8832,7 +8832,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -8868,7 +8868,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -8904,7 +8904,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -8940,7 +8940,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -9176,7 +9176,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -9212,7 +9212,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -9268,7 +9268,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-from.ts",
                   "replacements": [
@@ -9363,7 +9363,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts",
                   "replacements": [
@@ -9398,7 +9398,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts",
                   "replacements": [
@@ -9474,7 +9474,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-function.ts",
                   "replacements": [
@@ -9609,7 +9609,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -9644,7 +9644,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -9679,7 +9679,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -9835,7 +9835,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -9871,7 +9871,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -9907,7 +9907,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -9943,7 +9943,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -10179,7 +10179,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -10215,7 +10215,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -10271,7 +10271,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-get.ts",
                   "replacements": [
@@ -10366,7 +10366,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts",
                   "replacements": [
@@ -10401,7 +10401,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts",
                   "replacements": [
@@ -10477,7 +10477,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-if.ts",
                   "replacements": [
@@ -10572,7 +10572,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -10607,7 +10607,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -10723,7 +10723,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -10759,7 +10759,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -10795,7 +10795,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -10951,7 +10951,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -10987,7 +10987,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -11043,7 +11043,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-implements.ts",
                   "replacements": [
@@ -11138,7 +11138,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts",
                   "replacements": [
@@ -11173,7 +11173,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts",
                   "replacements": [
@@ -11249,7 +11249,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-import.ts",
                   "replacements": [
@@ -11344,7 +11344,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts",
                   "replacements": [
@@ -11379,7 +11379,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts",
                   "replacements": [
@@ -11455,7 +11455,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-in.ts",
                   "replacements": [
@@ -11550,7 +11550,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts",
                   "replacements": [
@@ -11585,7 +11585,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts",
                   "replacements": [
@@ -11661,7 +11661,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-instanceof.ts",
                   "replacements": [
@@ -11756,7 +11756,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -11791,7 +11791,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -11907,7 +11907,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -11943,7 +11943,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -11979,7 +11979,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -12135,7 +12135,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -12171,7 +12171,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -12227,7 +12227,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-interface.ts",
                   "replacements": [
@@ -12322,7 +12322,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12357,7 +12357,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12473,7 +12473,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12509,7 +12509,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12545,7 +12545,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12701,7 +12701,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12737,7 +12737,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12793,7 +12793,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-let.ts",
                   "replacements": [
@@ -12928,7 +12928,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -12963,7 +12963,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -12998,7 +12998,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13154,7 +13154,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13190,7 +13190,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13226,7 +13226,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13262,7 +13262,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13378,7 +13378,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13434,7 +13434,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-module.ts",
                   "replacements": [
@@ -13529,7 +13529,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts",
                   "replacements": [
@@ -13564,7 +13564,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts",
                   "replacements": [
@@ -13640,7 +13640,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-new.ts",
                   "replacements": [
@@ -13735,7 +13735,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts",
                   "replacements": [
@@ -13770,7 +13770,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts",
                   "replacements": [
@@ -13846,7 +13846,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-null.ts",
                   "replacements": [
@@ -13941,7 +13941,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -13976,7 +13976,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14011,7 +14011,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14167,7 +14167,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14203,7 +14203,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14239,7 +14239,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14275,7 +14275,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14491,7 +14491,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14527,7 +14527,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14683,7 +14683,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-number.ts",
                   "replacements": [
@@ -14818,7 +14818,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -14853,7 +14853,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -14888,7 +14888,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15044,7 +15044,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15080,7 +15080,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15116,7 +15116,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15152,7 +15152,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15388,7 +15388,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15424,7 +15424,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15480,7 +15480,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-of.ts",
                   "replacements": [
@@ -15575,7 +15575,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -15610,7 +15610,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -15726,7 +15726,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -15762,7 +15762,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -15798,7 +15798,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -15954,7 +15954,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -15990,7 +15990,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -16046,7 +16046,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-package.ts",
                   "replacements": [
@@ -16141,7 +16141,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16176,7 +16176,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16292,7 +16292,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16328,7 +16328,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16364,7 +16364,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16520,7 +16520,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16556,7 +16556,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16612,7 +16612,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-private.ts",
                   "replacements": [
@@ -16707,7 +16707,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -16742,7 +16742,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -16858,7 +16858,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -16894,7 +16894,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -16930,7 +16930,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -17086,7 +17086,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -17122,7 +17122,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -17178,7 +17178,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-protected.ts",
                   "replacements": [
@@ -17273,7 +17273,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17308,7 +17308,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17424,7 +17424,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17460,7 +17460,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17496,7 +17496,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17652,7 +17652,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17688,7 +17688,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17744,7 +17744,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-public.ts",
                   "replacements": [
@@ -17879,7 +17879,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -17914,7 +17914,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -17949,7 +17949,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18105,7 +18105,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18141,7 +18141,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18177,7 +18177,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18213,7 +18213,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18329,7 +18329,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18385,7 +18385,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-require.ts",
                   "replacements": [
@@ -18480,7 +18480,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts",
                   "replacements": [
@@ -18515,7 +18515,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts",
                   "replacements": [
@@ -18591,7 +18591,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-return.ts",
                   "replacements": [
@@ -18726,7 +18726,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -18761,7 +18761,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -18796,7 +18796,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -18952,7 +18952,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -18988,7 +18988,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -19024,7 +19024,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -19060,7 +19060,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -19296,7 +19296,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -19332,7 +19332,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -19388,7 +19388,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-set.ts",
                   "replacements": [
@@ -19483,7 +19483,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19518,7 +19518,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19634,7 +19634,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19670,7 +19670,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19706,7 +19706,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19862,7 +19862,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19898,7 +19898,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -19954,7 +19954,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-static.ts",
                   "replacements": [
@@ -20049,7 +20049,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20084,7 +20084,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20119,7 +20119,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20275,7 +20275,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20311,7 +20311,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20347,7 +20347,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20383,7 +20383,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20599,7 +20599,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20635,7 +20635,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20791,7 +20791,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-string.ts",
                   "replacements": [
@@ -20886,7 +20886,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts",
                   "replacements": [
@@ -20921,7 +20921,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts",
                   "replacements": [
@@ -20997,7 +20997,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-super.ts",
                   "replacements": [
@@ -21092,7 +21092,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts",
                   "replacements": [
@@ -21127,7 +21127,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts",
                   "replacements": [
@@ -21203,7 +21203,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-switch.ts",
                   "replacements": [
@@ -21298,7 +21298,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21333,7 +21333,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21368,7 +21368,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21524,7 +21524,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21560,7 +21560,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21596,7 +21596,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21632,7 +21632,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21848,7 +21848,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21884,7 +21884,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -21940,7 +21940,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-symbol.ts",
                   "replacements": [
@@ -22035,7 +22035,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts",
                   "replacements": [
@@ -22070,7 +22070,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts",
                   "replacements": [
@@ -22146,7 +22146,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-this.ts",
                   "replacements": [
@@ -22241,7 +22241,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts",
                   "replacements": [
@@ -22276,7 +22276,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts",
                   "replacements": [
@@ -22352,7 +22352,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-throw.ts",
                   "replacements": [
@@ -22447,7 +22447,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts",
                   "replacements": [
@@ -22482,7 +22482,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts",
                   "replacements": [
@@ -22558,7 +22558,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-true.ts",
                   "replacements": [
@@ -22653,7 +22653,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts",
                   "replacements": [
@@ -22688,7 +22688,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts",
                   "replacements": [
@@ -22764,7 +22764,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-try.ts",
                   "replacements": [
@@ -22899,7 +22899,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -22934,7 +22934,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -22969,7 +22969,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23125,7 +23125,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23161,7 +23161,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23197,7 +23197,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23233,7 +23233,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23469,7 +23469,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23505,7 +23505,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23561,7 +23561,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-type.ts",
                   "replacements": [
@@ -23656,7 +23656,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts",
                   "replacements": [
@@ -23691,7 +23691,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts",
                   "replacements": [
@@ -23767,7 +23767,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-typeof.ts",
                   "replacements": [
@@ -23882,7 +23882,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts",
                   "replacements": [
@@ -23917,7 +23917,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts",
                   "replacements": [
@@ -24013,7 +24013,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-var.ts",
                   "replacements": [
@@ -24108,7 +24108,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts",
                   "replacements": [
@@ -24143,7 +24143,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts",
                   "replacements": [
@@ -24219,7 +24219,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-void.ts",
                   "replacements": [
@@ -24314,7 +24314,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts",
                   "replacements": [
@@ -24349,7 +24349,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts",
                   "replacements": [
@@ -24425,7 +24425,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-while.ts",
                   "replacements": [
@@ -24520,7 +24520,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts",
                   "replacements": [
@@ -24555,7 +24555,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts",
                   "replacements": [
@@ -24631,7 +24631,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-with.ts",
                   "replacements": [
@@ -24726,7 +24726,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -24761,7 +24761,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -24877,7 +24877,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -24913,7 +24913,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -24949,7 +24949,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -25105,7 +25105,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -25141,7 +25141,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -25197,7 +25197,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoReservedKeywords/NoReservedKeywordsTestInput-yield.ts",
                   "replacements": [
@@ -25251,7 +25251,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-functions.ts",
                   "replacements": [
@@ -25306,7 +25306,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts",
                   "replacements": [
@@ -25342,7 +25342,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-any-variables.ts",
                   "replacements": [
@@ -25378,7 +25378,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts",
                   "replacements": [
@@ -25423,7 +25423,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts",
                   "replacements": [
@@ -25459,7 +25459,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts",
                   "replacements": [
@@ -25495,7 +25495,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-functions.ts",
                   "replacements": [
@@ -25530,7 +25530,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts",
                   "replacements": [
@@ -25566,7 +25566,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-string-variables.ts",
                   "replacements": [
@@ -25622,7 +25622,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-walker-error.ts",
                   "replacements": [
@@ -25678,7 +25678,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutFailingTestInput-walker-error.ts",
                   "replacements": [
@@ -25714,7 +25714,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error.ts",
                   "replacements": [
@@ -25789,7 +25789,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error.ts",
                   "replacements": [
@@ -25845,7 +25845,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -25920,7 +25920,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -25976,7 +25976,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -26032,7 +26032,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -26068,7 +26068,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -26104,7 +26104,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -26140,7 +26140,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error3.ts",
                   "replacements": [
@@ -26196,7 +26196,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error4.ts",
                   "replacements": [
@@ -26252,7 +26252,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error4.ts",
                   "replacements": [
@@ -26288,7 +26288,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error5.ts",
                   "replacements": [
@@ -26363,7 +26363,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error5.ts",
                   "replacements": [
@@ -26419,7 +26419,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoStringBasedSetTimeout/NoStringBasedSetTimeoutTestInput-error5.ts",
                   "replacements": [
@@ -26455,7 +26455,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoUnnecessarySemicolonsTestInput.ts",
                   "replacements": [
@@ -26510,7 +26510,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoUnnecessarySemicolonsTestInput.ts",
                   "replacements": [
@@ -26546,7 +26546,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoUnnecessarySemicolonsTestInput.ts",
                   "replacements": [
@@ -26582,7 +26582,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoUnnecessarySemicolonsTestInput.ts",
                   "replacements": [
@@ -26618,7 +26618,7 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
                   "uri": "SecureApp/ts/test-data/NoUnnecessarySemicolonsTestInput.ts",
                   "replacements": [

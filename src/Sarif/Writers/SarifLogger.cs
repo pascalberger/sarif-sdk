@@ -40,25 +40,25 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
 
             if (analysisTargets != null)
             {
-                run.Files = new List<FileData>();
+                run.Artifacts = new List<Artifact>();
 
                 foreach (string target in analysisTargets)
                 {
                     Uri uri = new Uri(UriHelper.MakeValidUri(target), UriKind.RelativeOrAbsolute);
 
-                    var fileData = FileData.Create(
+                    var artifact = Artifact.Create(
                         new Uri(target, UriKind.RelativeOrAbsolute),
                         dataToInsert);
 
-                    var fileLocation = new FileLocation
+                    var artifactionLocation = new ArtifactLocation
                     {
                         Uri = uri
                     };
 
-                    fileData.FileLocation = fileLocation;
+                    artifact.Location = artifactionLocation;
 
-                    // This call will insert the file object into run.Files if not already present
-                    fileData.FileLocation.FileIndex = run.GetFileIndex(fileData.FileLocation, addToFilesTableIfNotPresent: true, dataToInsert);
+                    // This call will insert the file object into run.Artifacts if not already present
+                    artifact.Location.Index = run.GetFileIndex(artifact.Location, addToFilesTableIfNotPresent: true, dataToInsert);
                 }
             }
 
@@ -197,7 +197,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
 
         public bool PersistBinaryContents { get { return _dataToInsert.HasFlag(OptionallyEmittedData.BinaryFiles); } }
 
-        public bool PersistTextFileContents { get { return _dataToInsert.HasFlag(OptionallyEmittedData.TextFiles); } }
+        public bool PersistTextartifactContents { get { return _dataToInsert.HasFlag(OptionallyEmittedData.TextFiles); } }
 
         public bool PersistEnvironment { get { return _dataToInsert.HasFlag(OptionallyEmittedData.EnvironmentVariables); } }
 
@@ -225,9 +225,9 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                     _issueLogJsonWriter.WriteTool(_run.Tool);
                 }
 
-                if (_run?.Files != null)
+                if (_run?.Artifacts != null)
                 {
-                    _issueLogJsonWriter.WriteFiles(_run.Files);
+                    _issueLogJsonWriter.WriteFiles(_run.Artifacts);
                 }
 
                 if (_run?.Invocations != null)
@@ -328,7 +328,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                 {
                     if (location.PhysicalLocation != null)
                     {
-                        CaptureFile(location.PhysicalLocation.FileLocation);
+                        CaptureFile(location.PhysicalLocation.ArtifactLocation);
                     }
                 }
             }
@@ -339,7 +339,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                 {
                     if (relatedLocation.PhysicalLocation != null)
                     {
-                        CaptureFile(relatedLocation.PhysicalLocation.FileLocation);
+                        CaptureFile(relatedLocation.PhysicalLocation.ArtifactLocation);
                     }
                 }
             }
@@ -350,7 +350,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                 {
                     foreach (StackFrame frame in stack.Frames)
                     {
-                        CaptureFile(frame.Location?.PhysicalLocation?.FileLocation);
+                        CaptureFile(frame.Location?.PhysicalLocation?.ArtifactLocation);
                     }
                 }
             }
@@ -370,11 +370,11 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             {
                 foreach (Fix fix in result.Fixes)
                 {
-                    if (fix.FileChanges != null)
+                    if (fix.Changes != null)
                     {
-                        foreach (FileChange fileChange in fix.FileChanges)
+                        foreach (ArtifactChange artifactChange in fix.Changes)
                         {
-                            CaptureFile(fileChange.FileLocation);
+                            CaptureFile(artifactChange.ArtifactLocation);
                         }
                     }
                 }
@@ -389,14 +389,14 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             {
                 if (tfl.Location?.PhysicalLocation != null)
                 {
-                    CaptureFile(tfl.Location.PhysicalLocation.FileLocation);
+                    CaptureFile(tfl.Location.PhysicalLocation.ArtifactLocation);
                 }
             }
         }
 
-        private void CaptureFile(FileLocation fileLocation)
+        private void CaptureFile(ArtifactLocation artifactionLocation)
         {             
-            if (fileLocation == null || fileLocation.Uri == null)
+            if (artifactionLocation == null || artifactionLocation.Uri == null)
             {
                 return;
             }
@@ -413,7 +413,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
             }
 
             _run.GetFileIndex(
-                fileLocation, 
+                artifactionLocation, 
                 addToFilesTableIfNotPresent: true,
                 _dataToInsert,
                 encoding);
@@ -442,7 +442,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                 {
                     PhysicalLocation = new PhysicalLocation
                     {
-                        FileLocation = new FileLocation
+                        ArtifactLocation = new ArtifactLocation
                         {
                             Uri = context.TargetUri
                         }
@@ -496,7 +496,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Writers
                     new Sarif.Location {
                         PhysicalLocation = new PhysicalLocation
                         {
-                            FileLocation = new FileLocation
+                            ArtifactLocation = new ArtifactLocation
                             {
                                 Uri = new Uri(targetPath)
                             },

@@ -83,7 +83,7 @@
                 "text": "Exception evaluating rule \"C2152\". Rule disabled; run continues."
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/crypto/hash.cpp"
                 }
               },
@@ -164,7 +164,7 @@
           "mimeType": "application/zip"
         },
         "file:///home/buildAgent/bin/app.zip#/docs/intro.docx": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "/docs/intro.docx"
           },
           "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -215,7 +215,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/collections/list.h"
                 },
                 "region": {
@@ -240,7 +240,7 @@
               },
               "physicalLocation": {
                 "id": 1,
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///home/buildAgent/src/collections/list.h"
                 },
                 "region": {
@@ -264,7 +264,7 @@
                       "importance": "essential",
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -291,7 +291,7 @@
                       "importance": "unimportant",
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -312,7 +312,7 @@
                       "importance": "essential",
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file:///home/buildAgent/src/collections/list.h"
                           },
                           "region": {
@@ -346,7 +346,7 @@
                 {
                   "location": {
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file:///home/buildAgent/src/collections/list.h"
                       },
                       "region": {
@@ -368,7 +368,7 @@
                 {
                   "location": {
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file:///home/buildAgent/src/collections/list.h"
                       },
                       "region": {
@@ -387,7 +387,7 @@
                 {
                   "location": {
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file:///home/buildAgent/src/application/main.cpp"
                       },
                       "region": {
@@ -410,9 +410,9 @@
               "description": {
                 "text": "Initialize the variable to null"
               },
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "file:///home/buildAgent/src/collections/list.h"
                   },
                   "replacements": [

@@ -53,7 +53,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Readers
                 throw new ArgumentNullException(nameof(writer));
             }
 
-            if (!(value is SuppressionStates || value is FileRoles))
+            if (!(value is SuppressionStates || value is ArtifactRoles))
             {
                 writer.WriteValue(value);
                 return;
@@ -62,7 +62,6 @@ namespace Microsoft.CodeAnalysis.Sarif.Readers
             string flagsEnumValue = value.ToString();
 
             string[] tokens = flagsEnumValue.Split(',');
-
 
             for (int i = 0; i < tokens.Length; i++)
             {

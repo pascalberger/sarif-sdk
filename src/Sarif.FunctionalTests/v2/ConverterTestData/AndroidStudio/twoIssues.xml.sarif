@@ -48,7 +48,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "yammer-droid-2/src/test/java/com/yammer/droid/AdditionOperationTest.java"
                 },
                 "region": {
@@ -71,7 +71,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "yammer-droid-2/src/main/java/com/yammer/droid/ui/MessageUIBean.java"
                 },
                 "region": {

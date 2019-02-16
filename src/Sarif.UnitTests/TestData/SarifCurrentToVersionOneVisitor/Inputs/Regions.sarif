@@ -16,7 +16,7 @@
                 "text": "Ambiguous region end with no start values"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/base/driver.cs"
                 },
                 "region": {
@@ -30,7 +30,7 @@
                 "text": "startColumn/Line same as charOffset"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/base/driver.cs"
                 },
                 "region": {
@@ -46,7 +46,7 @@
                 "text": "startColumn/Line same as charOffset"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/base/driver.cs"
                 },
                 "region": {
@@ -62,7 +62,7 @@
                 "text": "startLine and startColumn only"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/base/driver.cs"
                 },
                 "region": {
@@ -77,7 +77,7 @@
                 "text": "startLine only"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/ui/client.cs"
                 },
                 "region": {
@@ -91,7 +91,7 @@
                 "text": "One whole line"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/ui/client.cs"
                 },
                 "region": {
@@ -109,7 +109,7 @@
                 "text": "Unicode text property"
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file:///src/ui/unicodeText.cs"
                 },
                 "region": {
@@ -123,7 +123,7 @@
       ],
       "files": {
         "file:///src/base/driver.cs": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file:///src/base/driver.cs"
           },
           "encoding": "unicode",
@@ -132,7 +132,7 @@
           }
         },
         "file:///src/ui/client.cs": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file:///src/ui/client.cs"
           },
           "mimeType": "text/x-csharp",
@@ -141,7 +141,7 @@
           }
         },
         "file:///src/ui/unicodeText.cs": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file:///src/ui/unicodeText.cs"
           },
           "mimeType": "text/x-csharp",

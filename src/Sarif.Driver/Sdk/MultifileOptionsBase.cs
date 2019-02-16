@@ -24,7 +24,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Driver
 
         [Value(0,
             MetaName = "<files>",
-            HelpText = "Files to process (wildcards ? and * allowed).",
+            HelpText = "Artifacts to process (wildcards ? and * allowed).",
             Required = false)]
         public IEnumerable<string> TargetFileSpecifiers { get; internal set; }
 

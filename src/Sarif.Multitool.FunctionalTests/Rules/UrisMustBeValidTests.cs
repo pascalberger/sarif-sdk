@@ -8,11 +8,11 @@ namespace Microsoft.CodeAnalysis.Sarif.Multitool.Rules
     // There are far fewer tests of this rule (UrisMustBeValid) than there are of the
     // rule UriBaseIdRequiresRelativeUri, despite the fact that both rules evaluate
     // URI-valued strings wherever they occur in the file format. The reason is that
-    // most URI-valued strings occur in the "uri" property of a fileLocation object.
+    // most URI-valued strings occur in the "uri" property of a artifactionLocation object.
     // The tests for UriBaseIdRequiresRelativeUri exhaustively cover all occurrences
-    // of the fileLocation object in the format, so we know that all those "uri"
+    // of the artifactionLocation object in the format, so we know that all those "uri"
     // properties will be visited in the course of the analysis. So for this rule,
-    // we only need verify that the analysis works for one fileLocation object -- we
+    // we only need verify that the analysis works for one artifactionLocation object -- we
     // choose the one in the result.analysisTarget property -- and for any "loose URIs"
     // that occur in the format, such as "rule.helpUri".
 

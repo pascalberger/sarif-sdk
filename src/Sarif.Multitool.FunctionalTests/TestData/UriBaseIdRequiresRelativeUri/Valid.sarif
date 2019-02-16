@@ -19,7 +19,7 @@
       },
       "files": {
         "file.c": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "file.c",
             "uriBaseId": "%SRCROOT%"
           }
@@ -33,7 +33,7 @@
               "id": "n1",
               "location": {
                 "physicalLocation": {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "file.c",
                     "uriBaseId": "%SRCROOT%"
                   }
@@ -54,7 +54,7 @@
         {
           "attachments": [
             {
-              "fileLocation": {
+              "artifactionLocation": {
                 "uri": "file.c",
                 "uriBaseId": "%SRCROOT%"
               }
@@ -66,7 +66,7 @@
                 "text": "Message."
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.c",
                   "uriBaseId": "%SRCROOT%"
                 }
@@ -105,7 +105,7 @@
                 "text": "Message."
               },
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.c",
                   "uriBaseId": "%SRCROOT%"
                 }
@@ -124,7 +124,7 @@
           },
           "attachments": [
             {
-              "fileLocation": {
+              "artifactionLocation": {
                 "uri": "file.c",
                 "uriBaseId": "%SRCROOT%"
               }
@@ -133,7 +133,7 @@
           "provenance": {
             "conversionSources": [
               {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.c",
                   "uriBaseId": "%SRCROOT%"
                 }
@@ -148,7 +148,7 @@
                   "id": "n1",
                   "location": {
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file.c",
                         "uriBaseId": "%SRCROOT%"
                       }
@@ -168,7 +168,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.c",
                   "uriBaseId": "%SRCROOT%"
                 }
@@ -178,7 +178,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "file.c",
                   "uriBaseId": "%SRCROOT%"
                 }
@@ -193,7 +193,7 @@
                     {
                       "location": {
                         "physicalLocation": {
-                          "fileLocation": {
+                          "artifactionLocation": {
                             "uri": "file.c",
                             "uriBaseId": "%SRCROOT%"
                           }
@@ -211,7 +211,7 @@
                 {
                   "location": {
                     "physicalLocation": {
-                      "fileLocation": {
+                      "artifactionLocation": {
                         "uri": "file.c",
                         "uriBaseId": "%SRCROOT%"
                       }
@@ -223,9 +223,9 @@
           ],
           "fixes": [
             {
-              "fileChanges": [
+              "changes": [
                 {
-                  "fileLocation": {
+                  "artifactionLocation": {
                     "uri": "file.c",
                     "uriBaseId": "%SRCROOT%"
                   },

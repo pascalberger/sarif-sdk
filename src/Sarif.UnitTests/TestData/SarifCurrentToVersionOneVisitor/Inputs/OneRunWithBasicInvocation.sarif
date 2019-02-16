@@ -35,7 +35,7 @@
       ],
       "files": {
         "collections.rsp": {
-          "fileLocation": {
+          "artifactionLocation": {
             "uri": "collections.rsp"
           },
           "contents": {

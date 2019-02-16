@@ -20,7 +20,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -46,7 +46,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -72,7 +72,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -98,7 +98,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -124,7 +124,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -150,7 +150,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -176,7 +176,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -202,7 +202,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -228,7 +228,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -254,7 +254,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -280,7 +280,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -306,7 +306,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -332,7 +332,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -358,7 +358,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -384,7 +384,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -410,7 +410,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -436,7 +436,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -462,7 +462,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -488,7 +488,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -514,7 +514,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -540,7 +540,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -566,7 +566,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -592,7 +592,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -618,7 +618,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -644,7 +644,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -670,7 +670,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -696,7 +696,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -722,7 +722,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -748,7 +748,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -774,7 +774,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -800,7 +800,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -826,7 +826,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {
@@ -852,7 +852,7 @@
           "locations": [
             {
               "physicalLocation": {
-                "fileLocation": {
+                "artifactionLocation": {
                   "uri": "bannedAPIs.java"
                 },
                 "region": {

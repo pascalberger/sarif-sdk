@@ -244,7 +244,7 @@
         }
       }
     },
-    "fileChange": {
+    "artifactChange": {
       "description": "A change to a single file.",
       "additionalProperties": false,
       "type": "object",
@@ -363,15 +363,15 @@
           "type": "string"
         },
 
-        "fileChanges": {
+        "changes": {
           "description": "One or more file changes that comprise a fix for a result.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/fileChange"
+            "$ref": "#/definitions/artifactChange"
           }
         }
       },
-      "required": [ "fileChanges" ]
+      "required": [ "changes" ]
     },
     "formattedRuleMessage": {
       "description": "Contains information that can be used to construct a formatted message that describes a result.",

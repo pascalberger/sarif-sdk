@@ -248,7 +248,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             int offset = lineInfo.StartOffset;
             offset += region.StartColumn - 1;
 
-            if (region.CharOffset == 0)
+            if (region.CharOffset == 0 || region.CharOffset == -1)
             {
                 region.CharOffset = offset;
             }

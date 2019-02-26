@@ -1,3 +1,3 @@
 class c {
-   const pwd = "password@123";
+   const pwd = "Password@123";
 }

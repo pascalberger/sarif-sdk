@@ -28,17 +28,12 @@ namespace Microsoft.CodeAnalysis.Sarif
                 return false;
             }
 
-            if (left.Id != right.Id)
+            if (!ReportingDescriptorReference.ValueComparer.Equals(left.NotificationDescriptorReference, right.NotificationDescriptorReference))
             {
                 return false;
             }
 
-            if (left.RuleId != right.RuleId)
-            {
-                return false;
-            }
-
-            if (left.RuleIndex != right.RuleIndex)
+            if (!ReportingDescriptorReference.ValueComparer.Equals(left.AssociatedRuleDescriptorReference, right.AssociatedRuleDescriptorReference))
             {
                 return false;
             }
@@ -108,17 +103,16 @@ namespace Microsoft.CodeAnalysis.Sarif
             int result = 17;
             unchecked
             {
-                if (obj.Id != null)
+                if (obj.NotificationDescriptorReference != null)
                 {
-                    result = (result * 31) + obj.Id.GetHashCode();
+                    result = (result * 31) + obj.NotificationDescriptorReference.ValueGetHashCode();
                 }
 
-                if (obj.RuleId != null)
+                if (obj.AssociatedRuleDescriptorReference != null)
                 {
-                    result = (result * 31) + obj.RuleId.GetHashCode();
+                    result = (result * 31) + obj.AssociatedRuleDescriptorReference.ValueGetHashCode();
                 }
 
-                result = (result * 31) + obj.RuleIndex.GetHashCode();
                 if (obj.PhysicalLocation != null)
                 {
                     result = (result * 31) + obj.PhysicalLocation.ValueGetHashCode();

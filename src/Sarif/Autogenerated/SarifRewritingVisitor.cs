@@ -106,6 +106,8 @@ namespace Microsoft.CodeAnalysis.Sarif
                     return VisitReportingConfigurationOverride((ReportingConfigurationOverride)node);
                 case SarifNodeKind.ReportingDescriptor:
                     return VisitReportingDescriptor((ReportingDescriptor)node);
+                case SarifNodeKind.ReportingDescriptorReference:
+                    return VisitReportingDescriptorReference((ReportingDescriptorReference)node);
                 case SarifNodeKind.Result:
                     return VisitResult((Result)node);
                 case SarifNodeKind.ResultProvenance:
@@ -415,11 +417,19 @@ namespace Microsoft.CodeAnalysis.Sarif
                     }
                 }
 
-                if (node.ReportingConfigurationOverrides != null)
+                if (node.NotificationConfigurationOverrides != null)
                 {
-                    for (int index_0 = 0; index_0 < node.ReportingConfigurationOverrides.Count; ++index_0)
+                    for (int index_0 = 0; index_0 < node.NotificationConfigurationOverrides.Count; ++index_0)
                     {
-                        node.ReportingConfigurationOverrides[index_0] = VisitNullChecked(node.ReportingConfigurationOverrides[index_0]);
+                        node.NotificationConfigurationOverrides[index_0] = VisitNullChecked(node.NotificationConfigurationOverrides[index_0]);
+                    }
+                }
+
+                if (node.RuleConfigurationOverrides != null)
+                {
+                    for (int index_0 = 0; index_0 < node.RuleConfigurationOverrides.Count; ++index_0)
+                    {
+                        node.RuleConfigurationOverrides[index_0] = VisitNullChecked(node.RuleConfigurationOverrides[index_0]);
                     }
                 }
 
@@ -517,6 +527,8 @@ namespace Microsoft.CodeAnalysis.Sarif
         {
             if (node != null)
             {
+                node.NotificationDescriptorReference = VisitNullChecked(node.NotificationDescriptorReference);
+                node.AssociatedRuleDescriptorReference = VisitNullChecked(node.AssociatedRuleDescriptorReference);
                 node.PhysicalLocation = VisitNullChecked(node.PhysicalLocation);
                 node.Message = VisitNullChecked(node.Message);
                 node.Exception = VisitNullChecked(node.Exception);
@@ -592,6 +604,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             if (node != null)
             {
                 node.Configuration = VisitNullChecked(node.Configuration);
+                node.NotificationDescriptorReference = VisitNullChecked(node.NotificationDescriptorReference);
             }
 
             return node;
@@ -618,6 +631,15 @@ namespace Microsoft.CodeAnalysis.Sarif
 
                 node.DefaultConfiguration = VisitNullChecked(node.DefaultConfiguration);
                 node.Help = VisitNullChecked(node.Help);
+            }
+
+            return node;
+        }
+
+        public virtual ReportingDescriptorReference VisitReportingDescriptorReference(ReportingDescriptorReference node)
+        {
+            if (node != null)
+            {
             }
 
             return node;

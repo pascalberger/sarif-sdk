@@ -15,7 +15,7 @@ namespace Microsoft.CodeAnalysis.Sarif
     /// Describes a single run of an analysis tool, and contains the reported output of that run.
     /// </summary>
     [DataContract]
-    [GeneratedCode("Microsoft.Json.Schema.ToDotNet", "0.61.0.0")]
+    [GeneratedCode("Microsoft.Json.Schema.ToDotNet", "0.62.0.0")]
     public partial class Run : PropertyBagHolder, ISarifNode
     {
         public static IEqualityComparer<Run> ValueComparer => RunEqualityComparer.Instance;

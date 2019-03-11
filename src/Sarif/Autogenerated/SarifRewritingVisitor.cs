@@ -1014,14 +1014,6 @@ namespace Microsoft.CodeAnalysis.Sarif
                         node.Runs[index_0] = VisitNullChecked(node.Runs[index_0]);
                     }
                 }
-
-                if (node.InlineExternalPropertyFiles != null)
-                {
-                    for (int index_0 = 0; index_0 < node.InlineExternalPropertyFiles.Count; ++index_0)
-                    {
-                        node.InlineExternalPropertyFiles[index_0] = VisitNullChecked(node.InlineExternalPropertyFiles[index_0]);
-                    }
-                }
             }
 
             return node;

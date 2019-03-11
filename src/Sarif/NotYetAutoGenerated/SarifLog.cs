@@ -54,12 +54,6 @@ namespace Microsoft.CodeAnalysis.Sarif
         public IList<Run> Runs { get; set; }
 
         /// <summary>
-        /// References to external property files that share data between runs.
-        /// </summary>
-        [DataMember(Name = "inlineExternalPropertyFiles", IsRequired = false, EmitDefaultValue = false)]
-        public IList<ExternalPropertyFile> InlineExternalPropertyFiles { get; set; }
-
-        /// <summary>
         /// Key/value pairs that provide additional information about the log file.
         /// </summary>
         [DataMember(Name = "properties", IsRequired = false, EmitDefaultValue = false)]
@@ -88,15 +82,12 @@ namespace Microsoft.CodeAnalysis.Sarif
         /// <param name="runs">
         /// An initialization value for the <see cref="P:Runs" /> property.
         /// </param>
-        /// <param name="inlineExternalPropertyFiles">
-        /// An initialization value for the <see cref="P:InlineExternalPropertyFiles" /> property.
-        /// </param>
         /// <param name="properties">
         /// An initialization value for the <see cref="P:Properties" /> property.
         /// </param>
-        public SarifLog(Uri schemaUri, SarifVersion version, IEnumerable<Run> runs, IEnumerable<ExternalPropertyFile> inlineExternalPropertyFiles, IDictionary<string, SerializedPropertyInfo> properties)
+        public SarifLog(Uri schemaUri, SarifVersion version, IEnumerable<Run> runs, IDictionary<string, SerializedPropertyInfo> properties)
         {
-            Init(schemaUri, version, runs, inlineExternalPropertyFiles, properties);
+            Init(schemaUri, version, runs, properties);
         }
 
         /// <summary>
@@ -115,7 +106,7 @@ namespace Microsoft.CodeAnalysis.Sarif
                 throw new ArgumentNullException(nameof(other));
             }
 
-            Init(other.SchemaUri, other.Version, other.Runs, other.InlineExternalPropertyFiles, other.Properties);
+            Init(other.SchemaUri, other.Version, other.Runs, other.Properties);
         }
 
         ISarifNode ISarifNode.DeepClone()
@@ -136,7 +127,7 @@ namespace Microsoft.CodeAnalysis.Sarif
             return new SarifLog(this);
         }
 
-        private void Init(Uri schemaUri, SarifVersion version, IEnumerable<Run> runs, IEnumerable<ExternalPropertyFile> inlineExternalPropertyFiles, IDictionary<string, SerializedPropertyInfo> properties)
+        private void Init(Uri schemaUri, SarifVersion version, IEnumerable<Run> runs, IDictionary<string, SerializedPropertyInfo> properties)
         {
             if (schemaUri != null)
             {
@@ -160,24 +151,6 @@ namespace Microsoft.CodeAnalysis.Sarif
                 }
 
                 Runs = destination_0;
-            }
-
-            if (inlineExternalPropertyFiles != null)
-            {
-                var destination_1 = new List<ExternalPropertyFile>();
-                foreach (var value_1 in inlineExternalPropertyFiles)
-                {
-                    if (value_1 == null)
-                    {
-                        destination_1.Add(null);
-                    }
-                    else
-                    {
-                        destination_1.Add(new ExternalPropertyFile(value_1));
-                    }
-                }
-
-                InlineExternalPropertyFiles = destination_1;
             }
 
             if (properties != null)

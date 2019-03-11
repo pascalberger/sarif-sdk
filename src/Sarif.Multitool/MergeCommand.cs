@@ -61,6 +61,14 @@ namespace Microsoft.CodeAnalysis.Sarif.Multitool
             return 0;
         }
         
+	    private IEnumerable<SarifLog> ParseFiles(IEnumerable<string> sarifFiles)	
+	    {	
+            foreach (var file in sarifFiles)	
+            {	
+                yield return FileHelpers.ReadSarifFile<SarifLog>(_fileSystem, file);	
+            }	
+        }
+        
         internal static string GetOutputFileName(MergeOptions mergeOptions)
         {
             return !string.IsNullOrEmpty(mergeOptions.OutputFileName)

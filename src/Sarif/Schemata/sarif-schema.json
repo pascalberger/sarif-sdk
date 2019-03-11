@@ -487,6 +487,137 @@
             }
         },
 
+        "externalProperties": {
+            "type": "object",
+            "properties": {
+
+                "schema": {
+                    "description": "The URI of the JSON schema corresponding to the version of the external property file format.",
+                    "type": "string",
+                    "format": "uri"
+                },
+
+                "version": {
+                    "description": "The SARIF format version of this log file.",
+                    "enum": [ "2.0.0-csd.2.beta.2019-02-20" ]
+                },
+
+                "guid": {
+                    "description": "A stable, unique identifer for the external properties in the form of a GUID.",
+                    "type": "string"
+                },
+
+                "runGuid": {
+                    "description": "A stable, unique identifer for the external properties in the form of a GUID.",
+                    "type": "string"
+                },
+
+                "conversion": {
+                    "description": "A conversion object that describes how a converter transformed an analysis tool's native reporting format into the SARIF format.",
+                    "$ref": "#/definitions/conversion"
+                },
+
+                "graphs": {
+                    "description": "A dictionary, each of whose keys is the id of a graph and each of whose values is a 'graph' object with that id.",
+                    "type": "object",
+                    "additionalProperties": {
+                        "$ref": "#/definitions/graph"
+                    }
+                },
+
+                "externalizedProperties": {
+                    "description": "Key/value pairs that provide additional information about the run.",
+                    "$ref": "#/definitions/propertyBag"
+                },
+
+                "artifacts": {
+                    "description": "An array of artifact objects relevant to the run.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": true,
+                    "items": {
+                        "$ref": "#/definitions/artifact"
+                    }
+                },
+
+                "invocations": {
+                    "description": "Describes the invocation of the analysis tool.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": false,
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/invocation"
+                    }
+                },
+
+                "logicalLocations": {
+                    "description": "An array of logical locations such as namespaces, types or functions.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": true,
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/logicalLocation"
+                    }
+                },
+
+                "threadFlowLocations": {
+                    "description": "An array of threadFlowLocation objects cached at run level.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": true,
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/threadFlowLocation"
+                    }
+                },
+
+                "results": {
+                    "description": "The set of results contained in an SARIF log. The results array can be omitted when a run is solely exporting rules metadata. It must be present (but may be empty) if a log file represents an actual scan.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": false,
+                    "items": {
+                        "$ref": "#/definitions/result"
+                    }
+                },
+
+                "taxonomies": {
+                    "description": "An array of reportingDescriptor objects relevant to a taxonomy in which results are categorized.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": true,
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/reportingDescriptor"
+                    }
+                },
+
+                "driver": {
+                    "description": "The analysis tool that was run.",
+                    "$ref": "#/definitions/toolComponent"
+                },
+
+                "extensions": {
+                    "description": "Tool extensions that contributed to or reconfigured the analysis tool that was run.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": true,
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/toolComponent"
+                    }
+                },
+
+                "properties": {
+                    "description": "Key/value pairs that provide additional information about the external properties.",
+                    "$ref": "#/definitions/propertyBag"
+                }
+            },
+            "required": [ "version" ]
+        },
+
         "externalPropertyFile": {
             "type": "object",
             "properties": {
@@ -565,16 +696,16 @@
                     }
                 },
 
-        "threadFlowLocations": {
-          "description": "An array of external property files containing run.threadFlowLocations arrays to be merged with the root log file.",
-          "type": "array",
-          "minItems": 0,
-          "uniqueItems": true,
-          "default": [],
-          "items": {
-            "$ref": "#/definitions/externalPropertyFile"
-          }
-        },
+                "threadFlowLocations": {
+                    "description": "An array of external property files containing run.threadFlowLocations arrays to be merged with the root log file.",
+                    "type": "array",
+                    "minItems": 0,
+                    "uniqueItems": true,
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/externalPropertyFile"
+                    }
+                },
 
                 "results": {
                     "description": "An array of external property files containing run.results arrays to be merged with the root log file.",
@@ -1390,15 +1521,15 @@
                     "type": "string"
                 },
 
-        "shortDescription": {
-          "description": "A concise description of the report. Should be a single sentence that is understandable when visible space is limited to a single line of text.",
-          "$ref": "#/definitions/multiformatMessageString"
-        },
+                "shortDescription": {
+                    "description": "A concise description of the report. Should be a single sentence that is understandable when visible space is limited to a single line of text.",
+                    "$ref": "#/definitions/multiformatMessageString"
+                },
 
-        "fullDescription": {
-          "description": "A description of the report. Should, as far as possible, provide details sufficient to enable resolution of any problem indicated by the result.",
-          "$ref": "#/definitions/multiformatMessageString"
-        },
+                "fullDescription": {
+                    "description": "A description of the report. Should, as far as possible, provide details sufficient to enable resolution of any problem indicated by the result.",
+                    "$ref": "#/definitions/multiformatMessageString"
+                },
 
                 "messageStrings": {
                     "description": "A set of name/value pairs with arbitrary names. Each value is a multiformatMessageString object, which holds message strings in plain text and (optionally) Markdown format. The strings can include placeholders, which can be used to construct a message in combination with an arbitrary number of additional string arguments.",
@@ -2333,15 +2464,15 @@
             "type": "object",
             "properties": {
 
-            "guid": {
-                "description": "A unique identifer for the tool component in the form of a GUID.",
-                "type": "string"
-            },
+                "guid": {
+                    "description": "A unique identifer for the tool component in the form of a GUID.",
+                    "type": "string"
+                },
 
-            "name": {
-                "description": "The name of the tool component.",
-                "type": "string"
-            },
+                "name": {
+                    "description": "The name of the tool component.",
+                    "type": "string"
+                },
 
                 "organization": {
                     "description": "The organization or company that produced the tool component.",

@@ -4,34 +4,44 @@
   "description": "Static Analysis Results Format (SARIF) Version 2.0.0-csd.2.beta-2019-01-24 JSON Schema: a standard format for the output of static analysis tools.",
   "additionalProperties": false,
   "type": "object",
-  "properties": {
-
-    "$schema": {
-      "description": "The URI of the JSON schema corresponding to the version.",
-      "type": "string",
-      "format": "uri"
-    },
-
-    "version": {
-      "description": "The SARIF format version of this log file.",
-      "enum": [ "2.0.0-csd.2.beta.2019-02-20" ]
-    },
-
-    "runs": {
-      "description": "The set of runs contained in this log file.",
-      "type": "array",
-      "minItems": 0,
-      "uniqueItems": false,
-      "items": {
-        "$ref": "#/definitions/run"
-      }
-    },
-
     "properties": {
-      "description": "Key/value pairs that provide additional information about the log file.",
-      "$ref": "#/definitions/propertyBag"
-    }
-  },
+
+        "$schema": {
+            "description": "The URI of the JSON schema corresponding to the version.",
+            "type": "string",
+            "format": "uri"
+        },
+
+        "version": {
+            "description": "The SARIF format version of this log file.",
+            "enum": [ "2.0.0-csd.2.beta.2019-02-20" ]
+        },
+
+        "runs": {
+            "description": "The set of runs contained in this log file.",
+            "type": "array",
+            "minItems": 0,
+            "uniqueItems": false,
+            "items": {
+                "$ref": "#/definitions/run"
+            }
+        },
+
+        "inlineExternalProperties": {
+            "description": "References to external property files that share data between runs.",
+            "type": "array",
+            "minItems": 0,
+            "uniqueItems": false,
+            "items": {
+                "$ref": "#/definitions/externalProperties"
+            }
+        },
+
+        "properties": {
+            "description": "Key/value pairs that provide additional information about the log file.",
+            "$ref": "#/definitions/propertyBag"
+        }
+    },
 
   "required": [ "version", "runs" ],
 

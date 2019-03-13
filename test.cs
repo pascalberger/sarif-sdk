@@ -1,3 +1,3 @@
 class c {
-    string pwd = "";
+    string pwd = "password@123";
 }

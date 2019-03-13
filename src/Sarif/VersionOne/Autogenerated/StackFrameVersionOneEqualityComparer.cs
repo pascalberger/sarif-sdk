@@ -172,7 +172,7 @@ namespace Microsoft.CodeAnalysis.Sarif.VersionOne
                     result = (result * 31) + obj.LogicalLocationKey.GetHashCode();
                 }
 
-                result = (result * 31) + obj.Address;
+                result = (result * 31) + obj.Address.GetHashCode();
                 result = (result * 31) + obj.Offset.GetHashCode();
                 if (obj.Parameters != null)
                 {

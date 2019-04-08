@@ -52,6 +52,12 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
         }
 
         [Fact]
+        public void MSBuildConverter_EndToEnd()
+        {
+            BatchRunConverter(ToolFormat.MSBuild, "*.log");
+        }
+
+        [Fact]
         public void SemmleConverter_EndToEnd()
         {
             BatchRunConverter(ToolFormat.SemmleQL, "*.csv");

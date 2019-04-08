@@ -30,6 +30,9 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
         /// <summary>FxCop's file format.</summary>
         public const string FxCop = nameof(FxCop);
 
+        /// <summary>MSBuild's file format.</summary>
+        public const string MSBuild = nameof(MSBuild);
+
         /// <summary>PREfast's file format.</summary>
         public const string PREfast = nameof(PREfast);
 

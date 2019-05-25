@@ -40,7 +40,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Readers
                 {
                     // Read a segment of the file
                     int lengthRead = reader.Read(buffer, 0, buffer.Length);
-                    if (lengthRead == 0) break;
+                    if (lengthRead == 0) { break; }
 
                     // Count the file bytes now in range
                     bytesRead += reader.CurrentEncoding.GetByteCount(buffer, 0, lengthRead);
@@ -49,7 +49,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Readers
                     for(; nextLine < newlines.Count; nextLine++)
                     {
                         long nextNewlinePosition = newlines[nextLine];
-                        if (nextNewlinePosition > bytesRead) break;
+                        if (nextNewlinePosition > bytesRead) { break; }
 
                         long reportedAtPosition = reader.LineAndCharToOffset(nextLine, 1) - 1;
 

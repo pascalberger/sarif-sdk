@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 
 namespace Microsoft.CodeAnalysis.Sarif.Map.Splitter
@@ -109,10 +108,10 @@ namespace Microsoft.CodeAnalysis.Sarif.Map.Splitter
             // Mark all previous tokens consumed
             if (_reader.Position > 0) { _reader.ConsumeTo(_reader.Position - 1); }
 
+            JsonTokenType type = JsonTokenType.Whitespace;
             while (!_reader.End && _decodedCount < DecodeBatchSize)
             {
                 JsonToken token;
-                token.TokenType = JsonTokenType.EndOfFile;
 
                 // Mark token start
                 token.WhitespaceStartIndex = _reader.Position;
@@ -120,28 +119,37 @@ namespace Microsoft.CodeAnalysis.Sarif.Map.Splitter
                 // Read any whitespace
                 while (!_reader.End)
                 {
-                    token.TokenType = _map[_reader.Current];
+                    type = _map[_reader.Current];
                     _reader.Position++;
-                    if (token.TokenType != JsonTokenType.Whitespace) { break; }
+                    if (type != JsonTokenType.Whitespace) { break; }
                 }
 
+                // TODO: Must have consistent place Position points at this point (start of next token or one later?)
+                // TODO: Does this form handle separators without whitespace between?
+
                 // Stop if we ran out of file after whitespace
-                if (token.TokenType == JsonTokenType.EndOfFile && token.TokenType == JsonTokenType.Whitespace) { break; }
+                if (type == JsonTokenType.Whitespace) { break; }
+
+                // Mark token type
+                token.TokenType = type;
 
                 // Mark value start
                 token.ValueStartIndex = _reader.Position - 1;
 
-                if (token.TokenType == JsonTokenType.String)
+                if (type == JsonTokenType.String)
                 {
                     // If string, read until end quote
                     ReadString();
+
+                    // Reset the type to search for whitespace
+                    type = JsonTokenType.Whitespace;
                 }
                 else
                 {
                     // Read until whitespace or separator (end of anything else)
                     while (!_reader.End)
                     {
-                        JsonTokenType type = _map[_reader.Current];
+                        type = _map[_reader.Current];
                         if ((byte)type >= FirstWhitespaceOrSeparator) { break; }
                         _reader.Position++;
                     }
@@ -149,9 +157,16 @@ namespace Microsoft.CodeAnalysis.Sarif.Map.Splitter
 
                 // Mark value end
                 token.ValueEndIndex = _reader.Position - 1;
-                
+
                 _decoded[_decodedCount++] = token;
             }
+
+            //// Remove a trailing whitespace-only token, if found
+            //if (_reader.End && _decodedCount > 0)
+            //{
+            //    JsonToken last = _decoded[_decodedCount - 1];
+            //    if (last.TokenType == JsonTokenType.EndOfFile || last.TokenType == JsonTokenType.Whitespace) { _decodedCount--; }
+            //}
         }
 
         private void ReadString()
